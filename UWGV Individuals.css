@@ -3125,6 +3125,7 @@ mark,
   padding: 15px 25px !important;
   text-align: center !important;
   position: relative !important;
+  outline-style: none !important;
 }
 /* line 174, ../scss/base/_base-typography.scss */
 .button:hover, .Login a:hover,
