@@ -3106,7 +3106,7 @@ mark,
   text-align: center;
   position: relative;
 }
-.Navigation ol li a {
+.Navigation ol li a,.PledgeNavigation ol li a {
   /**DH Modifying for single pledge page**/
   display: inline-block !important;
   vertical-align: !important;
@@ -3129,7 +3129,7 @@ mark,
 }
 
 
-.Navigation ol li a:hover {
+.Navigation ol li a:hover,.PledgeNavigation ol li a:hover {
   text-decoration: none !important;
   background: transparent !important;
   color: #000 !important;
@@ -5121,3 +5121,32 @@ td.Col-Heading.Col-IndPhoneNumberLabel {
   height: 13px;
 
 }
+/**
+* DH Start
+* CSS for SimglePagePledge
+**/
+.Role-IndDonor .Page-SinglePageRegPledge #RegisterForm .BlockDetails input[type='text'],.Page-SinglePageRegPledge #RegisterForm .UserRegistrationSecCode input[type='text'],.Role-IndDonor .Page-CybsSACheckout input[type='text'],.Role-IndDonor .Page-CybsSACheckout select{
+	height: 34px !important;
+	padding: 0px 10px !important;
+}
+.Role-IndDonor .Page-SinglePageRegPledge hr {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    border: 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.Role-IndDonor .Page-CybsSACheckout select,.Role-IndDonor .Page-CybsSACheckout input[type='text']{
+	margin-bottom: 5px !important;
+}
+.Role-IndDonor .Page-CybsSACheckout .Input-card_expiry_date select {
+	display: initial !important;
+}
+.Role-IndDonor .Page-CybsSACheckout .PledgeNavigation li {
+	float: left!important;
+}
+.Role-IndDonor .content {
+	border-bottom: none !important;
+}
+/** 
+* DH End
+**/
