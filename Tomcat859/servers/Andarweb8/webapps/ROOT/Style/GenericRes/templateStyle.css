@@ -1,0 +1,113 @@
+﻿* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+a {
+	color:#999999;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#999999;
+	text-decoration:underline;
+}
+
+.content {
+	margin:20px 0px 30px 0;
+}
+
+.GenericResponsive1PArea2,
+.GenericResponsive1PArea2 a,
+.GenericResponsive1LArea2,
+.GenericResponsive1LArea2 a,
+.GenericResponsive1NArea2,
+.GenericResponsive1NArea2 a   {
+    color:#ffffff;
+    background-color:#000000 !important;
+
+}
+
+.GenericResponsive1PArea2 a:hover,
+.GenericResponsive1LArea2 a:hover,
+.GenericResponsive1NArea2 a:hover   {
+    color:#ffffff !important;
+    text-decoration:underline;
+    background-color:#000000 !important;
+}
+
+.GenericResponsive1PArea2 .PCE_ContainerItem:hover,
+.GenericResponsive1LArea2 .PCE_ContainerItem:hover,
+.GenericResponsive1NArea2 .PCE_ContainerItem:hover {
+	background-color: #000000;
+}
+
+.GenericResponsive1PArea1,
+.GenericResponsive1PArea2,
+.GenericResponsive1PArea3,
+.GenericResponsive1PArea4,
+.GenericResponsive1PArea5,
+.GenericResponsive1PArea6,
+.GenericResponsive1PArea7,
+.GenericResponsive1PArea8,
+.GenericResponsive1PArea9,
+.GenericResponsive1PArea10,
+.GenericResponsive1LArea1,
+.GenericResponsive1LArea2,
+.GenericResponsive1LArea3,
+.GenericResponsive1LArea4,
+.GenericResponsive1LArea5,
+.GenericResponsive1LArea6,
+.GenericResponsive1LArea7,
+.GenericResponsive1LArea8,
+.GenericResponsive1LArea9,
+.GenericResponsive1LArea10,
+.GenericResponsive1NArea1,
+.GenericResponsive1NArea2,
+.GenericResponsive1NArea3,
+.GenericResponsive1NArea4,
+.GenericResponsive1NArea5,
+.GenericResponsive1NArea6,
+.GenericResponsive1NArea7,
+.GenericResponsive1NArea8,
+.GenericResponsive1NArea9,
+.GenericResponsive1NArea10 {
+    border:1px solid #999999;
+    height:auto;
+}
+
+.GenericResponsive1PArea4,
+.GenericResponsive1PArea5,
+.GenericResponsive1PArea6,
+.GenericResponsive1PArea7,
+.GenericResponsive1PArea8,
+.GenericResponsive1PArea9,
+.GenericResponsive1LArea4,
+.GenericResponsive1LArea5,
+.GenericResponsive1LArea6,
+.GenericResponsive1LArea7,
+.GenericResponsive1LArea8,
+.GenericResponsive1LArea9,
+.GenericResponsive1NArea4,
+.GenericResponsive1NArea5,
+.GenericResponsive1NArea6,
+.GenericResponsive1NArea7,
+.GenericResponsive1NArea8,
+.GenericResponsive1NArea9 {
+    display:inline-block;
+    vertical-align:top;
+    width:33%;
+}
+
+.PCE_Area {
+	height:auto;
+}
+
+
+

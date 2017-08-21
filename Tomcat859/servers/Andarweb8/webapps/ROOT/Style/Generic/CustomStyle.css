@@ -1,0 +1,225 @@
+﻿/*---------------------------------  /Style/Generic/CustomStyle.css -----------------------------*/
+h1 {
+	border:0;
+	border-bottom:3px solid #000000;
+}
+
+.Area-Generic1NArea1 .Portlet, 
+.Area-Generic1LArea1 .Portlet, 
+.Area-Generic1PArea1 .Portlet {
+    text-align:left;
+}
+
+.Area-Generic1NArea2 .Portlet, 
+.Area-Generic1LArea2 .Portlet, 
+.Area-Generic1PArea2 .Portlet {
+    text-align:center;
+}
+
+.Area-Generic1NArea3 .Portlet, 
+.Area-Generic1LArea3 .Portlet, 
+.Area-Generic1PArea3 .Portlet {
+    text-align:right;
+}
+
+.Area-Generic1NArea4 .Portlet, 
+.Area-Generic1LArea4 .Portlet, 
+.Area-Generic1PArea4 .Portlet {
+    text-align:left;
+}
+
+.Area-Generic1NArea5 .Portlet, 
+.Area-Generic1LArea5 .Portlet, 
+.Area-Generic1PArea5 .Portlet {
+    text-align:center;
+}
+
+.Area-Generic1NArea6 .Portlet, 
+.Area-Generic1LArea6 .Portlet, 
+.Area-Generic1PArea6 .Portlet {
+    text-align:right;
+}
+
+.Area-Generic1NArea9 .Portlet, 
+.Area-Generic1LArea9 .Portlet, 
+.Area-Generic1PArea9 .Portlet {
+    text-align:left;
+}
+
+.Area-Generic1NArea10 .Portlet, 
+.Area-Generic1LArea10 .Portlet, 
+.Area-Generic1PArea10 .Portlet {
+    text-align:center;
+}
+
+.Area-Generic1NArea11 .Portlet,
+.Area-Generic1LArea11 .Portlet, 
+.Area-Generic1PArea11 .Portlet {
+    text-align:right;
+}
+
+.Area-Generic1NArea12 .Portlet, 
+.Area-Generic1LArea12 .Portlet, 
+.Area-Generic1PArea12 .Portlet {
+    text-align:left;
+}
+
+.Area-Generic1NArea13 .Portlet, 
+.Area-Generic1LArea13 .Portlet, 
+.Area-Generic1PArea13 .Portlet {
+    text-align:center;
+}
+
+.Area-Generic1NArea14 .Portlet, 
+.Area-Generic1LArea14 .Portlet, 
+.Area-Generic1PArea14 .Portlet {
+    text-align:right;
+}
+
+.GenericMainBody {
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+/*------------------- LoginOffRightBottom, NoMenuRightBottom, PageRightBottom -------------------*/
+.GenericFooterAreas,
+.GenericFooter1,
+.LUBottom {
+    border: 0; 
+    margin: 0; 
+    padding: 0; 
+    width: 100%;
+}
+
+.LUFooter {
+    border: 0; 
+    margin: 0; 
+    padding: 0; 
+    height:30px;  
+    text-align: center; 
+    font-size: 10pt;
+}
+
+/*-------------------- LoginOfTopLeft, NoMenuTopLeft, PageTopLeft --------------------------------*/
+.LUMainTable {
+    border: 0;
+    margin: 0; 
+    padding:0; 
+    width:100%;
+}
+
+.Col-LUMainTable {
+    border: 0;
+    padding: 0; 
+    width: 100%; 
+    background-color:#ffffff; 
+}
+
+.LUMainTable02 {
+    border: 0;
+    margin: 0; 
+    padding: 0; 
+    background-color:#ffffff; 
+    width: 100%;
+}
+
+.LUTableTopLeftSide,
+.LUTableLeftSide, 
+.LUMainPageTable {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*-----------------------------------------Top Menu--------------------------------------------*/
+.Menu-Top {
+    padding: 6px 0px 7px 0px;
+    margin: 4px 0;
+}
+
+ul.pureCssMenu {
+    background-color: #ffffff;
+    border: 0;
+    padding: 0 2px 2px 0;
+}
+
+ul.pureCssMenu ul {
+    background-color:#ffffff;
+    border-color: #cccccc;
+}
+
+ul.pureCssMenu a, 
+ul.pureCssMenu li.dis a:hover, 
+ul.pureCssMenu li.sep a:hover {
+    background-color:#ffffff;
+    border: 0;
+    color: #000000;
+}
+
+ul.pureCssMenu li {
+    margin: 0 0 0 2px;
+}
+
+ul.pureCssMenu li:hover>a {
+    background-color:#ffffff;
+    border:0;
+    color: #000000;
+}
+
+ul.pureCssMenu li a:hover{
+    background-color:#ffffff;
+    border:0;
+    color:#4d9ad6;
+}
+
+/*---------------------------------------Bio Tab & Dashboard---------------------------------------*/
+.BioTabData h2, 
+.Dashboard h2  {
+	color:#000000;
+}
+
+.Dashboard th, 
+.Dashboard td.Col-Heading {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.Dashboard tr.Row-Odd td,
+.Dashboard tr.Row-Even td {
+    background-color: #ffffff;
+}
+
+.MainPage .TableLayout .Col-Label.Col-Checkbox, .MainPage .TableLayout .Col-Radio .DataBlock {
+    padding-left: 0;
+}
+
+.MainPage .NonTableLayout .FormAlignLeft .Col-Label.Col-Checkbox, .MainPage .NonTableLayout .FormAlignLeft span.Col-Radio {
+    padding-left: 0;
+}
+
+.MainPage .TableLayout .FormAlignLeft .Col-Label.Col-Checkbox, .MainPage .TableLayout .FormAlignLeft .Col-Radio .DataBlock {
+    padding-left: 0;
+}
+
+.MainPage .Col-AttendSurvey .NonTableLayout .Col-Label.Col-Checkbox, .MainPage .Col-AttendSurvey .NonTableLayout .Row-LineDetail span.Col-Radio {
+    padding-left: 0;
+}
+
+.MainPage .Col-AttendSurvey .TableLayout {
+	width:542px;
+}
+
+.MainPage .Col-AttendSurvey .TableLayout .Col-Label.Col-Checkbox, .MainPage .Col-AttendSurvey .TableLayout .Col-Radio .DataBlock {
+    padding-left: 0;
+}
+
+.LeftSide .Menu-V ul.pureCssMenu ul {
+    left: 160px;
+    top: 0;
+}
+
+.RightSide .Menu-V ul.pureCssMenu ul {
+    left: -160px;
+    top: 0;
+}

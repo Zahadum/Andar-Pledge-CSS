@@ -1,0 +1,50 @@
+﻿a {
+	color:#999999;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#999999;
+	text-decoration:underline;
+}
+
+.Col-Generic2PArea1, .Col-Generic2LArea1, .Col-Generic2NArea1,
+.Col-Generic2PArea2, .Col-Generic2LArea2, .Col-Generic2NArea2,
+.Col-Generic2PArea3, .Col-Generic2LArea3, .Col-Generic2NArea3,
+.Col-Generic2PArea4, .Col-Generic2LArea4, .Col-Generic2NArea4,
+.Col-Generic2PArea5, .Col-Generic2LArea5, .Col-Generic2NArea5,
+.Col-Generic2PArea6, .Col-Generic2LArea6, .Col-Generic2NArea6,
+.Col-Generic2PArea9, .Col-Generic2LArea9, .Col-Generic2NArea9,
+.Col-Generic2PArea10, .Col-Generic2LArea10, .Col-Generic2NArea10,
+.Col-Generic2PArea11, .Col-Generic2LArea11, .Col-Generic2NArea11,
+.Col-Generic2PArea12, .Col-Generic2LArea12, .Col-Generic2NArea12,
+.Col-Generic2PArea13, .Col-Generic2LArea13, .Col-Generic2NArea13,
+.Col-Generic2PArea14, .Col-Generic2LArea14, .Col-Generic2NArea14 {
+	width:33%;
+	border:1px solid #999999;
+}
+
+.Col-Generic2PArea7, .Col-Generic2LArea7, .Col-Generic2NArea7,
+.Col-Generic2PArea8, .Col-Generic2LArea8, .Col-Generic2NArea8 {
+	border:1px solid #999999;
+}
+
+.LeftSide2, .RightSide2 {
+	width:20%;
+}
+
+.GenericFooterAreas2 {
+	height:100%;
+}
+
+.content {
+	margin:20px;
+}
+
+.MainPage2 {
+	width:60%;
+}
+
+.LUMainPageTable {
+	width:100%;
+}

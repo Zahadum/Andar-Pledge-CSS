@@ -1,0 +1,139 @@
+<HTML>
+<HEAD>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<TITLE>Template.andar.UWCA.L</TITLE>
+<!-- /Style/UWCA/PageTopLeft.jsp -->
+<link href="<BaseURL>Common/DefaultStyle.css" rel="stylesheet"></link>
+<link href="<BaseURL>Style/UWCA/CustomStyle.css" rel="stylesheet"></link>
+<link href="<BaseURL>UserPreferences/CustomStyle.css" rel="stylesheet"></link>
+<link href="<BaseURL>Style/pce.css" rel="stylesheet"></link>
+<link href="<BaseURL>Style/UWCA/templateStyle.css" rel="stylesheet"></link>
+</HEAD>
+
+<body class="BodyClass">
+
+<div class="GenericMainBody">
+	
+<table class="UWCAHeader" cellpadding="0" cellspacing="0">	
+<tbody>
+<tr valign="top">
+<td>
+    		
+<table class="UWCAHeaderContent" cellpadding="0" cellspacing="0">
+<tr>
+<td class="Col-UWCA1LArea1"><looknFeelArea:looknFeelArea area="UWCA1LArea1" /></td>
+<td class="Col-UWCA1LArea2"><looknFeelArea:looknFeelArea area="UWCA1LArea2" /></td>
+</tr>
+<tr>
+<td colspan="2" class="Col-UWCA1LArea3"><looknFeelArea:looknFeelArea area="UWCA1LArea3" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table class="LUMainTable" cellpadding="0" cellspacing="0"> <!-- Table 01 -->
+<tbody>
+<tr>
+<td class="Col-LUMainTable" rowspan="1" colspan="1">
+    
+<table class="LUMainTable02" cellpadding="0" cellspacing="0"><!-- Table 02 -->
+<tbody>
+<tr valign="top">
+<td>
+ 	
+<div class="roleDiv">
+         
+<table class="LUTableLeftSide" cellpadding="0" cellspacing="0"> <!-- Table 03 -->
+<tbody>
+<tr>
+<td class="MainPage">
+	     
+<table class="LUMainPageTable" cellpadding="0" cellspacing="0">  <!-- Table 04 -->
+<tbody>
+<tr>
+<td class="Col-UWCA1LArea4"><looknFeelArea:looknFeelArea area="UWCA1LArea4" /></td>
+</tr>
+<tr>
+<td>
+                 
+<div class="content">
+
+<H1>Main Content</H1>
+
+<!-- /Style/UWCA/LoginOffRightBottom.jsp -->
+             
+</div>
+	    
+</td>
+</tr>
+</tbody>
+</table>  <!-- Table 04 END -->
+	  
+</td>
+<td class="RightSide Col-UWCA1LArea5"><looknFeelArea:looknFeelArea area="UWCA1LArea5" /></td>
+</tr>
+</tbody>
+</table>   <!-- Table 03 end -->
+       
+</td>
+</tr>
+</tbody>
+</table> <!-- Table 02 end -->
+</td>
+</tr>
+</tbody>
+</table> <!-- Table 01 end -->
+
+<table class="UWCABottom" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+         		
+<table class="UWCABottomContent" cellpadding="0" cellspacing="0">
+<tr>
+<td class="Col-UWCA1LArea6" colspan="2"><looknFeelArea:looknFeelArea area="UWCA1LArea6" /></td>
+</tr>
+<tr>
+<td class="Col-UWCA1LArea7"><looknFeelArea:looknFeelArea area="UWCA1LArea7" /></td>
+<td class="Col-UWCA1LArea8"><looknFeelArea:looknFeelArea area="UWCA1LArea8" /></td>
+</tr>
+</table>
+      
+</td>
+</tr>
+</table>
+
+<table class="UWCAFooterArea" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="UWCAFooter">
+           
+<div class="copyright">
+            
+<DIV Class="FooterMes">Framework - Footer - Top</DIV><!FooterMes>
+
+<FONT SIZE=2>
+<div class=Footer >
+Powered by <A HREF="https://www.Andar360.com" TARGET="_BLANK" CLASS="Footer" ONMOUSEOVER="this.className=''" ONMOUSEOUT="this.className='Footer'">Andar/360 Fundraising Software from Helix</A> (e-Community Version #)<BR>
+<!-- Copyright &copy; 2014 Helix Data Processing Consultants Ltd. -->
+</div>
+</FONT>
+	
+<ilayer id="layerPage">
+<div id="divPage"><img src="<BaseURL>/Images/cm_fill.gif" width="0" height="0" alt="" border="0" ></div>
+</ilayer>
+           
+</div>
+          
+</td>
+</tr>
+</tbody>
+</table>
+
+</div> <!-- div GenericMainBody -->
+
+</body>
+</html>

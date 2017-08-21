@@ -1,0 +1,100 @@
+
+
+.Navigation img, 
+.PledgeNavigation img {
+    margin: 2px 2px 2px 0px;
+    vertical-align: top;
+}
+
+.PledgeNavigationCancel,
+.PledgeNavigationNext,
+.PledgeNavigationPrevious,
+.PledgeNavigationAddMore,
+.PledgeNavigationCheckout {
+    position: static;
+}
+
+.ButtonPanel {
+    margin:10px 0px;
+}
+
+.Button1, .Button2, .Button3 {
+    margin:2px 2px 2px 0px;
+}
+
+/*
+.Section-PledgeConfirm .PledgeNavigationCancelCybs,
+.Section-PledgeConfirm .PledgeNavigationPreviousCybs,
+.Section-PledgeConfirm .PledgeNavigationNextCybs,
+.Section-PledgeConfirm .PledgeNavigationNext,
+.Section-PledgeConfirm .PledgeNavigationPrevious,
+.Section-PledgeConfirm .PledgeNavigationCancel,
+.Section-PledgeConfirm .PledgeNavigationNextPP,
+.Section-PledgeConfirm .PledgeNavigationPreviousPP,
+.Section-PledgeConfirm .PledgeNavigationCancelPP  {
+    left: 0;
+}
+
+.PledgeNavigationTextNextCybs,
+.PledgeNavigationTextPreviousCybs,
+.PledgeNavigationTextCancelCybs,
+.PledgeNavigationTextNextPP,
+.PledgeNavigationTextPreviousPP,
+.PledgeNavigationTextCancelPP {
+    left: 130px;
+}
+
+.PledgeNavigationTextNext, 
+.PledgeNavigationTextPrevious, 
+.PledgeNavigationTextCancel {
+    line-height: normal;
+    left: 130px;
+}
+*/
+/*
+.PledgeNavigationTextNext{
+	top:0px;
+	position:absolute;
+}
+
+.PledgeNavigationTextPrevious {
+	top:36px;
+	position:absolute;
+}
+
+.PledgeNavigationTextCancel {
+	top:66px;
+	position:absolute;
+}
+*/
+.MainPage form .PledgeProgress table td, .MainPage form .PledgeProgress table th {
+    padding: 0;
+}
+
+.MainPage form .SelectDateTable td, .MainPage form .SelectDateTable th {
+    padding:2px;
+}
+
+.PledgeNavigation {
+    height: 100%;
+}
+
+.TopPledgeNavigation {
+	margin-bottom:20px;
+}
+
+.NavigationNewSearch,
+.NavigationModSearch,
+.NavigationeMail,
+.NavigationInterest,
+.NavigationReturn {
+	margin:3px 0px;
+}
+
+.Section-PledgeConfirm .PledgeNavigation {
+	height:130px;
+}
+
+.Area-Pledge .ProgressArrow, .Area-Pledge .ProgressStep {
+    display: block;
+}

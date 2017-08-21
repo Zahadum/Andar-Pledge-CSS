@@ -1,0 +1,49 @@
+﻿a {
+	color:#999999;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#999999;
+	text-decoration:underline;
+}
+
+.Col-Generic1PArea1, .Col-Generic1LArea1, .Col-Generic1NArea1,
+.Col-Generic1PArea2, .Col-Generic1LArea2, .Col-Generic1NArea2,
+.Col-Generic1PArea3, .Col-Generic1LArea3, .Col-Generic1NArea3,
+.Col-Generic1PArea4, .Col-Generic1LArea4, .Col-Generic1NArea4,
+.Col-Generic1PArea5, .Col-Generic1LArea5, .Col-Generic1NArea5,
+.Col-Generic1PArea6, .Col-Generic1LArea6, .Col-Generic1NArea6,
+.Col-Generic1PArea9, .Col-Generic1LArea9, .Col-Generic1NArea9,
+.Col-Generic1PArea10, .Col-Generic1LArea10, .Col-Generic1NArea10,
+.Col-Generic1PArea11, .Col-Generic1LArea11, .Col-Generic1NArea11,
+.Col-Generic1PArea12, .Col-Generic1LArea12, .Col-Generic1NArea12,
+.Col-Generic1PArea13, .Col-Generic1LArea13, .Col-Generic1NArea13,
+.Col-Generic1PArea14, .Col-Generic1LArea14, .Col-Generic1NArea14 {
+	width:33%;
+}
+
+.LeftSide, .RightSide {
+	width:20%;
+}
+
+.Col-Generic1PArea1, .Col-Generic1LArea1, .Col-Generic1NArea1,
+.Col-Generic1PArea2, .Col-Generic1LArea2, .Col-Generic1NArea2,
+.Col-Generic1PArea3, .Col-Generic1LArea3, .Col-Generic1NArea3,
+.Col-Generic1PArea4, .Col-Generic1LArea4, .Col-Generic1NArea4,
+.Col-Generic1PArea5, .Col-Generic1LArea5, .Col-Generic1NArea5,
+.Col-Generic1PArea6, .Col-Generic1LArea6, .Col-Generic1NArea6,
+.Col-Generic1PArea7, .Col-Generic1LArea7, .Col-Generic1NArea7,
+.Col-Generic1PArea8, .Col-Generic1LArea8, .Col-Generic1NArea8,
+.Col-Generic1PArea9, .Col-Generic1LArea9, .Col-Generic1NArea9,
+.Col-Generic1PArea10, .Col-Generic1LArea10, .Col-Generic1NArea10,
+.Col-Generic1PArea11, .Col-Generic1LArea11, .Col-Generic1NArea11,
+.Col-Generic1PArea12, .Col-Generic1LArea12, .Col-Generic1NArea12,
+.Col-Generic1PArea13, .Col-Generic1LArea13, .Col-Generic1NArea13,
+.Col-Generic1PArea14, .Col-Generic1LArea14, .Col-Generic1NArea14 {
+    border:1px solid #999999;
+}
+
+.content {
+	margin:20px 0px 30px 0;
+}

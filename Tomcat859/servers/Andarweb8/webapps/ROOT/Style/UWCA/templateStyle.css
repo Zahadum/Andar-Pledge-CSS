@@ -1,0 +1,142 @@
+﻿.UWCAHeader {
+    background: url("redShadow.png") repeat-x scroll left top transparent;
+    height: 178px;
+}
+
+.Col-UWCA1PArea1, .Col-UWCA1LArea1, .Col-UWCA1NArea1,
+.Col-UWCA1PArea2, .Col-UWCA1LArea2, .Col-UWCA1NArea2,
+.Col-UWCA1PArea1 a, .Col-UWCA1LArea1 a, .Col-UWCA1NArea1 a,
+.Col-UWCA1PArea2 a, .Col-UWCA1LArea2 a, .Col-UWCA1NArea2 a {
+	color:#ffffff;
+}
+.Col-UWCA1PArea1 .Live a, .Col-UWCA1LArea1 .Live a, .Col-UWCA1NArea1 .Live a,
+.Col-UWCA1PArea2 .Live a, .Col-UWCA1LArea2 .Live a, .Col-UWCA1NArea2 .Live a {
+	color:#54585a;
+}
+.Col-UWCA1PArea1, .Col-UWCA1LArea1, .Col-UWCA1NArea1,
+.Col-UWCA1PArea2, .Col-UWCA1LArea2, .Col-UWCA1NArea2 {
+	height:100%;
+	min-height:128px;
+	background-color:#da291c;
+}
+
+.Col-UWCA1PArea1 .PCE_ContainerTop, .Col-UWCA1LArea1 .PCE_ContainerTop, .Col-UWCA1NArea1 .PCE_ContainerTop,
+.Col-UWCA1PArea2 .PCE_ContainerTop, .Col-UWCA1LArea2 .PCE_ContainerTop, .Col-UWCA1NArea2 .PCE_ContainerTop{
+	border-bottom:1px solid #ffffff;
+}
+
+.Col-UWCA1PArea1 .PCE_ContainerItem, .Col-UWCA1LArea1 .PCE_ContainerItem, .Col-UWCA1NArea1 .PCE_ContainerItem,
+.Col-UWCA1PArea2 .PCE_ContainerItem, .Col-UWCA1LArea2 .PCE_ContainerItem, .Col-UWCA1NArea2 .PCE_ContainerItem {
+	border-bottom:1px solid #e25349;
+}
+
+.UWCABottomContent .PCE_ContainerItem {
+	border-bottom:1px solid #666666;
+}
+
+.UWCABottomContent .PCE_ContainerTop {
+	border-bottom:1px solid #ffffff;
+}
+
+.UWCAHeaderContent,
+.UWCABottomContent {
+	height:100%;
+}
+
+.PCE_Area_UWCA1PArea3, .PCE_Area_UWCA1LArea3, .PCE_Area_UWCA1NArea3 {
+	padding:18px 40px 0 160px;
+}
+
+.Col-UWCA1PArea3, .Col-UWCA1LArea3, .Col-UWCA1NArea3 {
+	height:auto;
+	background:url("redShadowMobile.png") repeat-x scroll left top white;
+}
+
+.Col-UWCA1PArea3 .PCE_AreaName, .Col-UWCA1LArea3 .PCE_AreaName, .Col-UWCA1NArea3 .PCE_AreaName {
+	margin-bottom:18px;
+}
+
+.Col-UWCA1PArea5 a, .Col-UWCA1LArea5 a, .Col-UWCA1NArea5 a {
+    color: #da291c;
+    text-decoration: none;
+}
+
+.Col-UWCA1PArea5 a:hover, .Col-UWCA1LArea5 a:hover, .Col-UWCA1NArea5 a:hover {
+    color: #666666;
+    text-decoration: none;
+}
+
+.UWCABottomContent td {
+	height:50%;
+}
+.Col-UWCA1PArea7, .Col-UWCA1LArea7, .Col-UWCA1NArea7,
+.Col-UWCA1PArea8, .Col-UWCA1LArea8, .Col-UWCA1NArea8,
+.Col-UWCA1PArea7 a, .Col-UWCA1LArea7 a, .Col-UWCA1NArea7 a,
+.Col-UWCA1PArea8 a, .Col-UWCA1LArea8 a, .Col-UWCA1NArea8 a {
+	color:#ffffff;
+}
+
+.Col-UWCA1PArea7 a:hover, .Col-UWCA1LArea7 a:hover, .Col-UWCA1NArea7 a:hover,
+.Col-UWCA1PArea8 a:hover, .Col-UWCA1LArea8 a:hover, .Col-UWCA1NArea8 a:hover {
+    color:#ffffff;
+}
+
+.Col-UWCA1PArea3, .Col-UWCA1LArea3, .Col-UWCA1NArea3, 
+.Col-UWCA1PArea4, .Col-UWCA1LArea4, .Col-UWCA1NArea4, 
+.Col-UWCA1PArea5, .Col-UWCA1LArea5, .Col-UWCA1NArea5 {
+	border:1px solid #999999;
+}
+
+.Col-UWCA1PArea1, .Col-UWCA1LArea1, .Col-UWCA1NArea1, 
+.Col-UWCA1PArea2, .Col-UWCA1LArea2, .Col-UWCA1NArea2, 
+.Col-UWCA1PArea6, .Col-UWCA1LArea6, .Col-UWCA1NArea6, 
+.Col-UWCA1PArea7, .Col-UWCA1LArea7, .Col-UWCA1NArea7, 
+.Col-UWCA1PArea8, .Col-UWCA1LArea8, .Col-UWCA1NArea8 {
+	border:1px solid #ffffff;
+}
+
+.LUTableLeftSide, .RightSide, .MainPage{
+	height:100%;
+}
+
+.Col-UWCA1PArea4 img, .Col-UWCA1LArea4 img, .Col-UWCA1NArea4 img {
+    border-bottom-left-radius:0;
+    border-top-right-radius: 0;
+    width: auto;
+}
+
+.PCE_Area_UWCA1PArea3, 
+.PCE_Area_UWCA1LArea3, 
+.PCE_Area_UWCA1NArea3 {
+	background-color: transparent;
+    background-image: url("navBgMobile.png");
+    background-repeat: no-repeat;
+}
+
+.Live a {
+	color:#da291c;
+}
+
+.Col-UWCA1PArea6 .Live a, .Col-UWCA1PArea6  .Live a:link, .Col-UWCA1PArea6  .Live a:visited, .Col-UWCA1PArea6 .Live a:active, .Col-UWCA1LArea6 .Live a, .Col-UWCA1LArea6 .Live a:link, .Col-UWCA1LArea6 .Live a:visited, .Col-UWCA1LArea6 .Live a:active, .Col-UWCA1NArea6 .Live a, .Col-UWCA1NArea6 .Live a:link, .Col-UWCA1NArea6  .Live a:visited, .Col-UWCA1NArea6 .Live a:active {
+	color:#da291c;
+	font-weight:bold;
+}
+
+.PCE_ContainerItem:hover {
+	background-color: transparent;
+}
+
+
+@media screen and (max-width: 820px) {
+.PCE_Area_UWCA1PArea3, 
+.PCE_Area_UWCA1LArea3, 
+.PCE_Area_UWCA1NArea3 {
+    padding: 12px;
+}
+
+.PCE_Area_UWCA1PArea3 a, 
+.PCE_Area_UWCA1LArea3 a, 
+.PCE_Area_UWCA1NArea3 a {
+	color:#000000;
+}
+}

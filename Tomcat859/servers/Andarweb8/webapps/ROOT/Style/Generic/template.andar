@@ -1,0 +1,127 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<!-- /Style/Generic/PageTopLeft.jsp -->
+<title>Template.andar.Generic</title>
+<link href="<BaseURL>Common/DefaultStyle.css" rel="stylesheet"></link>
+<link href="<BaseURL>Style/Generic/CustomStyle.css" rel="stylesheet"></link>
+<link href="<BaseURL>UserPreferences/CustomStyle.css" rel="stylesheet"></link>
+<link href="<BaseURL>Style/pce.css" rel="stylesheet"></link>
+<link href="<BaseURL>Style/Generic/templateStyle.css" rel="stylesheet"></link>
+</head>
+<body class="BodyClass">
+
+<div class="GenericMainBody">
+
+<!-- Main Table -->
+<table class="LUMainTable" cellpadding="0" cellspacing="0"> <!-- GP Table 01 start -->
+   <tbody><tr>
+   <td class="Col-LUMainTable" rowspan="1" colspan="1">
+
+<!--  Main Table with white border -->
+<table class="LUMainTable02" cellpadding="0" cellspacing="0"> <!-- GP Table 02 start -->
+<tbody><tr>
+<td>
+
+<table class="LUTableTopLeftSide" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td class="Col-Generic1PArea1"><looknFeelArea:looknFeelArea area="Generic1PArea1" /></td>
+			<td class="Col-Generic1PArea2"><looknFeelArea:looknFeelArea area="Generic1PArea2" /></td>
+			<td class="Col-Generic1PArea3"><looknFeelArea:looknFeelArea area="Generic1PArea3" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="roleDiv">
+
+<table class="LUTableLeftSide" cellpadding="0" cellspacing="0"> <!-- GP Table 03 BEGIN -->
+<tbody>
+<tr>
+
+	<td class="LeftSide Col-Generic1PArea7">
+		<looknFeelArea:looknFeelArea area="Generic1PArea7" />
+	</td>
+
+	<td class="MainPage">
+		<table class="LUMainPageTable" cellpadding="0" cellspacing="0"> <!-- GP Table 04 BEGIN -->
+		<tbody>
+		<tr>
+			<td class="Col-Generic1PArea4"><looknFeelArea:looknFeelArea area="Generic1PArea4" /></td>
+			<td class="Col-Generic1PArea5"><looknFeelArea:looknFeelArea area="Generic1PArea5" /></td>
+			<td class="Col-Generic1PArea6"><looknFeelArea:looknFeelArea area="Generic1PArea6" /></td>
+		</tr>
+		<tr>
+			<td colspan="3">
+
+  <div class="content">
+					 <H1>Main Content</H1>
+               </div>
+<!--  bottom right -->
+<!-- /Style/Generic/PageRightBottom.jsp -->
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="Col-Generic1PArea9"><looknFeelArea:looknFeelArea area="Generic1PArea9" /></td>
+			<td class="Col-Generic1PArea10"><looknFeelArea:looknFeelArea area="Generic1PArea10" /></td>
+			<td class="Col-Generic1PArea11"><looknFeelArea:looknFeelArea area="Generic1PArea11" /></td>
+		</tr>
+		</tbody>
+		</table> <!-- GP Table 04 end -->
+	</td>
+	<td class="RightSide Col-Generic1PArea8" >
+		<looknFeelArea:looknFeelArea area="Generic1PArea8" />
+	</td>
+</tr>
+</tbody>
+</table>   <!-- GP Table 03 end -->
+
+
+<table class="GenericFooterAreas" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+  <td class="Col-Generic1PArea12"><looknFeelArea:looknFeelArea area="Generic1PArea12" /></td>
+  <td class="Col-Generic1PArea13"><looknFeelArea:looknFeelArea area="Generic1PArea13" /></td>
+  <td class="Col-Generic1PArea14"><looknFeelArea:looknFeelArea area="Generic1PArea14" /></td>
+</tr>
+</tbody>
+</table>
+
+
+<!-- /Style/Generic/PageRightBottom.jsp footer BEGIN-->
+<table class="GenericFooter1" cellpadding="0" cellspacing="0">
+<tbody>
+	<tr>
+		<td class="LUFooter">
+
+
+<DIV Class="FooterMes">Framework - Footer - Top</DIV><!FooterMes>
+
+<FONT SIZE=2>
+<div class=Footer >
+Powered by <A HREF="https://www.Andar360.com" TARGET="_BLANK" CLASS="Footer" ONMOUSEOVER="this.className=''" ONMOUSEOUT="this.className='Footer'">Andar/360 Fundraising Software from Helix</A> (e-Community Version #)<BR>
+<!-- Copyright &copy; 2014 Helix Data Processing Consultants Ltd. -->
+</div>
+</FONT>
+	
+<ilayer id="layerPage">
+<div id="divPage"><img src="<BaseURL>/Images/cm_fill.gif" width="0" height="0" alt="" border="0" ></div>
+</ilayer>
+
+		</td>
+	</tr>
+</tbody>
+</table>
+<!-- /Style/Generic/PageRightBottom.jsp footer END-->
+
+</td>
+</tr>
+</tbody></table> <!-- GP Table 02 end -->
+
+</td></tr></tbody></table> <!-- GP Table 01 end -->
+
+</div> <!-- div GenericMainBody -->
+
+</body>
+</html>

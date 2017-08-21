@@ -1,0 +1,87 @@
+.PledgeNavigation img, 
+.NavigationInterest img, 
+.NavigationReturn img, 
+.NavigationNewSearch img, 
+.NavigationModSearch img, 
+.NavigationeMail img, 
+.NavigationPanel img, 
+.Navigation img, 
+.NavigationButton img, 
+.Button1 img, 
+.Button2 img, 
+.Button3 img, 
+.LoginButtonPanel img {
+    margin: 1px 3px 1px 0;
+    vertical-align: top;
+}
+
+.ButtonPanel {
+    margin:10px 0px;
+}
+
+.Button1, 
+.Button2, 
+.Button3 {
+    margin:2px 2px 2px 0px;
+}
+
+.ProgressArrow {
+    display:none;
+}
+
+.MainPage form .IRSearchOptions td {
+  padding:1px 4px;
+}
+
+.MainPage form .PledgeProgress table td, .MainPage form .PledgeProgress table th {
+    padding: 0;
+}
+
+.MainPage form .SelectDateTable td, .MainPage form .SelectDateTable th {
+    padding:2px;
+}
+
+.PledgeNavigationNext, .PledgeNavigationCancel, .PledgeNavigationPrevious, .PledgeNavigationAddMore, .PledgeNavigationAddMore, .PledgeNavigationCheckout {
+	position:static;
+}
+
+.PledgeNavigation {
+    height: auto;
+}
+
+.Section-PledgeConfirm .PledgeNavigation {
+    height: 100px !important;
+}
+/*
+.Section-PledgeConfirm .PledgeNavigation .PledgeNavigationTextNext {
+    padding-top: 0px !important;
+    position: absolute;
+    top: 5px;
+    left: 120px;
+}
+
+.Section-PledgeConfirm .PledgeNavigation .PledgeNavigationTextPrevious {
+    position: absolute;
+    top: 35px;
+    left: 120px;
+}
+
+.Section-PledgeConfirm .PledgeNavigation .PledgeNavigationTextCancel {
+    position: absolute;
+    top: 65px;
+    left: 120px;
+}
+*/
+.Area-Pledge .ProgressStep {
+    display: block;
+}
+@media screen and (max-width: 800px) {
+.Page-CybsSACheckout .PledgeNavigationPrevious,
+.Page-CybsSACheckout .PledgeNavigationSubmit,
+.Page-CybsSACheckout .PledgeNavigationReset,
+.Page-CybsSACheckout .PledgeNavigationCancel {
+    position: static !important;
+}
+}
+
+

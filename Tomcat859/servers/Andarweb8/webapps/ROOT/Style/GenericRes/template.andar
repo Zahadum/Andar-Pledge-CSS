@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<!-- /Style/GenericRes/PageTopLeft.jsp -->
+<title>Template.andar.GenericResponsive</title>
+<link href="<BaseURL>Common/DefaultStyle.css" rel="stylesheet"></link>
+<link href="<BaseURL>Style/GenericRes/CustomStyle.css" rel="stylesheet"></link>
+<link href="<BaseURL>UserPreferences/CustomStyle.css" rel="stylesheet"></link>
+<link href="<BaseURL>Style/pce.css" rel="stylesheet"></link>
+<link href="<BaseURL>Style/GenericRes/templateStyle.css" rel="stylesheet"></link>
+</head>
+<body class="BodyClass">
+<div class="GenericMainBody">
+<div class="GenericResponsiveTop1">
+<div class="container">
+<div class="GenericResponsive1PArea1"><looknFeelArea:looknFeelArea area="GenericResponsive1PArea1" /></div>
+</div>
+</div>
+<div class="GenericResponsiveTop2">
+<div class="container">
+<div class="GenericResponsive1PArea2"><looknFeelArea:looknFeelArea area="GenericResponsive1PArea2" /></div>
+</div>
+</div>
+<div class="GenericResponsiveTop3">
+<div class="container">
+<div class="GenericResponsive1PArea3"><looknFeelArea:looknFeelArea area="GenericResponsive1PArea3" /></div>
+</div>
+</div>
+
+
+<div class="roleDiv">
+<div class="GRMainPage">
+<div class="container">
+<div class="GRMainTop row">
+<div class="GenericResponsive1PArea4 col-md-4"><looknFeelArea:looknFeelArea area="GenericResponsive1PArea4" /></div><!--
+--><div class="GenericResponsive1PArea5 col-md-4"><looknFeelArea:looknFeelArea area="GenericResponsive1PArea5" /></div><!--
+--><div class="GenericResponsive1PArea6 col-md-4"><looknFeelArea:looknFeelArea area="GenericResponsive1PArea6" /></div>
+</div>
+<div class="GRMainContent">
+
+  <div class="content">
+	<h1>Main Content</h1>
+  </div>
+<!--  bottom right -->
+<!-- /Style/GenericRes/PageRightBottom.jsp -->
+</div>
+
+<div class="GRMainBottom row">
+<div class="GenericResponsive1PArea7 col-md-4"><looknFeelArea:looknFeelArea area="GenericResponsive1PArea7" /></div><!--
+--><div class="GenericResponsive1PArea8 col-md-4"><looknFeelArea:looknFeelArea area="GenericResponsive1PArea8" /></div><!--
+--><div class="GenericResponsive1PArea9 col-md-4"><looknFeelArea:looknFeelArea area="GenericResponsive1PArea9" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="GenericResponsiveBottom">
+	<div class="container">
+<div class="GenericResponsive1PArea10"><looknFeelArea:looknFeelArea area="GenericResponsive1PArea10" /></div>
+</div>
+</div>
+
+<!-- /Style/GenericRes/PageRightBottom.jsp footer BEGIN-->
+<div class="GRFooter">
+	<div class="container">
+	<div class="GRFooter1">
+			<DIV Class="FooterMes">Framework - Footer - Top</DIV><!FooterMes>
+
+<FONT SIZE=2>
+<div class=Footer >
+Powered by <A HREF="https://www.Andar360.com" TARGET="_BLANK" CLASS="Footer" ONMOUSEOVER="this.className=''" ONMOUSEOUT="this.className='Footer'">Andar/360 Fundraising Software from Helix</A> (e-Community Version #)<BR>
+<!-- Copyright &copy; 2014 Helix Data Processing Consultants Ltd. -->
+</div>
+</FONT>
+	
+<ilayer id="layerPage">
+<div id="divPage"><img src="<BaseURL>/Images/cm_fill.gif" width="0" height="0" alt="" border="0" ></div>
+</ilayer>
+
+</div>
+</div></div>
+<!-- /Style/GenericRes/PageRightBottom.jsp footer END-->
+</div> <!-- div GenericMainBody -->
+<jsp:include page="/Common/RequiredRightBottom.jsp" flush="true" />
+</body>
+</html>

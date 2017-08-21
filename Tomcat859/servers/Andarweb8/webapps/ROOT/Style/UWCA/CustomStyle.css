@@ -1,0 +1,6243 @@
+/*--------------- General -----------------*/
+* {
+	box-sizing:border-box;
+}
+
+body {
+    background: none repeat scroll 0 0 #F1F1F1;
+    color: #666666;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    line-height: 18px;
+    margin:0;
+    padding:0;
+    -webkit-text-size-adjust : 100%; 
+}
+
+body, input, textarea, select, option {
+    color: #666666;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+input, textarea, select, option {
+    padding:3px;
+    box-sizing:border-box;
+}
+
+#BillDateComp_BM select {
+	width:50%;
+}
+
+input[type=checkbox], 
+input[type=radio], 
+input[type=file], 
+select[multiple],
+.Col-Radio input, 
+.Col-Checkbox input {
+	height:auto;
+	width:auto;
+}
+
+
+.TypeSelection > .radio input {
+	margin-left: 0;
+}
+
+img {
+    vertical-align:bottom;
+}
+
+h1 {
+    color: #da291c;
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-width: 0;
+}
+
+h2 {
+    color: #da291c;
+    font-size: 16px;
+    margin:16px 0px 2px 0px;
+}
+
+h3 {
+    font-size:13px;
+    font-weight:bold;
+}
+
+a, a:link, a:visited, a:active {
+    color: #da291c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666666;
+    text-decoration: none;
+}
+
+ul li {
+/*
+	background: url("bullet.gif") no-repeat scroll left 10px transparent;
+    list-style: none outside none;
+    padding: 5px 0 0 20px;
+*/
+}
+
+.GenericMainBody {
+    margin: 0px;
+    padding: 0px;
+    background:none repeat scroll 0 0 #F1F1F1;
+/*
+    text-align:center;
+*/
+}
+
+.LUMainTable {
+/*
+	background: none repeat scroll 0 0 #ffffff;
+    margin: 0 auto;
+    width: 990px;
+    text-align:left;
+*/
+}
+
+.Col-LUMainTable {
+/*
+	border: 0;
+    width: 100%;
+*/
+padding-top: 1em;
+background-color: #fff;
+}
+
+.LUMainTable02 {
+    border: 0;
+    margin: 0;
+    padding: 0px; 
+    background-color: #ffffff; 
+    width: 100%;
+}
+
+.LUTableTopLeftSide {
+    border: 0;
+    width: 100%;
+}
+
+.LUTableLeftSide {
+/*
+	border:0;
+    background-color: #ffffff;
+	width:950px;
+    margin:10px 20px;
+*/
+}
+
+.LUMainPageTable {
+/*
+	border: 0;
+    width:100%;
+    margin: 0;
+*/
+}
+.LUMainPageTable .row {
+    margin: 0;
+	}
+
+#oCMenubbar {
+    display:none;
+}
+
+.Portlet {
+    margin:0;
+    padding:0;
+    height:auto;
+}
+
+.RightSide .Portlet {
+    margin: 0 0 10px;
+}
+
+.RightSide img {
+	max-width:100%;
+}
+
+.LFArea td {
+    padding:0;
+}
+
+.MainPage {
+/*
+	text-align:left;
+    padding:0;
+    width:730px;
+*/
+}
+
+.Menu {
+    width:auto; 
+}
+
+.Menu a {
+    white-space:nowrap;
+}
+
+td, th {
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*--------------- Header & Footer -----------------*/
+.UWCAHeader, 
+.UWCABottom {
+/*
+	text-align:center;
+	width:100%;
+*/
+}
+
+.UWCAHeader {
+	background-color: #db291d;
+	box-shadow: 0px 5px 7px #888888;
+/*
+	height: 184px;
+*/
+	z-index: 10;
+    position: relative;
+}
+
+.UWCABottom {
+	background-color: #55595b;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.UWCAHeaderContent, 
+.UWCABottomContent, 
+.UWCAFooterArea {
+	padding-bottom: 2.5em;
+/*
+	margin: 0 auto;	
+	width: 990px;
+    text-align:left;
+*/
+}
+
+.Col-UWCA1PArea1, 
+.Col-UWCA1LArea1, 
+.Col-UWCA1NArea1 {
+	height:128px;
+}
+
+.Area-UWCA1PArea1, 
+.Area-UWCA1LArea1, 
+.Area-UWCA1NArea1 {
+	margin:20px 10px 0px 5px;
+}
+
+.Area-UWCA1PArea2, 
+.Area-UWCA1LArea2, 
+.Area-UWCA1NArea2 {
+    color:#ffffff;
+}
+
+.Area-UWCA1PArea2 .change, 
+.Area-UWCA1LArea2 .change, 
+.Area-UWCA1NArea2 .change {
+	font-size:22px;
+	font-weight:bold;
+	margin:100px 24px 0px 0px;
+	text-align:right;
+}
+
+.Area-UWCA1PArea6, 
+.Area-UWCA1LArea6, 
+.Area-UWCA1NArea6 {
+	margin: 20px 0;
+}
+
+.UWCAFooter {
+	padding:10px 20px;
+	background-color:transparent;
+}
+
+.LFArea .UWCASampleBottomLinks td {
+	padding:6px 30px 0px 0px;
+}
+
+.Col-UWCA1PArea7, 
+.Col-UWCA1LArea7, 
+.Col-UWCA1NArea7 {
+/*
+	width:730px;
+*/
+}
+
+.Area-UWCA1PArea7, 
+.Area-UWCA1LArea7, 
+.Area-UWCA1NArea7 {
+	vertical-align:bottom;
+}
+
+.Area-UWCA1PArea7 .bottomChange, 
+.Area-UWCA1LArea7 .bottomChange, 
+.Area-UWCA1NArea7 .bottomChange {
+	font-size:22px;
+	font-weight:bold;
+	margin:70px 10px 10px 20px;
+	color:#ffffff;
+}
+
+.Col-UWCA1PArea3, 
+.Col-UWCA1LArea3, 
+.Col-UWCA1NArea3 {
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#fff, #a1a1a1); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#fff, #a1a1a1); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#fff, #a1a1a1); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#fff, #a1a1a1); /* Standard syntax */
+	border: 2px solid #cdcbcc;
+	border-radius: 1.3em;
+	/*
+	float: right;
+	width: 80%;
+	*/
+    margin-top: -1em;
+    position: relative;
+    z-index: 15;
+}
+
+.UWCAFooterArea {
+    background: url(bottomBump.jpg) top center;
+    background-repeat: no-repeat;
+    background-color: #F1F1F1;
+}
+
+.copyright {
+    color:#666666;
+    font-weight:normal;
+}
+
+.copyright .MainStyle, 
+.copyright .mainAg, 
+.copyright .Footer {
+    color: #666666;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration:none; 
+}
+
+.copyright a, 
+.copyright a:visited, 
+.copyright a:link, 
+.copyright a:active {
+    color: #666666;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration:none;
+    padding-top:30px;
+}
+
+.copyright a:hover, 
+.copyright a:link:hover, 
+.copyright a:visited:hover, 
+.copyright a:active:hover {
+    color: #666666;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration:underline;
+}
+
+.Col-UWCA1PArea6, 
+.Col-UWCA1PArea6 a, 
+.Col-UWCA1PArea6 a:link, 
+.Col-UWCA1PArea6 a:visited, 
+.Col-UWCA1PArea6 a:active,
+.Col-UWCA1LArea6, 
+.Col-UWCA1LArea6 a, 
+.Col-UWCA1LArea6 a:link, 
+.Col-UWCA1LArea6 a:visited, 
+.Col-UWCA1LArea6 a:active,
+.Col-UWCA1NArea6, 
+.Col-UWCA1NArea6 a, 
+.Col-UWCA1NArea6 a:link, 
+.Col-UWCA1NArea6 a:visited, 
+.Col-UWCA1NArea6 a:active {
+	color:#ffffff;
+}
+
+.Col-UWCA1PArea6 a:hover, 
+.Col-UWCA1PArea6 a:link:hover, 
+.Col-UWCA1PArea6 a:visited:hover, 
+.Col-UWCA1PArea6 a:active:hover,
+.Col-UWCA1LArea6 a:hover, 
+.Col-UWCA1LArea6 a:link:hover, 
+.Col-UWCA1LArea6 a:visited:hover, 
+.Col-UWCA1LArea6 a:active:hover,
+.Col-UWCA1NArea6 a:hover, 
+.Col-UWCA1NArea6 a:link:hover, 
+.Col-UWCA1NArea6 a:visited:hover, 
+.Col-UWCA1NArea6 a:active:hover {
+	color:#cccccc;
+}
+
+/*--------------- Right Column -----------------*/
+.RightSide {
+/*
+	width:220px;
+    background-color: #ffffff;
+*/
+}
+
+.socialicons {
+	margin-bottom:10px;
+}
+
+.Col-UWCA1PArea5 a, 
+.Col-UWCA1LArea5 a, 
+.Col-UWCA1PArea5 a {
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+.Col-UWCA1PArea5 a:hover {
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.Col-UWCA1PArea5 .ArticleTitle, 
+.Col-UWCA1LArea5 .ArticleTitle, 
+.Col-UWCA1NArea5 .ArticleTitle, 
+.Col-UWCA1PArea5 .SubWebTitle, 
+.Col-UWCA1NArea5 .SubWebTitle, 
+.Col-UWCA1LArea5 .SubWebTitle {
+	background-image:url("PortletBg.gif");
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-size: cover;
+	height:60px;
+/*
+	width:220px;
+*/
+	color:#ffffff;
+	display:block;
+	text-transform:none;
+}
+
+.Col-UWCA1PArea5 .give a, 
+.Col-UWCA1LArea5 .give a, 
+.Col-UWCA1NArea5 .give a {
+    background-color: #DB291E;
+    -webkit-border-top-right-radius: 1em;
+    -moz-border-radius-topright: 1em;
+    border-top-right-radius: 1em;
+    padding: 0.6em;
+    display:block;
+    color:#ffffff;
+    font-size:22px;
+    font-weight:bold;
+    text-decoration:none;
+/*
+	background-image:url("give.png");
+	background-repeat:no-repeat;
+    height:40px;
+    line-height:40px;
+    padding-left:16px;
+*/
+	}
+.Col-UWCA1PArea5 .volunteer a, 
+.Col-UWCA1LArea5 .volunteer a, 
+.Col-UWCA1NArea5 .volunteer a {
+    background-color: #DB291E;
+    padding: 0.6em;
+    display:block;
+    color:#ffffff;
+    font-size:22px;
+    font-weight:bold;
+    text-decoration:none;
+    border-top: 1px dotted #fff;
+    border-bottom: 1px dotted #fff;
+	}
+.Col-UWCA1PArea5 .act a, 
+.Col-UWCA1LArea5 .act a, 
+.Col-UWCA1NArea5 .act a {
+    background-color: #DB291E;
+    -webkit-border-bottom-left-radius: 1em;
+    -moz-border-radius-bottomleft: 1em;
+    border-bottom-left-radius: 1em;
+    padding: 0.6em;
+    display:block;
+    color:#ffffff;
+    font-size:22px;
+    font-weight:bold;
+    text-decoration:none;
+}
+	li.give a:after,
+	li.volunteer a:after,
+	li.act a:after {
+	    content: "\f061";
+	    float: right;
+	    display: inline-block;
+	    font: normal normal normal 14px/1 FontAwesome;
+	    font-size: inherit;
+	    text-rendering: auto;
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
+		}
+	.Col-UWCA1PArea5 .give a:hover, 
+	.Col-UWCA1LArea5 .give a:hover, 
+	.Col-UWCA1NArea5 .give a:hover,
+	.Col-UWCA1PArea5 .volunteer a:hover, 
+	.Col-UWCA1LArea5 .volunteer a:hover, 
+	.Col-UWCA1NArea5 .volunteer a:hover,
+	.Col-UWCA1PArea5 .act a:hover, 
+	.Col-UWCA1LArea5 .act a:hover, 
+	.Col-UWCA1NArea5 .act a:hover {
+		background-color: #ea837b;
+		}
+
+.Col-UWCA1PArea5 .ArticleTitle a,  
+.Col-UWCA1PArea5 .ArticleTitle a:link, 
+.Col-UWCA1PArea5 .ArticleTitle a:visited, 
+.Col-UWCA1PArea5 .ArticleTitle a:active, 
+.Col-UWCA1LArea5 .ArticleTitle a,  
+.Col-UWCA1LArea5 .ArticleTitle a:link, 
+.Col-UWCA1LArea5 .ArticleTitle a:visited, 
+.Col-UWCA1LArea5 .ArticleTitle a:active,
+.Col-UWCA1NArea5 .ArticleTitle a,  
+.Col-UWCA1NArea5 .ArticleTitle a:link, 
+.Col-UWCA1NArea5 .ArticleTitle a:visited, 
+.Col-UWCA1NArea5 .ArticleTitle a:active,
+.Col-UWCA1PArea5 .ArticleTitle, 
+.Col-UWCA1LArea5 .ArticleTitle, 
+.Col-UWCA1NArea5 .ArticleTitle {
+    font-size:14px;
+    color:#ffffff;
+    text-decoration:none;
+    text-align:left;
+    font-weight: bold;
+}
+
+.Col-UWCA1PArea5 .ArticleTitle a:hover, 
+.Col-UWCA1PArea5 .ArticleTitle a:link:hover, 
+.Col-UWCA1PArea5 .ArticleTitle a:visited:hover, 
+.Col-UWCA1PArea5 .ArticleTitle a:active:hover, 
+.Col-UWCA1LArea5 .ArticleTitle a:hover, 
+.Col-UWCA1LArea5 .ArticleTitle a:link:hover, 
+.Col-UWCA1LArea5 .ArticleTitle a:visited:hover, 
+.Col-UWCA1LArea5 .ArticleTitle a:active:hover, 
+.Col-UWCA1NArea5 .ArticleTitle a:hover, 
+.Col-UWCA1NArea5 .ArticleTitle a:link:hover, 
+.Col-UWCA1NArea5 .ArticleTitle a:visited:hover, 
+.Col-UWCA1NArea5 .ArticleTitle a:active:hover {
+    font-size:14px;
+    color:#ffffff;
+    text-decoration:none;
+    text-align:left;
+    font-weight: bold
+}
+
+.Col-UWCA1PArea5 .SubWebTitle, 
+.Col-UWCA1LArea5 .SubWebTitle, 
+.Col-UWCA1NArea5 .SubWebTitle {
+	font-size:14px;
+    color:#ffffff;
+    text-decoration:none;
+    text-align:left;
+    font-weight: bold;
+}
+ 
+.Col-UWCA1PArea5 .PortletArticle, 
+.Col-UWCA1LArea5 .PortletArticle, 
+.Col-UWCA1NArea5 .PortletArticle {
+	width:220px;
+	background-color:#6d6d71;
+}
+	
+.Col-UWCA1PArea5 .Article, 
+.Col-UWCA1LArea5 .Article, 
+.Col-UWCA1NArea5 .Article, 
+.Col-UWCA1PArea5 .PortletSubscr, 
+.Col-UWCA1NArea5 .PortletSubscr, 
+.Col-UWCA1LArea5 .PortletSubscr, 
+.Col-UWCA1PArea5 .PortletEvent, 
+.Col-UWCA1LArea5 .PortletEvent, 
+.Col-UWCA1NArea5 .PortletEvent, 
+.Col-UWCA1NArea5 .PortletSurvey, 
+.Col-UWCA1PArea5 .PortletSurvey, 
+.Col-UWCA1LArea5 .PortletSurvey {
+	background-image:url("PortletBgBottom.gif");
+/*
+	width:220px;
+*/
+	background-color:#6d6d71;
+	background-position:bottom center;
+	background-size: contain;
+	background-repeat:no-repeat;
+	padding:0px 0px 34px 0px;
+	margin-top: -5px;
+}
+.Col-UWCA1PArea5 .PortletArticle .ArticleDescription {
+    background-image:url("PortletBgBottom.gif");
+	width:220px;
+	background-color:#6d6d71;
+	background-position:bottom center;
+	background-repeat:no-repeat;
+    margin: 0;
+    padding: 0 10px 34px;
+}
+
+
+.RightSide .TableFormDetails, 
+.RightSide .TableFormDetails td, 
+.RightSide .TableFormDetails th, 
+.RightSide .TableFormDetails tr  {
+    background-color: transparent;
+}
+
+.Col-UWCA1PArea5 .Article p, 
+.Col-UWCA1LArea5 .Article p, 
+.Col-UWCA1NArea5 .Article p, 
+.Col-UWCA1PArea5 .SubMessage, 
+.Col-UWCA1LArea5 .SubMessage, 
+.Col-UWCA1NArea5 .SubMessage, 
+.Col-UWCA1PArea5 .SubEMail, 
+.Col-UWCA1LArea5 .SubEMail, 
+.Col-UWCA1NArea5 .SubEMail, 
+.Col-UWCA1NArea5 .SubButton, 
+.Col-UWCA1PArea5 .SubButton, 
+.Col-UWCA1LArea5 .SubButton, 
+.Col-UWCA1PArea5 .PortletEventItem, 
+.Col-UWCA1LArea5 .PortletEventItem, 
+.Col-UWCA1NArea5 .PortletEventItem, 
+.RightSide .PortletSurvey form {
+	margin:0px 12px 8px 12px;
+}
+
+.Col-UWCA1PArea5 .ArticleTitle, 
+.Col-UWCA1LArea5 .ArticleTitle, 
+.Col-UWCA1NArea5 .ArticleTitle, 
+.Col-UWCA1PArea5 .SubWebTitle, 
+.Col-UWCA1LArea5 .SubWebTitle, 
+.Col-UWCA1NArea5 .SubWebTitle {
+	padding:5px 0px 0px 12px;
+	text-align:left;
+	border-top:6px solid #ffffff;
+}
+
+.Col-UWCA1PArea5 #SubscribeEMail1, 
+.Col-UWCA1LArea5 #SubscribeEMail1, 
+.Col-UWCA1NArea5 #SubscribeEMail1 {
+	font-size:10px;
+}
+
+.RightSide .Portlet p, 
+.RightSide .PortletNote, 
+.RightSide .Portlet {
+    color:#ffffff;
+    font-size:12px;
+    text-align:left;
+}
+
+.Portlet .DIV-WebIdentify, 
+.Portlet .DIV-WebIdentify a {
+    color:#ffffff;
+    font-size:1.3em;
+}
+
+.Portlet .KeyImage, 
+.PortletArticle {
+    text-align:center;
+}
+
+.GiveVolunteerAct ul {
+	margin:0;
+	padding:0;
+}
+
+.GiveVolunteerAct {
+	margin-bottom:16px;
+}
+
+.RightSide .Menu a, 
+.RightSide .Menu a:link, 
+.RightSide .Menu a:visited, 
+.RightSide .Menu a:active {
+	color:#ffffff;
+	font:12px;
+	font-weight:normal;
+	margin: 0px 15px;
+}
+
+.RightSide .Menu a:hover, 
+.RightSide .Menu a:link:hover, 
+.RightSide .Menu a:visited:hover, 
+.RightSide .Menu a:active:hover {
+	color: #cccccc;
+    text-decoration: none;
+}
+
+.Area-UWCA1PArea5 .MenuHeader, 
+.Area-UWCA1LArea5 .MenuHeader, 
+.Area-UWCA1NArea5 .MenuHeader {
+	background-image:url("MenuPortletBg.gif");
+	background-repeat:no-repeat;
+	background-position:top left;
+	background-size: cover;
+	height: 60px;
+	width: 100%;
+	color:#ffffff;
+	display:block;
+	text-transform:none;
+	margin-top:14px;
+}
+
+.Area-UWCA1PArea5 .Menu, 
+.Area-UWCA1LArea5 .Menu, 
+.Area-UWCA1NArea5 .Menu {
+	background-color:#6D6D71;
+	margin:0;
+	width:100%;
+}
+
+.Area-UWCA1PArea5 .MenuFooter, 
+.Area-UWCA1LArea5 .MenuFooter, 
+.Area-UWCA1NArea5 .MenuFooter {
+    background-image: url("PortletBgBottom.gif");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding: 0 0 40px;
+    width: 100%;
+    background-size: cover;
+}
+
+/*---------------- Content ------------------*/
+.Page-VolQuickSearch .QSearchTable, 
+.Page-VolTeamQuickSearch .QSearchTable {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.Page-VolQuickSearch .QSearchTable td, 
+.Page-VolTeamQuickSearch .QSearchTable td {
+    border: 1px solid #CCCCCC;
+}
+
+.LFArea table {
+    border-collapse: collapse;
+}
+
+.TableFormDetails td {
+    border: 1px solid #cccccc;
+}
+
+.Page-IProfile .col-Employerlabel, 
+.Page-OProfile .Col-Heading {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.Classic .Row-Even, 
+.Row-Even, 
+.Row-Even td {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.Classic td, 
+.Classic th {
+    font-size:12px;
+    padding:2px;
+    font-weight:normal;
+    background: none repeat scroll 0 0 #ffffff;
+    color: #666666;
+}
+
+.ATransTable {
+    border-collapse:collapse;
+}
+
+.Area-AcHistory .LeftAlign, 
+.Area-AcHistory .LeftAlign td {
+    border: 1px solid #CCCCCC;
+    padding: 2px;
+    border-collapse: collapse;
+}
+
+.EventCalendarTable .Col-Heading  {
+    font-size:12px;
+}
+
+.Calendar-Year2012 th{
+    font-size:12px;
+}
+
+.Calendar-Year2012 td {
+    font-size:12px;
+}
+
+.EventCalendarDetails .EventCalendarTable {
+    border-collapse:collapse;
+}
+
+.EventCalendarDetails .EventCalendarTable TD.Weekend {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.Section-IProfile .Block {
+    padding:0;
+}
+
+.IndProfileInclude td {
+    font-size:12px;
+}
+
+.Page-SendeMail .LeftAlign td {
+    padding:2px;
+    font-size:12px;
+}
+
+.Page-SendeMail select, 
+.Page-SendeMail input {
+    font-size:12px;
+}
+
+.VolCalendarTable th, 
+.VolCalendarTable td {
+   font-size:12px;
+}
+
+.VolCalendarTable .Col-IndexImg {
+    display:none;
+}
+
+.IRSearchOptions .Col-Text  {
+   padding-left:20px;
+}
+
+.LeftAlign .Col-Heading {
+    font-weight: normal;
+}
+
+.Page-AHistory .Col-Heading {
+    font-size:12px;
+    white-space:nowrap;
+}
+
+.Section-NavigateTree {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #CCCCCC;
+    padding: 0;
+    width:400px;
+}
+
+.Section-NavigateTree .Block {
+    margin: 0;
+    padding: 2px;
+    width: auto;
+}
+
+.Section-NavigateTree .NABlockdetail .name {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.BlockHeader {
+    font-weight: normal;
+}
+
+.dtree a:link {
+    font-weight:normal;
+}
+
+.dtree a.nodeSel {
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+.Area-CB INPUT {
+    background: none repeat scroll 0 0 #ffffff;
+    border:1px solid #cccccc;
+}
+
+.Section-NavigateTree .NABlock {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.BlockDetails {
+    margin: 0;
+    width: auto;
+}
+
+.Area-Profile .BlockDetails {
+    margin: 0;
+}
+
+.EventCalendarDetails .EventCalendarTable TD.Weekend {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.EventCalendarDetails .EventCalendarTable, 
+.VolCalendarTable {
+    border-collapse: collapse;
+}
+
+.EventCalendarTable .Col-Heading, 
+.VolCalendarTable .Col-Heading{
+    font-size:12px;
+}
+
+.EventCalendarTable td, 
+.VolCalendarTable td {
+    font-size:12px;
+}
+
+.EventCalendarTable th, 
+.VolCalendarTable th {
+    padding:1px 3px;
+}
+
+.EventCalendarTable .Col-IndexImg, 
+.VolCalendarTable .Col-IndexImg {
+    display:none;
+}
+
+.EventCalendarTable a:link, 
+.VolCalendarTable a:link {
+    font-weight:normal;
+}
+
+.IRSearchOptions td {
+    padding:1px 5px;
+}
+
+.Area-ePledgeAdmin .LeftAlign .Col-Heading {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.CBPackages td {
+    white-space:nowrap;
+}
+
+.Area-Profile .LeftAlign td {
+    padding:2px 4px;
+    font-size:12px;
+    font-family:Arial;
+}
+
+.Area-Profile .LeftAlign input, 
+.Area-Profile .LeftAlign select {
+    font-size:12px;
+    padding:2px 4px;
+    font-family:Arial;
+}
+
+.Area-Profile .IndNameTable {
+    border-collapse:collapse;
+}
+
+.Area-Profile .IndNameTable input {
+    color:#666666;
+}
+
+.AlignSendEmail select, 
+.AlignSendEmail input, 
+.AlignSendEmail td {
+    font-size:12px;
+}
+
+.TransactionDetails td {
+    white-space:nowrap;
+}
+
+.MyOutputs .Col-Date {
+    white-space:nowrap;
+}
+
+.NodesStructure {
+    border-collapse:collapse;
+}
+
+.NodesStructure td, 
+.NodesStructure th {
+    font-size:12px;
+    padding:0;
+}
+
+.Section-ProgramQuestion .TableQuestionDetails textarea {
+    font-size:11px;
+    background-color:#ffffff;
+}
+
+.Page-ProgramEval .Section-ProgramQuestion {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.Page-ProgramEval .Section-QuestionDetails .ProgramAccount {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.Page-ProgramEval .QuestionDetails .TableQuestionDetails td {
+    padding: 2px 0px;
+}
+
+.TableFormDetails .FontSize1 td {
+    font-size: 14px;
+}
+
+.Page-SurveyNE .TableFormDetails {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.org_name {
+    color:#ffffff;
+    font-size:24px;
+    margin-top:35px;
+}
+
+.TableFormDetails, 
+.TableFormDetails td, 
+.TableFormDetails th, 
+.TableFormDetails tr, 
+.TableFormDetails textarea, 
+.LeftAlign {
+    background-color:#ffffff;
+    font-family:Arial;
+}
+
+.Page-CBPackageDtlUpdate .TableFormDetails {
+    background: none repeat scroll 0 0 #ffffff;
+    border-color: #CCCCCC;
+    border-width: 0;
+    padding: 0px;
+}
+
+.Thermometer {
+    border:0;
+}
+
+.Page-IProfile .IndProfileInclude td {
+	border:1px solid #cccccc;
+	padding:4px;
+}
+.Page-IProfile .IndProfileInclude td td {
+	border:0;
+}
+
+.Page-IPledgeConfirm .PledgeSummary, 
+.Page-IPledgeConfirmDisplay .PledgeDes, 
+.Page-IPledgeConfirmDisplay .PledgeSummary, 
+.Page-SPRPThankyou .PledgeSummary, 
+.Page-IPledgeReplicate .PledgeSummary {
+    border-collapse: collapse;
+}
+
+.content {
+/*
+	margin: 0 1em;
+*/
+}
+
+.Area-Profile .IndProfileInclude .Col-Heading {
+    background-color:#ffffff;
+}
+
+.Area-Volunteer .Page-VolQuickSearch .QSearchTable td, 
+.Area-Volunteer .Page-VolTeamQuickSearch .QSearchTable td {
+    border: 0;
+}
+
+.Area-Volunteer .TableFormDetails td {
+    border: 0;
+}
+
+.Area-ePledgeAdmin .Leftalign td, 
+.Area-ePledgeAdmin .Leftalign {
+    border:0;
+}
+
+.Area-ePledgeAdmin .Leftalign input, 
+.Area-ePledgeAdmin .Leftalign select {
+    font-family:Arial;
+    font-size:12px;
+}
+
+.Section-NavigateTree .NABlock {
+    border: 0;
+    margin-left: 12px;
+    padding: 0px;
+    width: 70%;
+}
+
+.Section-NavigateTree .Tree, 
+.Section-NavigateTree .dtree {
+    margin-left: 12px;
+}
+
+.dtree {
+    padding:0;
+}
+
+.login td {
+    color:#ffffff;
+}
+
+.LoginForgotTable .SPAN-T {
+    white-space:nowrap;
+}
+
+.LoginForgotTable input {
+    font-size:12px;
+    font-family:Arial;
+}
+
+.BlockHeader, 
+.InstructionHeader, 
+.WarningHeader, 
+.ErrorHeader, 
+.TreeHeader {
+    color: #666666;
+    font-size: 13px;
+    padding:0;
+}
+
+.Page-LoginForgot .Block {
+    padding:10px 0px 10px 10px;
+    	text-align:left;
+}
+
+.Page-LoginForgot .Block, 
+.Page-LoginForgot .Block .BlockDetails Table, 
+.Page-LoginForgot .Block .BlockDetails Table TD {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+}
+
+.Area-Registration .TableFormDetails td {
+    border: 0;
+}
+
+.Area-Registration textarea, 
+.Area-Registration input {
+    border:1px solid #cccccc;
+}
+
+.Page-preLoginJAAS .DIV-LoginFailed, 
+.BlockError {
+    font-size:13px;
+    margin-bottom:10px;
+}
+
+.Area-Pledge {
+    margin-top:20px;
+}
+
+.Page-CBPackageDtlUpdate .TableFormDetails, 
+.Page-Forms .TableFormDetails, 
+.Page-SurveyNE .TableFormDetails, 
+.Page-Survey .TableFormDetails {
+    font-size:12px;
+}
+
+.Press-Releases {
+    margin-top:20px;
+}
+
+.Page-CBPackageDtlUpdate .Block {
+    width:auto;
+}
+
+.Page-AHistory .Col-Heading {
+    font-size:12px;
+    white-space:nowrap;
+}
+
+.NodesStructure {
+    border-collapse:collapse;
+}
+
+.NodesStructure td, 
+.NodesStructure th {
+    font-size:12px;
+    padding:0;
+}
+
+.Section-ProgramQuestion .TableQuestionDetails textarea {
+    font-size:12px; 
+    background-color:#ffffff;
+}
+
+.Page-ProgramEval .Section-ProgramQuestion {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.Page-ProgramEval .Section-QuestionDetails .ProgramAccount {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.Page-ProgramEval .QuestionDetails .TableQuestionDetails td {
+    padding: 2px 0px;
+}
+
+.TableFormDetails .FontSize1 td {
+    font-size: 14px;
+}
+
+.Page-SurveyNE .TableFormDetails {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.Page-CBPackageDtlUpdate .TableFormDetails {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #cccccc;
+    padding: 0px;
+}
+
+.Page-Survey .TableFormDetails .Row-LineDetail {
+    clear:both;
+    margin:0px 20px;
+}
+
+.Page-Survey form .TableFormDetails .Col-Label, 
+.Page-Survey form .TableFormDetails .Col-Text {
+    text-align:left;
+}
+
+.Page-Survey .TableFormDetails {
+    width:100%;
+    box-sizing:border-box;
+}
+
+.TableFormDetails .Col-YesNo input, 
+.Section-Survey .Col-Checkbox input, 
+.Section-Survey .Col-Radio input {
+    border:0;
+}
+
+.Page-CBPackageDtlUpdate .TableFormDetails, 
+.Page-Forms .TableFormDetails, 
+.Page-SurveyNE .TableFormDetails, 
+.Page-Survey .TableFormDetails {
+    padding: 10px 0;
+}
+
+.Col-Radio input, 
+.Col-Checkbox input, 
+.Col-YesNo input {
+    border:0;
+}
+
+.PortletArticle {
+    text-align: center;
+}
+
+.Article {
+    text-align:left;
+}
+
+.slider_left, .slider_right {
+    background-image: none;
+    padding: 0;
+}
+
+.PledgeNavigation img, 
+.NavigationInterest img, 
+.NavigationReturn img, 
+.NavigationNewSearch img, 
+.NavigationModSearch img, 
+.NavigationeMail img, 
+.NavigationPanel img, 
+.Navigation IMG, 
+.NavigationButton img, 
+.Button1 img, 
+.Button2 img, 
+.Button3 img, 
+.LoginButtonPanel img {
+    margin:2px 3px 2px 0px;
+    vertical-align: top;
+}
+
+.PledgeNavigationCancel {
+    position: static;
+}
+
+.PledgeNavigationNext {
+    position: static;
+}
+
+.PledgeNavigationPrevious {
+    position: static;
+}
+
+.PledgeNavigationTextCancel {
+    left: 140px;
+    position: absolute;
+    top: 65px;
+}
+
+.PledgeNavigationTextPrevious {
+    left: 140px;
+    position: absolute;
+    top: 35px;
+}
+
+.PledgeNavigationTextNext {
+    left: 140px;
+    position: absolute;
+    top: 5px;
+}
+
+.ArticleHeader {
+    margin-top:20px;
+}
+
+.Report-GrandTotal td {
+    background-color: #ffffff;
+}
+
+.Row-Even td {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.dtree a.nodeSel {
+    color: #da291c;
+}
+
+.dtree a.node:hover, 
+.dtree a.nodeSel:hover {
+    color: #666666;
+    background-color:#ffffff;
+    text-decoration:none;
+}
+
+.MainPage form table td, 
+.MainPage form table th {
+/*
+	padding: 2px 4px;
+    line-height:14px;
+*/
+}
+
+.GiveVolunteerAct li {
+	background-image:none;
+    padding: 0px;
+    list-style:none;
+}
+
+.Area-CB .LeftAlign td, 
+.Area-Budget .LeftAlign td, 
+.Area-Forms .LeftAlign td {
+    padding: 1px 2px;
+}
+
+.EvaluationActivitiesStyle td {
+	line-height:13px;
+}
+
+.CampStatus th {
+	white-space:nowrap;
+}
+
+.MyOutputs {
+	margin-top:10px;
+}
+
+
+.AlignResponseReport .ResponseReportMainTable, 
+.AlignSummaryRpt2 .SumRep2Table, 
+.AlignSendEmail #form1, 
+.Page-DonorChoiceDetail .DonorChoiceDtlTable, 
+.Page-DonorChoiceSummary .DonorChoiceSryTable, 
+.Page-CashReport s.CashReportMainTable, 
+.AlignSummaryRpt1 .SumRep1Table, 
+.AlignSendEmail .SendEmailMessage, 
+.Page-CashReport .CashReportMainTable, 
+.Page-ProgramEval .Section-ReferenceMaterials .BlockDetails table {
+    width:100%;
+    box-sizing:border-box;
+}
+
+.Area-CB .Page-ProgramEval .FormStyle .LeftAlign {
+	border:0;
+}
+
+.Area-AcHistory .RecentTranTable td, 
+.Area-AcHistory .RecentTranTable th, 
+.Area-AcHistory .QuickSumTable td, 
+.Area-AcHistory .QuickSumTable th {
+	vertical-align:middle;
+}
+
+.VolCalendarTable TD.Col-Today, 
+.VolCalendarTable TD.Col-Today Table TD {
+    background: none repeat scroll 0 0 #efefef;
+}
+    
+.Col-Today a .Date {
+	color:#666666;
+}
+
+.VolCalendarTable th, 
+.VolCalendarTable td {
+	border:1px solid #cccccc;
+}
+
+.VolCalendarTable .Col-Weekdays th, 
+.VolCalendarTable .Col-Weekdays td, 
+.VolCalendarTable .Col-Weekend td,  
+.VolCalendarTable .Col-Weekend th, 
+.VolCalendarTable .Col-Today th, 
+.VolCalendarTable .Col-Today td {
+	border:0;
+}
+
+.VolCalendarTable .Date {
+    font-weight: bold;
+}
+
+.LegendLabel, 
+.LegendOpName, 
+.LegendSeparator, 
+.LegendAgencyName, 
+.LegendEventName, 
+.LegendTeamName {
+	font-size:11px;
+	color:#666666;
+}
+
+.current {
+    color: #da291c; 
+}
+
+center h3 {
+	text-align:left;
+}
+
+.Page-IPledgeDes1 H2, 
+.Page-IPledgeDes2 H2 {
+    border-bottom: 0;
+}
+
+.Section-PledgeAddInfo .col-IndNameTable, 
+.Section-PledgeAddInfo .Col-WebVerifyRosterNote {
+	display:none;
+}
+
+.Section-PledgeAddInfo .IndRosterNameDetails input {
+	border:0px;
+}
+
+.Navigation, .Agencies .SearchButton {
+	margin-top:20px;
+}
+
+.ScoreNegative, 
+.ScoreNegativeDisabled {
+    background-image: url("down1.gif");
+    background-repeat: no-repeat;
+    background-position:4px 4px;
+    height: 20px;
+    padding:2px 4px;
+    width: 28px;
+    border:1px solid #cccccc;
+    text-align:right;
+    font-size:11px;
+    font-weight:normal;
+    margin:0;
+}
+
+.ScorePositive, 
+.ScorePositiveDisabled {
+    background-image: url("up1.gif");
+    background-repeat: no-repeat;
+    background-position:4px 4px;
+    height: 20px;
+    padding:2px 4px;
+    width: 28px;
+    border:1px solid #cccccc;
+    text-align:right;
+    font-size:11px;
+    font-weight:normal;
+    margin:0;
+}
+
+.likedisabled, 
+.dislikedisabled {
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.scorewrap a, 
+.scorewrap a:link, 
+.scorewrap a:visited, 
+.scorewrap a:active {
+    color: #666666;
+    font-weight:normal;
+    font-size:12px;
+}
+
+.scorewrap a:hover, 
+.scorewrap a:link:hover, 
+.scorewrap a:visited:hover, 
+.scorewrap a:active:hover {
+    color:#666666;
+    text-decoration:underline;
+}
+
+.BioTabData h2, 
+.Dashboard h2 {
+    color: #da291c;
+    text-decoration:none;
+}
+
+.Dashboard th, 
+.Dashboard td.Col-Heading {
+    background: none repeat scroll 0 0 #ffffff;
+    color: #666666;
+    font-weight: bold;
+    padding: 5px 3px;
+}
+
+.Dashboard tr.Row-Odd td {
+    background-color: #ffffff;
+}
+
+.Dashboard tr.Row-Even td {
+    background-color: #ffffff;
+}
+
+.Dashboard table {
+    border: 1px solid #cccccc;
+}
+
+.Page-ProgramEval .Block {
+	padding:0;
+}
+
+.MainPage .Area-Registration {
+	width:660px;
+}
+
+#Col-Error, 
+#PasswordErrors, 
+#UserIDErrors {
+    color: #da291c; 
+    font-weight: bold;
+}
+
+.Page-EmployeeList .selectCoord, 
+.Page-EmployeeList .selectEmployee {
+    background: none repeat scroll 0 0 #ffffff;
+    padding: 0px;
+}
+
+.Page-ProgramEval .Section-ReferenceMaterials {
+	padding:0;
+	width:auto;
+}
+
+.BlockError, 
+.BlockError h2 {
+    color:  #da291c; 
+    font-weight: bold;
+}
+
+.Page-IPledgeDes1 .Federations a u {
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.MainPage form .PledgeProgress table td {
+	padding:0;
+}
+
+.Col-VolOpInfoLeft, 
+.Col-VolOpInfoRight {
+    background: none repeat scroll 0 0 #ffffff;
+    color: #666666;
+    padding: 0;
+}
+
+.Page-VolOpInfo form .VolOpInfo b, 
+.Page-VolOpInfo .DIV-VolOpBottom b {
+	font-weight:normal;
+}
+
+.Page-VolOpInfo .OpName, 
+.Page-VolOpInfo .agencyName  {
+    font-size: 12px;
+}
+
+.Area-Volunteer .SearchBlockSection {
+    background: none repeat scroll 0 0 #ffffff;
+    padding: 0;
+}
+
+.Area-Volunteer .VolHeader, 
+.Area-Volunteer .VolAgTitle, 
+.Area-Volunteer .EventTitle, 
+.Area-Volunteer .VolLoginTitle, 
+.Area-Volunteer .RemindTitle {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.Area-Volunteer .VolNote {
+    margin-bottom: 0;
+}
+
+.MainPage form .Password-Hint td {
+	padding:0;
+}
+
+.Section-Survey font {
+	color:#666666;
+}
+
+.Block, 
+.Instruction, 
+.Warning, 
+.Error, 
+.Tree {
+	padding:0;
+}
+
+.Page-AgencySearch .VolAgSearchTable {
+    width: 100%;
+    box-sizing:border-box;
+}
+
+.Page-AgencySearch .VolAgSearchTable .Col-ListNumber {
+	width:30px;
+}
+
+.VolAgencyInfo .VolAgencyInfoLeft, 
+.VolAgencyInfo .VolAgencyInfoRight, 
+.VolOpInfo .Col-VolOpInfoLeft, 
+.VolOpInfo .Col-VolOpInfoRight {
+	width:50%;
+}
+
+.Page-AccountSelector .BlockDetails .SearchLabel, 
+.Page-AccountSelector .BlockDetails .AccountKeyword, 
+.Page-AccountSelector .BlockDetails .AccountType, 
+.Page-AccountSelector .BlockDetails .Navigation {
+    float:none;
+}
+
+.TaxonomySection td.Col-Description {
+    width: 80%;
+}
+
+.Page-OrganizationInfo .OrganizationNameBlock {
+    font-size: 14px;
+}
+
+.Page-OrganizationInfo .SubsidPrograms A {
+    color: #da291c; 
+    text-decoration:none;
+}
+
+.Page-OrganizationInfo .SubsidPrograms A:hover {
+    color: #666666; 
+    text-decoration:none;
+    background-color:#ffffff;
+}
+
+.Page-OrganizationInfo table.SubsidPrograms {
+    margin-left: 0;
+}
+
+.Page-ProgramInfo .IRInformationSummaryDetails .Col-Heading {
+	white-space:nowrap;
+}
+
+.Page-IRAdvancedS .AdvancedSSection .BlockHeader .DIV-Note, 
+.Page-ProgramInfo .BlockHeader .OrganizationNameBlock {
+	font-weight:bold;
+}
+
+.Page-signoffPage strong {
+	color:#666666;
+}
+
+.Page-TransactionList .TransactionsList th {
+	white-space:nowrap;
+}
+
+.Page-TransactionList .TransactionsList td {
+	line-height:12px;
+	vertical-align:middle;
+}
+
+.AddEmployeeTable .Col-BillStartDate, 
+.AddEmployeeTable .Col-PayrollStartDate {
+	line-height:12px;
+}
+
+/*----------------- Top Menu -----------------*/
+ul.pureCssMenu {
+    background-color: transparent;
+    border: 0;
+/*
+    left:0%;
+    padding: 0 2px 2px 0;
+    margin:14px 0px 0px 150px;
+*/
+}
+
+ul.pureCssMenu ul {
+    background-color:#ededed;  
+    border-color:#cccccc;
+    z-index:30000;
+}
+
+ul.pureCssMenu a, 
+ul.pureCssMenu li.dis a:hover, 
+ul.pureCssMenu li.sep a:hover {
+    background-color:transparent;
+    border: 0;
+    color: #666666;
+    padding: 6px 4px 6px 8px;
+}
+
+.Menu-Top {
+    padding: 7px 0px 6px 0px;
+    margin: 4px 0;
+}
+
+ul.pureCssMenu li {
+    margin: 0 0 0 2px;
+    background-image:none;
+    padding: 0px;
+}
+
+ul.pureCssMenu li:hover>a {
+    background-color:#6F7271;
+    border:0;
+}
+
+ul.pureCssMenu li a:hover {
+    background-color:#6F7271;
+    border:0;
+    color:#ffffff;
+}
+
+ul.pureCssMenu span{
+    background-image:none;
+}
+
+ul.pureCssMenu li:hover>a>span {
+    background-image:none;
+    color:#ffffff;
+}
+
+ul.pureCssMenu a:hover span {
+    background-image:none;
+}
+
+ul.pureCssMenu a:hover table span, 
+ul.pureCssMenu ul span {
+    background-image:none;
+}
+
+ul.pureCssMenu ul ul {
+    left: 100%;
+    top: -1px;
+}
+
+.Area-CB .TableLayout.LeftAlign td {
+	padding:3px;
+}
+
+.MainPage form .TableLayout td {
+    padding: 4px 6px;
+}
+
+.MainPage .NonTableLayout .FormAlignLeft .Col-Label.Col-Checkbox, 
+.MainPage .NonTableLayout .FormAlignLeft span.Col-Radio {
+    padding-left: 0;
+}
+
+.MainPage .TableLayout .FormAlignLeft .Col-Label.Col-Checkbox, 
+.MainPage .TableLayout .FormAlignLeft .Col-Radio .DataBlock {
+    padding-left: 0;
+}
+
+.ArticleDescription {
+	display: block;
+    margin: 0 10px;
+}
+
+.MainPage .Col-AttendSurvey .TableLayout .Col-Label.Col-Checkbox, 
+.MainPage .Col-AttendSurvey .TableLayout .Col-Radio .DataBlock {
+    padding-left:0;
+}
+
+.MainPage .Col-AttendSurvey .NonTableLayout .Col-Label.Col-Checkbox, 
+.MainPage .Col-AttendSurvey .NonTableLayout .Row-LineDetail span.Col-Radio {
+    padding-left:0;
+}
+
+.Area-UWCA1PArea6 a, 
+.Area-UWCA1PArea6 a:link, 
+.Area-UWCA1PArea6 a:visited, 
+.Area-UWCA1PArea6 a:active, 
+.Area-UWCA1LArea6 a, 
+.Area-UWCA1LArea6 a:link, 
+.Area-UWCA1LArea6 a:visited, 
+.Area-UWCA1LArea6 a:active, 
+.Area-UWCA1NArea6 a, 
+.Area-UWCA1NArea6 a:link, 
+.Area-UWCA1NArea6 a:visited, 
+.Area-UWCA1NArea6 a:active {
+	margin: 10px 2px 0 0;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.Menu-Bottom .Menu {
+	border:0;
+}
+
+.Menu-Bottom .Menu td {
+	background-image:none;
+	border-top:0;
+}
+
+.Page-EmployeeList .selectCoord, 
+.Page-EmployeeList .selectEmployee {
+	background: none repeat scroll 0 0 transparent;
+}
+
+.EventCalendarDetails .EventCalendarTable td.Col-DayEvent {
+	border:0;
+}
+
+.IndProfileInclude {
+	margin-bottom:12px;
+}
+
+.IndProfileInclude table {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Page-AccountSearch .AccountType {
+	margin: 4px 0px 10px 0px;
+}
+
+.Page-BioTab .DashBox {
+    border: 0;
+    padding: 0;
+}
+
+.Page-EventRegistration #PaymentInformationBlock, 
+.Page-EventRegistration #BMPayment {
+    background-color: #ffffff;
+}
+
+.Page-EventRegistration #PaymentInformationBlock {
+	border:0;
+}
+
+.Page-EventRegistration #PaymentInformationBlock .Col-Text {
+	white-space:nowrap;
+}
+
+.Section-EventRegistration .FeesTable .Col-Fee, 
+.Section-EventRegistration .FeesTable .Col-Quantity, 
+.Section-EventRegistration .FeesTable .Col-Total {
+    width: auto;
+}
+
+.Page-EventRegistration .Section-EventRegistration .WillAttendBlock {
+    background-color: #ffffff;
+    border: 0;
+    padding: 0;
+    width:auto;
+}
+
+.KeywordSearchButton img {
+	margin:3px 0px;
+}
+
+.Page-IRQuickSearch .QuickLaunch img {
+	margin:3px 0px;
+}
+
+.NavigationAdd, .NavigationCancel, 
+.NavigationPFV {
+	margin:3px 0px;
+}
+
+.Area-ePledgeAdmin .CashReportMainTable td {
+	border:1px solid #cccccc;
+}
+
+.Area-ePledgeAdmin .CashReportMainTable td td {
+	border:0;
+}
+
+.CashReportMainTable {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.DIV-WebPNotePrev {
+    font-size: 12px;
+}
+
+.IPledgeTable .Col-Text {
+	white-space:nowrap;
+}
+
+.DIV-Note {
+	margin-top:6px;
+}
+
+.Page-IPledgeConfirm .PledgeSummary .Col-Heading {
+	font-weight:normal;
+}
+
+.Area-IRSearch .Classic {
+    width: 100%;
+    box-sizing:border-box;
+    margin-top: 10px;
+}
+
+.CSVColumnSelectionHeader, 
+.CSVColumnSelectionHeader a {
+    font-size: 12px;
+}
+
+.ProfilePreferred {
+	white-space:nowrap;
+	margin-right:12px;
+}
+
+.Page-CBPackageDtlUpdate .TableFormDetails, 
+.Page-Forms .TableFormDetails, 
+.Page-SurveyNE .TableFormDetails, 
+.Page-Survey .TableFormDetails, 
+.Page-EventAttendance .TableFormDetails {
+	width: 100%;
+	box-sizing:border-box;
+	padding: 10px;
+}
+
+.Area-AcHistory .Classic, 
+.Area-AcHistory .LeftAlign {
+    width: 100%;
+    box-sizing:border-box;
+}
+
+.Col-UWCA1PArea4 img, 
+.Col-UWCA1LArea4 img, 
+.Col-UWCA1NArea4 img {
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 600px;
+    border:2px solid #ffffff;
+}
+
+.Col-UWCA1PArea4 .PortletNote, 
+.Col-UWCA1LArea4 .PortletNote, 
+.Col-UWCA1NArea4 .PortletNote {
+	text-align:center;
+}
+
+.Section-PledgeConfirm .PledgeNavigation {
+    margin: 20px 0;
+    height: 90px;
+}
+
+.Page-VolQuickSearch .QSearchTable, 
+.Page-VolTeamQuickSearch .QSearchTable, 
+.Page-IProfile .col-Employerlabel, 
+.Page-OProfile .Col-Heading, 
+.Classic .Row-Even, 
+.Row-Even, 
+.Row-Even td {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.Page-VolQuickSearch .QSearchTable td, 
+.Page-VolTeamQuickSearch .QSearchTable td {
+    border: 1px solid #cccccc;
+}
+
+.LFArea table {
+    border-collapse: collapse;
+}
+
+.TableFormDetails td {
+    border: 1px solid #cccccc;
+}
+
+.ATransTable {
+    border-collapse:collapse;
+}
+
+.Area-AcHistory .LeftAlign, 
+.Area-AcHistory .LeftAlign td {
+    border: 1px solid #cccccc;
+    padding: 2px;
+    border-collapse: collapse;
+}
+
+.Section-IProfile .Block {
+    padding:0;
+}
+
+.Page-ProfileChangeUserID input,
+.Page-ProfileChangePassword input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Page-ProfileChangePassword .Col-Hint {
+	white-space:nowrap;
+}
+
+.Page-ProfileChangePassword .Password-Hint {
+	margin:20px 0;
+}
+
+.IndProfileInclude td {
+    font-size:12px;
+}
+
+.MainPage .Area-Profile .IndProfileInclude td,
+.MainPage .Table-OrgProfile td {
+    border: 1px solid #cccccc;
+    padding: 4px 6px;
+}
+
+.MainPage .Area-Profile .IndProfileInclude td td,
+.MainPage .Table-OrgProfile td td {
+	padding:1px;
+	border:0;
+}
+
+.Table-OrgProfile input,
+.Table-OrgProfile select {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Table-OrgProfile input[type=checkbox], 
+.Table-OrgProfile input[type=radio], 
+.Table-OrgProfile .Col-Radio input, 
+.Table-OrgProfile .Col-Checkbox input {
+	width:auto;
+}
+
+.Table-OrgProfile .Table-OrgNames,
+.Table-OrgProfile .Table-Address,
+.Table-CityStateZip {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Table-CityStateZip td {
+	width:33%;
+}
+
+.Page-SendeMail .LeftAlign TD {
+    padding:2px;
+    font-size:12px;
+}
+
+.Page-SendeMail select, 
+.Page-SendeMail input {
+    font-size:12px;
+}
+
+.VolCalendarTable th, 
+.VolCalendarTable td {
+   font-size:12px;
+}
+
+.VolCalendarTable .Col-IndexImg {
+    display:none;
+}
+
+.IRSearchOptions .Col-Text  {
+   padding-left:20px;
+}
+
+.Page-AHistory .Col-Heading {
+    font-size:12px;
+    white-space:nowrap;
+}
+
+.BlockHeader {
+    font-weight: normal;
+}
+
+.dtree A:link {
+    font-weight:normal;
+}
+
+.dtree a.nodeSel {
+    background-color: #ffffff;
+}
+
+.Area-CB input {
+    background: none repeat scroll 0 0 #ffffff;
+    border:1px solid #cccccc;
+}
+
+
+.Section-NavigateTree {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 0;
+    padding: 0;
+}
+
+.Section-NavigateTree .NABlock {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 0;
+    margin-left: 10px;
+    padding: 0px;
+    width: 70%;
+}
+
+.Section-NavigateTree .Block {
+    margin: 0;
+    padding: 2px;
+    width: auto;
+}
+
+.Section-NavigateTree .NABlockdetail .name {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.Section-NavigateTree .Tree, 
+.Section-NavigateTree .dtree {
+    margin-left: 10px;
+}
+
+.Area-Profile .BlockDetails {
+    margin: 0;
+}
+
+.EventCalendarDetails .EventCalendarTable TD.Weekend {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.EventCalendarDetails .EventCalendarTable, 
+.VolCalendarTable {
+    border-collapse: collapse;
+}
+
+.EventCalendarTable .Col-Heading, 
+.VolCalendarTable .Col-Heading{
+    font-size:12px;
+}
+
+.EventCalendarTable td, 
+.VolCalendarTable td {
+    font-size:12px;
+}
+
+.EventCalendarTable th, 
+.VolCalendarTable th {
+    padding:1px 3px;
+}
+
+.EventCalendarTable .Col-IndexImg, 
+.VolCalendarTable .Col-IndexImg {
+    display:none;
+}
+
+.EventCalendarTable a:link, 
+.VolCalendarTable a:link {
+    font-weight:normal;
+}
+
+.Calendar-Year2013 th {
+    font-size:12px;
+}
+
+.Calendar-Year2013 td {
+    font-size:12px;
+}
+
+.IRSearchOptions td {
+    padding:1px 5px;
+}
+
+.Area-ePledgeAdmin .LeftAlign .Col-Heading {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.CBPackages td {
+    white-space:nowrap;
+}
+
+.Area-Profile .IndNameTable {
+    border-collapse:collapse;
+    width:100%;
+}
+
+.AlignSendEmail select, 
+.AlignSendEmail input, 
+.AlignSendEmail td {
+    font-size:12px;
+}
+
+.TransactionDetails td {
+    white-space:nowrap;
+}
+
+.MyOutputs .Col-Date {
+    white-space:nowrap;
+}
+
+.NodesStructure {
+    border-collapse:collapse;
+}
+
+.NodesStructure td, 
+.NodesStructure th {
+    font-size:12px;
+    padding:0;
+}
+
+.Section-ProgramQuestion .TableQuestionDetails textarea {
+    font-size:12px;
+    background-color:#ffffff;
+}
+
+.Page-ProgramEval .Section-ProgramQuestion, 
+.Page-ProgramEval .Section-QuestionDetails .ProgramAccount, 
+.Page-SurveyNE .TableFormDetails {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.Page-ProgramEval .QuestionDetails .TableQuestionDetails TD {
+    padding: 2px 0px;
+}
+
+.TableFormDetails .FontSize1 TD {
+    font-size: 14px;
+}
+
+.TableFormDetails, 
+.TableFormDetails td, 
+.TableFormDetails th, 
+.TableFormDetails tr, 
+.TableFormDetails textarea, 
+.LeftAlign {
+    background-color:#ffffff;
+}
+
+.Page-CBPackageDtlUpdate .TableFormDetails {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 0;
+    padding: 0px;
+}
+
+.Thermometer {
+    border:0;
+}
+
+.Page-IPledgeConfirm .PledgeSummary, 
+.Page-IPledgeConfirmDisplay .PledgeDes, 
+.Page-IPledgeConfirmDisplay .PledgeSummary, 
+.Page-SPRPThankyou .PledgeSummary, 
+.Page-IPledgeReplicate .PledgeSummary {
+    border-collapse: collapse;
+}
+
+.Page-EventRegistration #PaymentInformationBlock, 
+.Page-EventRegistration #BMPayment {
+    border: 0 none;
+}
+
+.Page-EventRegistration #PaymentInformationBlock .Col-Space, 
+.Page-EventRegistration #BMPayment .Col-Space {
+	display:none;
+}
+
+.Page-CBPackageDtl .Classic {
+	width:100%;
+}
+
+.Dashboard blockquote {
+    margin: 0;
+    position:static;
+}
+
+.PanelField .AccountSelection.ACCOUNTNUMBER input {
+	margin-right:2px;
+}
+
+.GROUP_Address, 
+.GROUP_Location {
+	display:inline-block;
+	vertical-align:top;
+}
+
+.GROUP_Transit div, 
+.GROUP_Transit input,
+.GROUP_Season div, 
+.GROUP_Season .PanelField .Label {
+	display:inline-block;
+}
+
+.GROUP_Season input, 
+.GROUP_Season .PanelField .FROMDATE input {
+	width:60px;
+}
+
+.AuditPanel {
+	display:block;
+}
+
+.AuditPanel div input {
+	width:198px;
+	margin-right:8px;
+}
+
+.AuditPanel .Label.Created-,
+.AuditPanel .Label.Last-Changed- {
+	display:block;
+}
+
+.PanelRow .Label.Seasonal-From,
+.PanelField .Label.TODATE {
+	display:inline-block;
+	margin-right:6px;
+}
+
+.ui-widget-header {
+    background: none scroll 50% 50% #db291d;
+    border: 1px solid #db291d;
+    color: #ffffff;
+    font-weight: bold;
+    font-size:16px;
+}
+
+.ui-dialog .ui-dialog-title {
+	margin:0;
+}
+
+.ui-state-default, 
+.ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default {
+    color: #db291d;
+}
+
+.ui-state-default .ui-icon {
+    background-image: url("ui-icons_UWCA.png");
+}
+
+.ui-state-hover, 
+.ui-widget-content 
+.ui-state-hover, 
+.ui-widget-header .ui-state-hover, 
+.ui-state-focus, 
+.ui-widget-content .ui-state-focus, 
+.ui-widget-header .ui-state-focus {
+    background:none scroll 50% 50% #faf4f4;
+    border: 1px solid #cccccc;
+    color: #db291d;
+    font-weight: bold;
+}
+
+.Page-BioTab .BioItemNavigation {
+	margin:2px 10px 6px 0px;
+}
+
+.AuditPanel .InputText.DISABLED {
+    display: inline-block;
+    margin-bottom:8px;
+}
+
+.PanelRow .Label.Last.Changed {
+	margin-top:40px;
+}
+
+.Page-BioTab .Navigation {
+    height: auto;
+    margin: 20px 0 0 0;
+}
+
+.IPledgeTable td.Col-Text {
+    width:auto; 
+}
+
+.CSVColumnSelectionHeader {
+	background-color:#ffffff;
+}
+
+.Area-Pledge form {
+    margin-right: 0;
+}
+
+.WriteIn input, 
+.WriteInReview input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Page-IPledgeDes2 .SearchOptionTable {
+	margin:10px 0;
+}
+
+.Page-IPledgeDesWI .WriteIn .WriteInFields input {
+	margin-bottom:4px;
+}
+
+.Area-Registration .LeftAlign td td {
+	padding:1px;
+}
+
+.Section-EventRegistration .AttendList .Col-FirstName input, 
+.Section-EventRegistration .AttendList .Col-LastName input, 
+.Section-EventRegistration .AttendList .Col-email input {
+	height:26px;
+}
+
+.Menu-V ul.pureCssMenu, 
+.Menu-V ul.pureCssMenu ul {
+    background-color: #6d6d71;
+    padding:0;
+    margin: 0;
+}
+
+.Menu-V a:link, 
+.Menu-V a:visited, 
+.Menu-V a:active {
+    color: #ffffff;
+}
+
+.Menu-V ul.pureCssMenu li:hover>a {
+    background-color:#8a8a8e;
+    border:0;
+}
+
+.Menu-V ul.pureCssMenu li a:hover {
+    background-color:#8a8a8e;
+    border:0;
+    color:#ffffff;
+}
+
+.Menu-V ul.pureCssMenu li {
+	display: block;
+}
+
+.Menu-V ul.pureCssMenu a, 
+.Menu-V ul.pureCssMenu li.dis a:hover, 
+.Menu-V ul.pureCssMenu li.sep a:hover {
+	padding: 6px 6px 6px 12px;
+}
+
+.RightSide .Menu-V ul.pureCssMenu ul {
+    left: -220px;
+    top: 0;
+    width: 220px;
+}
+
+.Page-ResponseReport .ResponseReportMainTable td,
+.Page-SumRep1 .SumRep1Table td {
+	border:1px solid #cccccc;
+	padding:2px 4px;
+}
+
+.Page-ResponseReport .ResponseReportMainTable td td,
+.Page-SumRep1 .SumRep1Table td td {
+	border:0;
+}
+.AddressChooseTable, 
+.AddressChooseTable input, 
+.AddressChooseTable select {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.IndProfileInclude .Col-IndEMail input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Annotations .NoteImage img {
+	width:120px;
+}
+
+.SearchAllButton {
+	margin:3px 3px 3px 0;
+}
+
+.Page-IPledge .Leftalign {
+	border:0;
+}
+
+.DesAgSearchList th,
+.DesAgSearchList td {
+	vertical-align:middle;
+}
+
+.Page-IPledgeConfirm .Col-Summary, 
+.Page-IPledgeConfirm .Col-Designations, 
+.Page-IPledgeConfirmDisplay .Col-Summary, 
+.Page-IPledgeConfirmDisplay .Col-Designations, 
+.Page-SPRPThankyou .Col-Summary, 
+.Page-IPledgeReplicate .Col-Summary, 
+.Page-IPledgeReplicate .Col-Designations {
+	width:auto;
+}
+
+.Page-IPledgeConfirm .PledgeSummary td, 
+.Page-IPledgeConfirm .PledgeSummary th, 
+.Page-IPledgeConfirmDisplay .PledgeSummary td, 
+.Page-IPledgeConfirmDisplay .PledgeSummary th, 
+.Page-IPledgeConfirmDisplay .PledgeDes td, 
+.Page-IPledgeConfirmDisplay .PledgeDes th, 
+.Page-SPRPThankyou .PledgeSummary td, 
+.Page-SPRPThankyou .PledgeSummary th, 
+.Page-IPledgeReplicate .PledgeSummary td, 
+.Page-IPledgeReplicate .PledgeSummary th {
+	padding:4px;
+	vertical-align:middle;
+}
+
+.Area-Pledge .DesignationTotals td {
+	padding: 6px;
+}
+
+ul.pureCssMenu ul .CSSCloseButton {
+	display:none;
+}
+
+/*------------------------------------------------- Slideshow ---------------------------------------*/
+.viewer {
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	box-sizing:border-box;
+}
+
+.viewer ul {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	box-sizing:border-box;
+}
+
+.viewer ul li {
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	background-image:none;
+	padding:0;
+	padding-left: 0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.viewer ul li img {
+	width: 100%;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.viewer ul:after {
+	content: ".";
+	height: 0;
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+
+.viewer ul {
+	display: inline-block;
+	overflow: hidden;
+	margin:0;
+}
+
+.Navigation .BioTabTitle a {
+	color:#000000;
+}
+
+.Navigation .BioTabTitle a:hover {
+	color:#ffffff;
+	background-color: #da291c;
+}
+
+.Navigation .BioTabTitle.PersonalTab a:hover  {
+    background-color: #da291c;
+}
+
+
+.Navigation .BioTabTitle.GlobalTab a:hover  {
+    background-color: #da291c;
+}
+
+.DashHeader {
+    color: #da291c;
+}
+
+.DashBox .Navigation {
+	margin:0;
+}
+
+.DashBox img {
+    vertical-align: middle;
+}
+
+.ui-dialog .ui-widget-header {
+    background: none repeat scroll 50% 50% #da291c;
+    border: 1px solid #da291c;
+}
+
+html .ui-state-default, html .ui-widget-content .ui-state-default, html .ui-widget-header .ui-state-default {
+    color: #da291c;
+}
+
+html .ui-state-default .ui-icon {
+    background-image: url("ui-icons_UWCA.png");
+}
+
+.AccountLink {
+    color:#666666 !important;
+    text-decoration:none!important;
+}
+
+.AccountLink:hover {
+    color:#666666 !important;
+    text-decoration:underline !important;
+}
+
+.RightSide.Col-UWCA1NArea5 {
+	display:none;
+}
+
+.DashHeader .DIV-EventAttendIndBio,
+.DashHeader .DIV-EventAttendOrgBio {
+    color: #da291c;
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-width: 0;
+}
+
+.Section-Outputs .OutputsBlock .Col-OutputName {
+    width:500px;
+}
+
+.Section-Outputs .OutputsBlock .Classic {
+    width:100%;
+}
+
+.Section-Outputs .Col-OutputName .LeftAlign.OutputName {
+    width:100%;
+}
+
+.Section-Outputs .Col-OutputName .LeftAlign.OutputName input,
+.Section-Outputs .Col-OutputName .LeftAlign.OutputName select {
+    width:480px;
+}
+
+.Section-Outputs .Col-OutputName .LeftAlign.OutputName input[type=radio] {
+    width:auto;
+}
+ 
+/*--------------------------------Shopping Cart----------------------------------------------------*/
+.scItemRow td {
+	padding: 0px 3px;
+}
+.scpTotalQuantity {
+    color: #da291c;
+}
+
+.scpTotalAmountSection {
+    color: #da291c;
+}
+
+.ShoppingCart a {
+	color: #da291c;
+}
+
+.ShoppingCart td {
+	color:#666666;
+}
+
+div.scSummaryTotalQuantity, div.scSummaryTotalAmount {
+    color: #da291c;
+}
+
+.Navigation .BioTabSelected.GlobalTab a {
+    background-color: #da291c;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.BioTabSurveyHead {
+    color: #da291c;
+    font-size: 20px;
+    margin:20px 0 0 0;
+}
+
+@media screen and (max-width: 990px) {
+body {
+	background-color:#ffffff;
+}
+
+h1 {
+	font-size:16px;
+}
+
+.GenericMainBody {
+	background-color:#ffffff;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.Col-UWCA1PArea1, 
+.Col-UWCA1LArea1, 
+.Col-UWCA1NArea1 {
+	background-color:#db291d;
+	height: auto;
+	width:234px;
+}
+
+.Area-UWCA1PArea1, 
+.Area-UWCA1LArea1, 
+.Area-UWCA1NArea1 {
+	margin:8px 0px 0px 12px;
+}
+
+.Col-UWCA1PArea2, 
+.Col-UWCA1LArea2, 
+.Col-UWCA1NArea2 {
+/*
+	background-color:#db291d;
+	width:auto;
+*/
+}
+
+.Col-UWCA1PArea4 object, 
+.Col-UWCA1LArea4 object, 
+.Col-UWCA1NArea4 object {
+	display:none;
+}
+
+.Col-UWCA1PArea5 .give a, 
+.Col-UWCA1LArea5 .give a, 
+.Col-UWCA1NArea5 .give a,
+.Col-UWCA1PArea5 .volunteer a, 
+.Col-UWCA1LArea5 .volunteer a, 
+.Col-UWCA1NArea5 .volunteer a,
+.Col-UWCA1PArea5 .act a, 
+.Col-UWCA1LArea5 .act a, 
+.Col-UWCA1NArea5 .act a {
+    width:220px;
+}
+
+.Col-UWCA1PArea5 .PortletArticle, 
+.Col-UWCA1LArea5 .PortletArticle, 
+.Col-UWCA1NArea5 .PortletArticle {
+    width: 100%;
+}
+
+.UWCAHeader {
+/*
+	height:auto;
+	background-image:none;
+*/
+}
+
+.UWCAHeaderContent, 
+.UWCABottomContent, 
+.UWCAFooterArea {
+    width: 100%;
+}
+
+.UWCAHeader {
+/*
+	background: url("redShadowMobile.png") repeat-x scroll left bottom #ffffff;
+	height:38px;
+*/
+}
+
+.UWCAHeaderContent tr:nth-child(2) {
+	background: url("redShadowMobile.png") repeat-x scroll left top #ffffff;
+	height:38px;
+}
+
+
+.Col-UWCA1PArea3, 
+.Col-UWCA1LArea3, 
+.Col-UWCA1NArea3 {
+    background-image: url("navBgMobile.png");
+    background-repeat:no-repeat;
+    background-color:transparent;
+    border: 0;
+    height:38px;
+	margin-top: -7px;
+}
+
+.Area-UWCA1PArea1 img, 
+.Area-UWCA1LArea1 img, 
+.Area-UWCA1NArea1 img {
+/*
+	width:100%;
+*/
+}
+
+.Area-UWCA1PArea8 img, 
+.Area-UWCA1LArea8 img, 
+.Area-UWCA1NArea8 img {
+/*
+	width:100%;
+*/
+}
+
+.Area-UWCA1PArea7 .bottomChange, 
+.Area-UWCA1LArea7 .bottomChange, 
+.Area-UWCA1NArea7 .bottomChange {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 4px 40px 10px;
+}
+
+.Area-UWCA1PArea2 .change, 
+.Area-UWCA1LArea2 .change, 
+.Area-UWCA1NArea2 .change {
+    font-size: 18px;
+    margin: 0;
+    color:#ffffff;
+}
+
+.Area-ePledgeAdmin .CashReportMainTable td {
+	font-size:11px;
+	border:1px solid #cccccc;
+}
+
+.Area-ePledgeAdmin .CashReportMainTable td td {
+	border:0;
+}
+
+.video-container {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    margin:10px;
+}
+
+.video-container iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.LUMainTable {
+	width:100%;	
+}
+
+.LUTableLeftSide {
+	width:100%;
+	margin:0;
+}
+
+.MainPage {
+/*
+	width:100%;
+	display:block;
+	box-sizing:border-box;
+*/
+}
+
+.RightSide {
+	width:100%;
+	display:block;
+	box-sizing:border-box;
+}
+
+.UWCA1PFooterArea, 
+.UWCA1LFooterArea, 
+.UWCA1NFooterArea {
+	width:100%;
+	margin:0;
+	height:20px;
+}
+
+ul.pureCssMenu li {
+    float: none;
+    display: block;
+    width: 100%;
+    border-bottom:1px solid #999999;
+}
+
+ul.pureCssMenu li:last-child {
+    float: none;
+    border-bottom:none;
+}
+
+ul.pureCssMenu a, 
+ul.pureCssMenu li.dis a:hover, 
+ul.pureCssMenu li.sep a:hover{
+	color:#ffffff;
+	padding: 12px 5px 10px 26px;
+}
+
+ul.pureCssMenu {
+	display:none;
+    background-color: #666666;
+    margin: 6px 0 0 0px;
+    position:relative;
+    width:100%;
+}
+
+ul.pureCssMenu ul {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.Menu-V ul.pureCssMenu {
+	display:block;
+}
+
+.Col-UWCA1PArea3 .PortletMenu .PortletHeader,
+.Col-UWCA1LArea3 .PortletMenu .PortletHeader,
+.Col-UWCA1NArea3 .PortletMenu .PortletHeader {
+	background-image:url("menu.png");
+	background-repeat:no-repeat;
+	background-position: 7px 7px;
+	display:block;
+	margin:0px 0px 2px 31px;
+	height:30px;
+	width:40px;
+	cursor:pointer;
+}
+
+.Menu-V {
+	margin:0;
+}
+
+.RightSide .Menu-V .Menu td.SubMenu {
+	padding:0;
+}
+
+.RightSide .Menu-V .Menu tr {
+    background-image:url("menu-bg.jpg");
+    background-repeat:repeat-x;
+}
+
+.RightSide .Menu-V .Menu td {
+    background-image:url("arrow.png");
+	background-position:right center;
+	background-repeat:no-repeat;
+	border-bottom: 1px solid #dddddd;
+}
+
+.RightSide .Menu-V .SubMenu .Menu td  {
+    background-image:url("arrow.png");
+	background-position:right center;
+	background-repeat:no-repeat;
+	border-bottom: 1px solid #dddddd;
+}
+
+.RightSide .Menu a, 
+.RightSide .Menu a:link, 
+.RightSide .Menu a:visited, 
+.RightSide .Menu a:active {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0;
+    padding: 8px 14px;
+    display: block;
+    box-sizing:border-box;
+    white-space: normal;
+}
+
+.RightSide .Menu a:hover, 
+.RightSide .Menu a:link:hover, 
+.RightSide .Menu a:visited:hover, 
+.RightSide .Menu a:active:hover  {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0;
+    padding: 8px 14px;
+    display: block;
+    box-sizing:border-box;
+    color:#999999;
+    white-space: normal;
+}
+
+.RightSide .SubMenu .Menu a, 
+.RightSide .SubMenu .Menu a:hover {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0;
+    padding: 8px 14px 8px 32px;
+    display: block;
+    box-sizing:border-box;
+    color:#999999;
+    white-space: normal;
+}
+
+.Menu-Left .MenuHeader:before,
+.Menu-Right .MenuHeader:before {
+	content:"Main Menu";
+	color:#db291d;
+	font-weight:bold;
+	font-size:18px;
+	cursor:pointer;
+}
+
+.RightSide .Menu-V .Menu {
+    width: 100%;
+    border-top:1px solid #dddddd;
+}
+
+.Menu-V ul.pureCssMenu, 
+.Menu-V ul.pureCssMenu ul {
+    background-color: #ffffff;
+    border:1px solid #cccccc;
+}
+
+.Menu-V ul.pureCssMenu ul {
+	border:3px solid #cccccc;
+
+}
+
+.RightSide .Menu-V ul.pureCssMenu li {
+    background-image:url("menu-bg.jpg");
+    background-repeat:repeat-x;
+    border-bottom:0;
+}
+
+.RightSide .Menu-V ul.pureCssMenu a, 
+.RightSide .Menu-V ul.pureCssMenu a:link, 
+.RightSide .Menu-V ul.pureCssMenu a:visited, 
+.RightSide .Menu-V ul.pureCssMenu a:active {
+    background-image:url("arrow.png");
+	background-position:right center;
+	background-repeat:no-repeat;
+	border-bottom: 1px solid #dddddd;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0;
+    padding: 8px 14px;
+    display: block;
+    box-sizing:border-box;
+    color: #666666;
+    background-color:transparent;
+}
+
+.RightSide .Menu-V ul.pureCssMenu a:hover, 
+.RightSide .Menu-V ul.pureCssMenu a:link:hover, 
+.RightSide .Menu-V ul.pureCssMenu a:visited:hover, 
+.RightSide .Menu-V ul.pureCssMenu a:active:hover  {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0;
+    padding: 8px 14px;
+    display: block;
+    box-sizing:border-box;
+    color:#999999;
+    background-color:transparent;
+    border-bottom: 1px solid #dddddd;
+}
+
+.RightSide .Menu-V ul.pureCssMenu li li a:link, 
+.RightSide .Menu-V ul.pureCssMenu li li a:visited, 
+.RightSide .Menu-V ul.pureCssMenu li li a:active {
+    padding: 8px 14px;
+}
+
+.RightSide .Menu-V ul.pureCssMenu li li a:hover, 
+.RightSide .Menu-V ul.pureCssMenu li li a:link:hover, 
+.RightSide .Menu-V ul.pureCssMenu li li a:visited:hover, 
+.RightSide .Menu-V ul.pureCssMenu li li a:active:hover  {
+    padding: 8px 14px;
+}
+
+.RightSide .Menu-V ul.pureCssMenu li:hover>a>span {
+    color: #999999;
+}
+
+.RightSide .Menu-V ul.pureCssMenu ul {
+    left: 14%;
+    top: 32px;
+    width: 86%;
+}
+
+.MenuHeader {
+	clear:both;
+}
+
+.Area-UWCA1PArea6, 
+.Area-UWCA1LArea6, 
+.Area-UWCA1NArea6 {
+    margin: 10px 20px;
+}
+
+.viewer ul li img, 
+.viewer ul li img, 
+.viewer ul li img {
+    border:0;
+    box-sizing:border-box;
+    width:94%;
+}
+
+.Area-UWCA1PArea5 .Portlet, 
+.Area-UWCA1LArea5 .Portlet, 
+.Area-UWCA1NArea5 .Portlet {
+	padding:10px 0px;
+	margin:0;
+}
+
+.Area-UWCA1PArea5 .PortletArticle, 
+.Area-UWCA1LArea5 .PortletArticle, 
+.Area-UWCA1NArea5 .PortletArticle {
+    border: 0 none;
+    color: #363636;
+    padding: 10px 12px;
+}
+
+.UWCA1PFooter a, 
+.UWCA1LFooter a, 
+.UWCA1NFooter a, 
+.UWCA1PFooterArea .LMRegularText {
+    color: #b8bbdf;
+    font-size: 9px;
+    font-weight: normal;
+}
+
+.PortletSubscr {
+	margin:10px;
+}
+
+.PortletSubscr .SubEMail input {
+    width:80%;
+}
+
+#popBlockHeader {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.popBlockSubscr {
+    padding: 5px 10px;
+    width: 160px;
+}
+
+.popBlockFisrtName, 
+.popPromptLastName {
+	width:154px;
+	height:20px;
+}
+
+.popBlockSecImage img {
+	width:166px;
+}
+
+.EPComponent img {
+    width: 70%;
+}
+
+.Classic td, 
+.Report td, 
+.Classic th, 
+.Report th {
+    padding: 1px;
+}
+
+.ProgressArrow {
+	display:block;
+}
+
+.Page-SendeMail .LeftAlign td, 
+.Page-DonorChoiceDetail .LeftAlign td, 
+.Page-DonorChoiceSummary .LeftAlign td, 
+.Page-NoResReport .leftAlign td, 
+.Page-ResponseReport .Leftalign td, 
+.Page-SumRep1 .LeftAlign td, 
+.Page-TransactionReport .leftAlign td, 
+.Area-ePledgeAdmin .SumRep2Table td, 
+.Area-ePledgeAdmin  .Page-ResponseReport td, 
+.Area-ePledgeAdmin .Page-CashReport .Leftalign td, 
+.Area-ePledgeAdmin .Page-DailyStatusReport .LeftAlign td {
+	padding:4px 1px;
+	font-size: 10px;
+}
+
+.Area-ePledgeAdmin .SumRep2Table td {
+	padding:2px;
+}
+
+.Col-SortDefinedTable input {
+	width: 100%;
+    box-sizing: border-box;
+}
+
+.Page-AgencyRegistration .AgRegisterTable .Col-Text input, 
+.Page-AgencyRegistration .AgRegisterTable select, 
+.Page-AgencyRegistration .AgRegisterTable textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.GiveVolunteerAct {
+	background-color: #db291d;
+	text-align: center;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin:0 10px;
+}
+
+.GiveVolunteerAct li {
+/*
+	display:inline-block;
+	background-image: none;
+*/
+}
+
+.Col-UWCA1PArea5 .give a, 
+.Col-UWCA1LArea5 .give a, 
+.Col-UWCA1NArea5 .give a,
+.Col-UWCA1PArea5 .volunteer a, 
+.Col-UWCA1LArea5 .volunteer a, 
+.Col-UWCA1NArea5 .volunteer a,
+.Col-UWCA1PArea5 .act a, 
+.Col-UWCA1LArea5 .act a, 
+.Col-UWCA1NArea5 .act a,
+.Col-UWCA1PArea5 .give a:hover, 
+.Col-UWCA1LArea5 .give a:hover, 
+.Col-UWCA1NArea5 .give a:hover,
+.Col-UWCA1PArea5 .volunteer a:hover, 
+.Col-UWCA1LArea5 .volunteer a:hover, 
+.Col-UWCA1NArea5 .volunteer a:hover,
+.Col-UWCA1PArea5 .act a:hover, 
+.Col-UWCA1LArea5 .act a:hover, 
+.Col-UWCA1NArea5 .act a:hover {
+    background-image: none;
+    width:100%;
+    padding: 8px;
+    height:auto;
+}
+
+.Col-UWCA1PArea5 .ArticleTitle, 
+.Col-UWCA1LArea5 .ArticleTitle, 
+.Col-UWCA1NArea5 .ArticleTitle, 
+.Col-UWCA1PArea5 .SubWebTitle, 
+.Col-UWCA1NArea5 .SubWebTitle, 
+.Col-UWCA1LArea5 .SubWebTitle {
+	background-image: none;
+	width: 100%;
+	height: auto;
+	border:0;
+	padding: 5px 0 0;
+}
+
+.Col-UWCA1PArea5 .ArticleTitle a, 
+.Col-UWCA1PArea5 .ArticleTitle a:link, 
+.Col-UWCA1PArea5 .ArticleTitle a:visited, 
+.Col-UWCA1PArea5 .ArticleTitle a:active, 
+.Col-UWCA1LArea5 .ArticleTitle a, 
+.Col-UWCA1LArea5 .ArticleTitle a:link, 
+.Col-UWCA1LArea5 .ArticleTitle a:visited, 
+.Col-UWCA1LArea5 .ArticleTitle a:active, 
+.Col-UWCA1NArea5 .ArticleTitle a, 
+.Col-UWCA1NArea5 .ArticleTitle a:link, 
+.Col-UWCA1NArea5 .ArticleTitle a:visited,
+.Col-UWCA1NArea5 .ArticleTitle a:active, 
+.Col-UWCA1PArea5 .ArticleTitle,
+.Col-UWCA1LArea5 .ArticleTitle, 
+.Col-UWCA1NArea5 .ArticleTitle {
+	color:#db291d;
+	font-size:16px;
+}
+
+.Col-UWCA1PArea5 .ArticleTitle a:hover, 
+.Col-UWCA1PArea5 .ArticleTitle a:link:hover, 
+.Col-UWCA1PArea5 .ArticleTitle a:visited:hover, 
+.Col-UWCA1PArea5 .ArticleTitle a:active:hover, 
+.Col-UWCA1LArea5 .ArticleTitle a:hover, 
+.Col-UWCA1LArea5 .ArticleTitle a:link:hover, 
+.Col-UWCA1LArea5 .ArticleTitle a:visited:hover, 
+.Col-UWCA1LArea5 .ArticleTitle a:active:hover, 
+.Col-UWCA1NArea5 .ArticleTitle a:hover, 
+.Col-UWCA1NArea5 .ArticleTitle a:link:hover, 
+.Col-UWCA1NArea5 .ArticleTitle a:visited:hover, 
+.Col-UWCA1NArea5 .ArticleTitle a:active:hover {
+	color:#db291d;
+	text-decoration:underline;
+	font-size:16px;
+}
+ 
+.Area-UWCA1PArea5 .MenuHeader, 
+.Area-UWCA1LArea5 .MenuHeader, 
+.Area-UWCA1NArea5 .MenuHeader {
+	background-image:none;
+	height: auto;
+	width: 100%;
+    padding:0px 4px 4px 14px;
+    box-sizing:border-box;
+}
+
+.Col-UWCA1PArea5 .PortletArticle, 
+.Col-UWCA1LArea5 .PortletArticle, 
+.Col-UWCA1NArea5 .PortletArticle {
+    background-color: #ffffff;
+}
+
+.RightSide .Portlet p, 
+.RightSide .PortletNote, 
+.RightSide .Portlet {
+	color:#666666;
+}
+
+.Area-UWCA1PArea5 .Menu, 
+.Area-UWCA1LArea5 .Menu, 
+.Area-UWCA1NArea5 .Menu {
+    background-color: #ffffff;
+    width:100%;
+}
+
+.RightSide .Menu a, 
+.RightSide .Menu a:link, 
+.RightSide .Menu a:visited, 
+.RightSide .Menu a:active {
+    color: #666666;
+}
+
+.Area-UWCA1PArea5 .MenuFooter, 
+.Area-UWCA1LArea5 .MenuFooter, 
+.Area-UWCA1NArea5 .MenuFooter {
+    background-image: none;
+    width: 100%;
+}
+
+.UWCAFooterArea {
+	display:none;
+}
+
+.Section-NavigateTree .NABlock {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Section-NavigateTree {
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+}
+
+
+.GROUP_Address, 
+.GROUP_Location {
+	display:block;
+}
+
+.GROUP_Transit, 
+.GROUP_Season {
+	display:block;
+	width: 100%;
+}
+
+.PanelRow .AuditPanel input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.PanelField .Date input, 
+.PanelRow .Date input {
+	width:auto;
+}
+
+.AuditPanel .Label.Created-, 
+.AuditPanel .Label.Last-Changed-{
+	margin-top:14px;
+}
+
+.content {
+/*
+	margin:18px;
+*/
+}
+
+.Area-ePledgeAdmin .CashReportMainTable td {
+	font-size:11px;
+	border:1px solid #cccccc;
+}
+
+.Area-ePledgeAdmin .CashReportMainTable td td {
+	border:0;
+}
+
+.video-container {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    margin:10px;
+}
+
+.video-container iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.LUMainTable {
+	width:100%;	
+}
+
+.MainPage {
+/*
+	width:100%;
+	display:block;
+*/
+
+}
+
+.RightSide {
+	width:100%;
+	display:block;
+}
+
+ul.pureCssMenu a, 
+ul.pureCssMenu li.dis a:hover, 
+ul.pureCssMenu li.sep a:hover {
+	padding: 12px 5px 10px 14px;
+	font-size:14px;
+	font: 14px Arial,Tahoma;
+}
+
+ul.pureCssMenu li:hover > a {
+    font: 14px Arial,Tahoma;
+
+}
+
+ul.pureCssMenu ul {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.socialicons {
+    padding: 0;
+    text-align: center;
+}
+
+.RightSide .Menu-V {
+	margin:0;
+}
+
+.RightSide .Menu-V .Menu td.SubMenu {
+	padding:0;
+}
+
+.RightSide .Menu-V .Menu {
+    width: 100%;
+    border-top:1px solid #dddddd;
+}
+
+.MenuHeader {
+	clear:both;
+}
+
+.PortletSubscr {
+	margin:10px;
+}
+
+.PortletSubscr .SubEMail input {
+    width:80%;
+}
+
+#popBlockHeader {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.popBlockSubscr {
+    padding: 5px 10px;
+    width: 160px;
+}
+
+.popBlockFisrtName, .popPromptLastName {
+	width:154px;
+	height:20px;
+}
+
+.popBlockSecImage img {
+	width:166px;
+}
+
+.EPComponent img {
+    width: 70%;
+}
+
+.ProgressArrow {
+	display:block;
+}
+
+.copyright {
+	margin:2px 0 6px 0;
+	font-size:9px;
+}
+
+.Page-SendeMail .LeftAlign td, 
+.Page-DonorChoiceDetail .LeftAlign td, 
+.Page-DonorChoiceSummary .LeftAlign td, 
+.Page-NoResReport .leftAlign td, 
+.Page-ResponseReport .Leftalign td, 
+.Page-SumRep1 .LeftAlign td, 
+.Page-TransactionReport .leftAlign td, 
+.Area-ePledgeAdmin .SumRep2Table td, 
+.Area-ePledgeAdmin  .Page-ResponseReport td, 
+.Area-ePledgeAdmin .Page-CashReport .Leftalign td, 
+.Area-ePledgeAdmin .Page-DailyStatusReport .LeftAlign td {
+	padding:4px 6px;
+	font-size: 12px;
+}
+
+.MainPage .Col-SortDefinedTable input {
+	width: 100%;
+    box-sizing: border-box;
+}
+
+.Col-Prefix, .Col-MiddleName, 
+.Col-Suffix {
+	display:none;
+}
+
+.Col-eMailField input {
+	width:200px;
+}
+
+.EventCalendarTable .Col-Text {
+	font-size:9px;
+}
+
+.MainPage form .EventCalendarTable td, 
+.MainPage form .EventCalendarTable th {
+	padding:1px;
+}
+
+.Page-CBPackageDtlUpdate .TableFormDetails, 
+.Page-Forms .TableFormDetails, 
+.Page-SurveyNE .TableFormDetails, 
+.Page-Survey .TableFormDetails, 
+.Page-EventAttendance .TableFormDetails {
+	width:100%;
+}
+
+.Area-EventManagement .AddActivity td, 
+.Area-EventManagement .EventManagement td, 
+.Area-EventManagement .EventManagement th {
+    padding: 2px;
+}
+
+.VolAttachFileTale .Col-Password input {
+	width:200px;
+}
+
+.MyOutputs .Col-JobName, 
+.CashReportMainTable .col-Heading {
+    white-space: normal;
+}
+
+.MyOutputs .Col-Date {
+    white-space: normal;
+}
+
+.AddActivity .Col-DropList select {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Page-IPledgeAddInfo .Col-RosterName1 input, 
+.Page-IPledgeAddInfo .Col-RosterName2 input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Page-IPledgeAddInfo .Col-IndEMail input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Page-BioTab .HistoryChart img {
+	width:100%;
+	max-width:260px;
+}
+
+.Page-BioTab object embed {
+	width:80px;
+}
+
+.AccountKeyword input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Page-BioTab .Navigation td {
+	display:block;
+    padding:2px 0;
+}
+
+.Page-BioTab .BioTabSeparator img {
+	display:none;
+}
+
+.Page-BioTab .Navigation {
+    height: auto;
+    margin: 10px 0;
+}
+
+.Section-EventRegistration .AttendList .Col-FirstName input, 
+.Section-EventRegistration .AttendList .Col-LastName input, 
+.Section-EventRegistration .AttendList .Col-email input {
+    width: 100%;
+    box-sizing:border-box;
+}
+
+.Section-EventRegistration .AttendList {
+    width: 100%;
+}
+
+#EventReg {
+    margin: 2px 0;
+}
+
+html td {
+    font-size: 12px;
+}
+
+.MainPage .Page-IRAdvancedS .KeywordSection td {
+	display:block;
+	padding:0;
+}
+
+.BlockHeader, 
+.InstructionHeader, 
+.WarningHeader, 
+.ErrorHeader, 
+.TreeHeader {
+    font-size: 12px;
+}
+
+.Area-Volunteer .Page-VolOpInfo .OpName {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.Area-Volunteer .Page-VolOpInfo .agencyName, 
+.Area-Volunteer .Page-VolOpInfo .eventName {
+    font-size: 12px;
+}
+
+.Page-OpMaint select {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.NoResponseReport td {
+	font-size:11px;
+}
+
+.MainPage .Page-DonorChoiceDetail .Col-SortDefinedTable .DonorChoiceDtl input, 
+.MainPage .Page-DonorChoiceSummary .DonorChoiceSry input, 
+.MainPage .CampLevelRpt input, 
+.MainPage .Col-SortDefinedTable .CashReport input, 
+.MainPage .col-DonorEMailPeckList .donorEMailPeck, 
+.MainPage .Col-SortDefinedTable .DailyStatusRpt input, 
+.MainPage .EmployeeStatusRpt input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.col-Description input, 
+.col-Droplist select {
+	width: 100%;
+    box-sizing: border-box;
+}
+
+.PledgeProgress {
+	margin-bottom:10px;
+}
+
+.Area-Article {
+	margin-right:0;
+}
+
+.Area-Article img {
+	max-width:100%;
+}
+
+.Page-IProfile .Section-IProfile .Col-Input input, 
+.Page-IProfile .Section-IProfile .IndNameTable {
+	width:100%;
+	box-sizing:border-box;
+}
+
+
+.Area-CB .TableReferenceMaterial td, 
+.Area-CB .TableReferenceMaterial th,
+.Area-CB .TableReferenceMaterial td.Col-Text {
+	padding:2px 1px;
+	font-size:9px;
+}
+
+.Page-ProgramEval .Section-ReferenceMaterials {
+    margin-top: 10px;
+    padding: 2px;
+    width: 100%;
+}
+
+.Page-AgencyRegistration .AgRegisterTable .Col-Text input, 
+.Page-AgencyRegistration .AgRegisterTable select, 
+.Page-AgencyRegistration .AgRegisterTable textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.Col-cPreLabel, 
+.Col-cMidLabel, 
+.Col-cSufLabel, 
+.Col-cPreInput, 
+.Col-cMidInput, 
+.Col-cSufInput {
+	display:none;
+}
+
+.Page-AgencyRegistration .Col-cityInput input, 
+.Page-AgencyRegistration .Col-stateList select, 
+.Page-AgencyRegistration .Col-zipInput input, 
+.Page-AgencyRegistration .Col-eMailInput input, 
+.Page-AgencyRegistration textarea, 
+.Page-AgencyRegistration .Col-address1Input input, 
+.Page-AgencyRegistration .Col-address2Input input, 
+.Page-AgencyRegistration .Col-address3Input input, 
+.Page-AgencyRegistration .Col-address4Input input, 
+.Page-AgencyRegistration .Col-OrgName input {
+	width:100%;
+	box-sizing:border-box;
+	font-size:12px;
+}
+
+.Page-AgencyRegistration .AgRegisterTable td {
+	font-size:12px;
+	display: block;
+}
+
+.Page-AgencyRegistration .AgRegisterTable td td {
+    display: table-cell;
+    font-size:12px;
+}
+
+.Page-AgencyRegistration .AgRegisterTable td.Col-Space.Col-Empty {
+	height:0;
+}
+
+.PledgeProgress .ProgressArrow {
+	display:block;
+}
+
+.MobileTable {
+	border:1px solid #cccccc;
+}
+
+.MobileTable tr, 
+.MobileTable th, 
+.MobileTable td { 
+	display: block; 
+}
+
+.MobileTable thead, .MobileTable th {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	z-index:10000;
+}
+
+.MobileTable tr {
+	border-bottom:1px solid #444444;
+}
+
+.content .MobileTable td {
+	border: none;
+	border-top: 1px solid #eee; 
+	position: relative;
+	padding-left: 50%; 
+	font-size:11px;
+	min-height:22px;
+	vertical-align:middle;
+	padding-top:6px;
+	padding-right:6px;
+	box-sizing:border-box;
+}
+
+.MobileTable td:before { 
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 45%; 
+	padding-right: 10px; 
+	white-space: nowrap;
+	font-size:11px;
+	text-align:left;
+	font-weight:bold;
+	content: attr(data-title);
+}
+
+.content .MobileTable td.Col-Button {
+	border-top: 0; 
+	position: relative;
+	padding-left:4px; 
+	display:inline-block;
+	padding: 4px 6px 4px 6px;
+}
+
+.MobileTable td.Col-Button:before { 
+	width: 0; 
+	content:none;
+}
+
+.MobileTable .Col-Dollar, 
+.MobileTable .Col-Integer, 
+.MobileTable .Col-Percentage, 
+.MobileTable .Col-Decimal, 
+.MobileTable .Col-Number, 
+.MobileTable .Col-Percentage input,
+.MobileTable .Col-Dollar input, 
+.MobileTable .Col-Integer input, 
+.MobileTable .Col-Decimal input, 
+.MobileTable .Col-Number Input,
+.MobileTable .Col-Fmt-ANDARWholeNumberFormatter, 
+.MobileTable .Col-Fmt-ANDARIntegerFormatter,
+.MobileTable .Col-Fmt-ANDARDollarAmountFormatter, 
+.MobileTable .Col-Fmt-ANDARPercentFormatter, 
+.MobileTable .Col-Fmt-ANDARRealNumberFormatter, 
+.MobileTable .BioDonorStatisticsTable .Col-Date, 
+.MobileTable .BioDonorStatisticsTable .Col-MaxGiftMonth, 
+.MobileTable .BioDonorStatisticsTable .Col-DesignationPercentLabel, 
+.MobileTable .BioDonorStatisticsTable .Col-DesignationTrendLabel, 
+.MobileTable .BioDonorStatisticsTable .Col-DesignationAverageLabel, 
+.MobileTable .BioDonorStatisticsTable .Col-VolCountLabel, 
+.MobileTable .BioDonorStatisticsTable .Col-VolCountTrendLabel, 
+.MobileTable .BioDonorStatisticsTable .Col-VolHourLabel, 
+.MobileTable .BioDonorStatisticsTable .Col-VolHourTrendLabel, 
+.MobileTable .BioDonorStatisticsTable .Col-EventCountTrendLabel, 
+.MobileTable .BioDonorStatisticsTable .Col-EventCountLabel{
+	text-align:left;
+}
+
+.HideWhenMobile {
+    display: none;
+}
+
+.LFArea .MobileTable tr.Row-Odd td, 
+.LFArea .MobileTable tr.Row-Even td {
+    background-color: transparent;
+}
+
+.Dashboard .MobileTable tr.Row-Odd td, 
+.Dashboard .MobileTable tr.Row-Even td {
+    background-color: transparent;
+}
+
+.Col-Subject input, textarea, 
+.Col-SubjectCode select {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.Classic .Row-Even, 
+.MobileTable .Row-Even, 
+.MobileTable .Row-Even td {
+	background: none repeat scroll 0 0 transparent;
+}
+
+.MobileTable.NoHeader th, 
+.MobileTable.NoHeader td { 
+	display: table-cell; 
+	border:1px solid #cccccc;
+	padding-left:4px; 
+}
+
+.MobileTable.NoHeader tr { 
+	display: table-row; 
+	border-bottom:0;
+}
+
+.MobileTable.NoHeader thead {
+	position: static;
+}
+
+.MobileTable.NoHeader td:before { 
+	position: static;
+	width: 0%; 
+	padding-right: 0px; 
+	content: none;
+}
+
+.CampStatus {
+	border:1px solid #cccccc;
+	width: 100%;
+}
+
+.CampStatus tr, 
+.CampStatus th, 
+.CampStatus td { 
+	display: block; 
+}
+
+.CampStatus th {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	z-index:10000;
+	white-space:normal;
+}
+
+.CampStatus tr {
+	border-bottom:1px solid #444444;
+}
+
+.content .CampStatus td {
+	border: none;
+	border-top: 1px solid #eee; 
+	position: relative;
+	padding-left: 50%; 
+	font-size:11px;
+	min-height:22px;
+	vertical-align:middle;
+	padding-top:6px;
+	padding-right:6px;
+	box-sizing:border-box;
+}
+
+.CampStatus td:before { 
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 45%; 
+	padding-right: 10px; 
+	white-space: nowrap;
+	font-size:11px;
+	text-align:left;
+	font-weight:bold;
+	content: attr(data-title);
+}
+
+.CampStatus .Col-Dollar, 
+.CampStatus .Col-Integer, 
+.CampStatus .Col-Percentage, 
+.CampStatus .Col-Decimal, 
+.CampStatus .Col-Number, 
+.CampStatus .Col-Percentage input, 
+.CampStatus .Col-Dollar input, 
+.CampStatus .Col-Integer input, 
+.CampStatus .Col-Decimal input, 
+.CampStatus .Col-Number Input {
+	text-align:left;
+}
+
+.CampStatus .Col-Image {
+    text-align: left;
+}
+
+.CampHistory {
+	border:1px solid #cccccc;
+	width: 100%;
+}
+
+.CampHistory tr, 
+.CampHistory th, 
+.CampHistory td { 
+	display: block; 
+}
+
+.CampHistory th {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	z-index:10000;
+}
+
+.CampHistory tr {
+	border-bottom:1px solid #444444;
+}
+
+.content .CampHistory td {
+	border: none;
+	border-top: 1px solid #eee; 
+	position: relative;
+	padding-left: 50%; 
+	font-size:11px;
+	min-height:22px;
+	vertical-align:middle;
+	padding-top:6px;
+	padding-right:6px;
+	box-sizing:border-box;
+}
+
+.CampHistory td:before { 
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 45%; 
+	padding-right: 10px; 
+	white-space: nowrap;
+	font-size:11px;
+	text-align:left;
+	font-weight:bold;
+	content: attr(data-title);
+}
+
+.CampHistory .Col-Dollar, 
+.CampHistory .Col-Integer, 
+.CampHistory .Col-Percentage, 
+.CampHistory .Col-Decimal, 
+.CampHistory .Col-Number, 
+.CampHistory .Col-Percentage input, 
+.CampHistory .Col-Dollar input, 
+.CampHistory .Col-Integer input, 
+.CampHistory .Col-Decimal input, 
+.CampHistory .Col-Number Input {
+	text-align:left;
+}
+
+.CampHistory .Col-Image {
+    text-align: left;
+}
+
+.QuickSumTable {
+	border:1px solid #cccccc;
+	width: 100%;
+}
+
+.QuickSumTable tr, 
+.QuickSumTable th, 
+.QuickSumTable td { 
+	display: block; 
+}
+
+.QuickSumTable th {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	z-index:10000;
+}
+
+.QuickSumTable tr {
+	border-bottom:1px solid #444444;
+}
+
+.content .QuickSumTable td {
+	border: none;
+	border-top: 1px solid #eee; 
+	position: relative;
+	padding-left: 50%; 
+	font-size:11px;
+	min-height:22px;
+	vertical-align:middle;
+	padding-top:6px;
+	padding-right:6px;
+	box-sizing:border-box;
+}
+
+.QuickSumTable td:before { 
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 45%; 
+	padding-right: 10px; 
+	white-space: nowrap;
+	font-size:11px;
+	text-align:left;
+	font-weight:bold;
+	content: attr(data-title);
+}
+
+.QuickSumTable .Col-Dollar, 
+.QuickSumTable .Col-Integer, 
+.QuickSumTable .Col-Percentage, 
+.QuickSumTable .Col-Decimal, 
+.QuickSumTable .Col-Number, 
+.QuickSumTable .Col-Percentage input, 
+.QuickSumTable .Col-Dollar input, 
+.QuickSumTable .Col-Integer input, 
+.QuickSumTable .Col-Decimal input, 
+.QuickSumTable .Col-Number Input {
+	text-align:left;
+}
+
+.QuickSumTable .Col-Image {
+    text-align: left;
+}
+
+.MyOutputs {
+	border:1px solid #cccccc;
+	width: 100%;
+}
+
+.MyOutputs tr, 
+.MyOutputs th, 
+.MyOutputs td { 
+	display: block; 
+}
+
+.MyOutputs th {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	z-index:10000;
+	white-space:normal;
+}
+
+.MyOutputs tr {
+	border-bottom:1px solid #444444;
+}
+
+.MyOutputs td {
+	border: none;
+	border-top: 1px solid #eee; 
+	position: relative;
+	padding-left: 50% !important; 
+	font-size:11px;
+	min-height:22px;
+	vertical-align:middle;
+	padding-top:6px;
+	padding-right:6px;
+	box-sizing:border-box;
+}
+
+.MyOutputs td:before { 
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 45%; 
+	padding-right: 10px; 
+	white-space: nowrap;
+	font-size:11px;
+	text-align:left;
+	font-weight:bold;
+	content: attr(data-title);
+}
+
+.MyOutputs .Col-Dollar, 
+.MyOutputs .Col-Integer, 
+.MyOutputs .Col-Percentage, 
+.MyOutputs .Col-Decimal, 
+.MyOutputs .Col-Number, 
+.MyOutputs .Col-Percentage input, 
+.MyOutputs .Col-Dollar input, 
+.MyOutputs .Col-Integer input, 
+.MyOutputs .Col-Decimal input, 
+.MyOutputs .Col-Number Input {
+	text-align:left;
+}
+
+.MyOutputs .Col-Image {
+    text-align: left;
+}
+
+.MyOutputs input[type="checkbox"], .MyOutputs input[type="radio"] {
+    margin: 0;
+}
+
+td.Col-Name {
+    width: auto;
+}
+
+.MyOutputs .Col-JobName, .CashReportMainTable .col-Heading {
+    white-space: normal;
+}
+
+.RecentTranTable {
+	border:1px solid #cccccc;
+	width: 100%;
+}
+
+.RecentTranTable tr, 
+.RecentTranTable th, 
+.RecentTranTable td { 
+	display: block; 
+}
+
+.RecentTranTable th {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	z-index:10000;
+}
+
+.RecentTranTable tr {
+	border-bottom:1px solid #444444;
+}
+
+.content .RecentTranTable td {
+	border: none;
+	border-top: 1px solid #eee; 
+	position: relative;
+	padding-left: 50%; 
+	font-size:11px;
+	min-height:22px;
+	vertical-align:middle;
+	padding-top:6px;
+	padding-right:6px;
+	box-sizing:border-box;
+}
+
+.RecentTranTable td:before { 
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 45%; 
+	padding-right: 10px; 
+	white-space: nowrap;
+	font-size:11px;
+	text-align:left;
+	font-weight:bold;
+	content: attr(data-title);
+}
+
+.RecentTranTable .Col-Dollar, 
+.RecentTranTable .Col-Integer, 
+.RecentTranTable .Col-Percentage, 
+.RecentTranTable .Col-Decimal, 
+.RecentTranTable .Col-Number, 
+.RecentTranTable .Col-Percentage input, 
+.RecentTranTable .Col-Dollar input, 
+.RecentTranTable .Col-Integer input, 
+.RecentTranTable .Col-Decimal input, 
+.RecentTranTable .Col-Number Input {
+	text-align:left;
+}
+
+.RecentTranTable .Col-Image {
+    text-align: left;
+}
+
+.AHistTranTable {
+	border:1px solid #cccccc;
+	width: 100%;
+}
+
+.AHistTranTable tr, 
+.AHistTranTable th, 
+.AHistTranTable td { 
+	display: block; 
+}
+
+.AHistTranTable th {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	z-index:10000;
+}
+
+.AHistTranTable tr {
+	border-bottom:1px solid #444444;
+}
+
+.content .AHistTranTable td {
+	border: none;
+	border-top: 1px solid #eee; 
+	position: relative;
+	padding-left: 50%; 
+	font-size:11px;
+	min-height:22px;
+	vertical-align:middle;
+	padding-top:6px;
+	padding-right:6px;
+	box-sizing:border-box;
+}
+
+.AHistTranTable td:before { 
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 45%; 
+	padding-right: 10px; 
+	white-space: nowrap;
+	font-size:11px;
+	text-align:left;
+	font-weight:bold;
+	content: attr(data-title);
+}
+
+.AHistTranTable .Col-Dollar, 
+.AHistTranTable .Col-Integer, 
+.AHistTranTable .Col-Percentage, 
+.AHistTranTable .Col-Decimal, 
+.AHistTranTable .Col-Number, 
+.AHistTranTable .Col-Percentage input, 
+.AHistTranTable .Col-Dollar input, 
+.AHistTranTable .Col-Integer input, 
+.AHistTranTable .Col-Decimal input, 
+.AHistTranTable .Col-Number Input {
+	text-align:left;
+}
+
+.AHistTranTable .Col-Image {
+    text-align: left;
+}
+
+.Dashboard table {
+    border: 1px solid #444444;
+}
+
+.IPledgeTable .Col-Space {
+	display:none;
+}
+
+.IPledgeTable input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.IPledgeTable input[type=checkbox], 
+.IPledgeTable input[type=radio] {
+	width:auto;
+}
+
+.SortTable, .SortTable select {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.col-FAmountInput input,
+.col-TAmountInput input  {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.AddNameTable {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.AddEmployeeTable input,
+.AddEmployeeTable  select {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.AddEmployeeTable .Col-BillStartDateField input,
+.AddEmployeeTable .Col-PayrollStartDateField input,
+.AddEmployeeTable .Col-BillStartDateField a,
+.AddEmployeeTable .Col-PayrollStartDateField  a {
+	width:auto;
+	display:inline-block;
+}
+
+.AddEmployeeTable .Col-Heading {
+	white-space:nowrap;
+}
+
+.Col-HeaderPrefixLabel, 
+.Col-HeaderMiddleNameLabel,
+.Col-HeaderSuffixLabel, 
+.Col-NamePrefix, 
+.Col-NameMiddleName, 
+.Col-NameSuffix {
+	display:none;
+}
+
+.Area-Profile .IndProfileInclude input,
+.Area-Profile .IndProfileInclude select {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Area-Profile .IndProfileInclude input[type=radio], 
+.Area-Profile .IndProfileInclude input[type=checkbox] {
+	width:auto;
+}
+
+.Page-IPledgeConfirm .PledgeSummary, 
+.Page-IPledgeConfirmDisplay .PledgeDes, 
+.Page-IPledgeConfirmDisplay .PledgeSummary, 
+.Page-SPRPThankyou .PledgeSummary, 
+.Page-IPledgeReplicate .PledgeSummary {
+	width:100%;
+}
+
+.Page-IPledgeDes2 .SearchOptionTable input,
+.Page-IPledgeDes2 .SearchOptionTable select {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Page-NewContact .Row-NameSearch input {
+	width:100%;
+	box-sizing:border-box;
+	margin-bottom:4px;
+}
+
+.Page-LoginForgot .LoginForgotTable {
+	box-sizing: border-box;
+    width: 100%;
+} 
+
+.Page-LoginForgot .LoginForgotTable td {
+	display:block;
+}
+
+.Page-LoginForgot .LoginForgotTable input {
+	width:100%;
+	box-sizing: border-box;
+}
+
+.Page-LoginForgot .Block .LoginForgotTable .Col-Heading {
+	text-align:left;
+}
+
+.Area-Registration .RegistrationInclude td {
+	display:block;
+	margin-top: -1px;
+}
+
+.Area-Registration .RegistrationInclude td td {
+	display:table-cell;
+}
+
+.Area-Registration .RegistrationInclude .Col-HeaderPrefixLabel, 
+.Area-Registration .RegistrationInclude .Col-HeaderMiddleNameLabel, 
+.Area-Registration .RegistrationInclude .Col-HeaderSuffixLabel, 
+.Area-Registration .RegistrationInclude .Col-NamePrefix, 
+.Area-Registration .RegistrationInclude .Col-NameMiddleName, 
+.Area-Registration .RegistrationInclude .Col-NameSuffix {
+	display:none;
+}
+
+.Area-Registration .LeftAlign td td {
+	padding:1px;
+}
+
+.Area-Registration .RegistrationInclude input, 
+.Area-Registration .RegistrationInclude select {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Area-Registration .RegistrationInclude input[type=checkbox], 
+.Area-Registration .RegistrationInclude input[type=radio], 
+.Area-Registration .RegistrationInclude input[type=file], 
+.Area-Registration .RegistrationInclude .Col-Radio input, 
+.Area-Registration .RegistrationInclude .Col-Checkbox input {
+	height:auto;
+	width:auto;
+}
+
+.Area-Registration .RegistrationInclude .Col-IndNameLabel,
+.Area-Registration .RegistrationInclude .Col-IndAddressTitle {
+	display:none;
+}
+
+.TableFormDetails .Row-LineDetail select,
+.TableFormDetails .Row-LineDetail input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.TableFormDetails .Row-LineDetail input[type=checkbox], 
+.TableFormDetails .Row-LineDetail input[type=radio], 
+.TableFormDetails .Row-LineDetail input[type=file], 
+.TableFormDetails .Row-LineDetail .Col-Radio input, 
+.TableFormDetails .Row-LineDetail .Col-Checkbox input {
+	height:auto;
+	width:auto;
+}
+
+.Area-Registration .AddressChooseTable table,
+.Area-Registration .RegistrationInclude .IndNameTable {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Area-Registration .LoginBlock,
+.Area-Registration .LoginBlock input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.NonTableLayout .Col-Percentage input, 
+.NonTableLayout .Col-Dollar input, 
+.NonTableLayout .Col-Integer input, 
+.NonTableLayout .Col-Decimal input, 
+.NonTableLayout .Col-Number input, 
+.NonTableLayout .Col-TextLine input, 
+.NonTableLayout .Col-Phone table, 
+.NonTableLayout .Col-Time, 
+.NonTableLayout .Col-eMail, 
+.NonTableLayout .Col-YesNo, 
+.NonTableLayout .Col-Date, 
+.NonTableLayout .Col-Table, 
+.NonTableLayout .Col-RadioYNNA, 
+.NonTableLayout .Col-Total {
+	float:none;
+}
+
+.NonTableLayout .Row-LineDetail table {
+    float: none;
+}
+
+.Col-AttendSurvey .Row-LineDetail, 
+.Col-AttendSurvey .Row-Mandatory {
+    margin: 6px 14px 6px 10px;
+}
+
+.Col-AttendSurvey .NonTableLayout .LineIndent0 textarea, 
+.Col-AttendSurvey .NonTableLayout .LineIndent1 textarea, 
+.Col-AttendSurvey .NonTableLayout .LineIndent2 textarea, 
+.Col-AttendSurvey .NonTableLayout .LineIndent3 textarea, 
+.Col-AttendSurvey .NonTableLayout .LineIndent4 textarea, 
+.Col-AttendSurvey .NonTableLayout .LineIndent5 textarea {
+    width: 100%;
+    box-sizing:border-box;
+}
+
+html ul.pureCssMenu ul {
+    width: 86%;
+    left:14%;
+    background-color:#6f7271;
+    z-index: 5;
+}
+
+ul.pureCssMenu ul ul {
+    top: 34px;
+}
+
+.ADetailsTable th, 
+.ADetailsTable td {
+	font-size:11px;
+}
+
+.Section-PledgeConfirm .PledgeNavigation {
+    height: auto;
+}
+
+.Section-NavigateTree .NABlock {
+    background: none repeat scroll 0 0 transparent;
+}
+
+.Page-EventRegistration #PaymentInformationBlock, 
+.Page-EventRegistration #BMPayment {
+    border: 0;
+    width:100%;
+    box-sizing:border-box;
+}
+
+.MainPage .Area-Registration {
+	width:auto;
+}
+
+.TableFormDetails .Row-LineDetail input {
+    margin: 0;
+}
+
+.Page-AgencySearc .SearchEntry input {
+	width:100%;
+    box-sizing:border-box;
+}
+
+.Col-UWCA1PArea7, 
+.Col-UWCA1LArea7, 
+.Col-UWCA1NArea7 {
+/*
+	width: 70%;
+*/
+}
+
+ul.pureCssMenu ul {
+    background-color: #666666;
+}
+.MainPage form .AttendList  {
+	border:1px solid #cccccc;
+	width: 100%;
+}
+
+.MainPage form .AttendList tr, 
+.MainPage form .AttendList th, 
+.MainPage form .AttendList td { 
+	display: block; 
+}
+
+.MainPage form .AttendList td td {
+	display:table-cell;
+}
+
+.MainPage form .AttendList .Row-Heading th {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	z-index:10000;
+}
+
+.MainPage form .AttendList td.Col-FirstName, 
+.MainPage form .AttendList td.Col-LastName, 
+.MainPage form .AttendList td.Col-email, 
+.MainPage form .AttendList td.Col-emailName {
+	border: none;
+	border-top: 1px solid #eee; 
+	position: relative;
+	padding-left: 34%; 
+	font-size:11px;
+	min-height:22px;
+	vertical-align:middle;
+	padding-top:6px;
+	padding-right:6px;
+	box-sizing:border-box;
+}
+
+.MainPage form .AttendList td.Col-FirstName:before, 
+.MainPage form .AttendList td.Col-LastName:before, 
+.MainPage form .AttendList td.Col-email:before, 
+.MainPage form .AttendList td.Col-emailName:before { 
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 34%; 
+	padding-right: 10px; 
+	white-space: nowrap;
+	font-size:11px;
+	text-align:left;
+	font-weight:bold;
+	content: attr(data-title);
+}
+
+.MainPage form .AttendList .Col-Image {
+    text-align: left;
+}
+
+.MainPage form .Section-EventRegistration .Col-AttendCombGiver {
+    text-align:left;
+    border:0;
+}
+
+.AttendList .Col-Dollar, 
+.AttendList .Col-Integer, 
+.AttendList .Col-Percentage, 
+.AHistTranTable .Col-Decimal, 
+.AttendList .Col-Number, 
+.AttendList .Col-Percentage input, 
+.AttendList .Col-Dollar input, 
+.AttendList .Col-Integer input, 
+.AttendList .Col-Decimal input, 
+.AttendList .Col-Number Input {
+	text-align:left;
+}
+
+.TableFormDetails .LineIndent0, 
+.TableFormDetails .LineIndent1, 
+.TableFormDetails .LineIndent2, 
+.TableFormDetails .LineIndent3, 
+.TableFormDetails .LineIndent4, 
+.TableFormDetails .LineIndent5 {
+	padding:0;
+}
+
+.Col-AttendSurvey .Row-LineDetail input {
+	margin: 4px 0px;
+}
+
+.MainPage form .AttendList td.Col-Survey.Col-AttendSurvey {
+	border-right:0;
+	border-left:0;
+	border-bottom:0;
+}
+
+.LoginButtonPanel div {
+    display: block;
+}
+
+.Page-preLoginJAAS {
+	margin-top:16px;
+}
+
+.Page-preLoginJAAS .LoginButtonPanel {
+    margin: 16px 0;
+}
+
+.Area-Volunteer .CheckboxTable td {
+    padding: 1px;
+}
+
+.DesAgSearchList .Col-Input.Col-DesAmount > input {
+    width: 100%;
+}
+
+.Section-SubscriptionsSelection .TableReportSelection td {
+	display:block;
+}
+
+.Section-SubscriptionsSelection .TableReportSelection .Col-Integer.Col-Count {
+    border-top: 1px solid #000000;
+    text-align: left;
+}
+
+.Page-TransactionList .TransactionsList th {
+    white-space: normal;
+}
+
+.Page-TransactionList .TransactionsList th,
+.Page-TransactionList .TransactionsList td {
+    font-size:11px;
+}
+
+.Page-CashReport .CashReportMainTable,
+.Page-ResponseReport .ResponseReportMainTable,
+.Page-SumRep1 .SumRep1Table {
+	border:1px solid #cccccc;
+}
+
+.MainPage .content .RightSide {
+	display:none;
+}
+
+.Page-preLoginJAAS .PasswordHint {
+	position:static;
+}
+
+ul.pureCssMenu ul li a:hover {
+    background-color:#8a8d8c;
+}
+.Col-UWCA1PArea5 .PortletArticle .ArticleDescription {
+    background-color: #ffffff;
+    background-image: none;
+    width:100%;
+    padding: 0 0px 10px 0;
+}
+
+.Col-UWCA1PArea5 .Article, 
+.Col-UWCA1LArea5 .Article, 
+.Col-UWCA1NArea5 .Article, 
+.Col-UWCA1PArea5 .PortletSubscr, 
+.Col-UWCA1NArea5 .PortletSubscr, 
+.Col-UWCA1LArea5 .PortletSubscr, 
+.Col-UWCA1PArea5 .PortletEvent, 
+.Col-UWCA1LArea5 .PortletEvent, 
+.Col-UWCA1NArea5 .PortletEvent, 
+.Col-UWCA1NArea5 .PortletSurvey, 
+.Col-UWCA1PArea5 .PortletSurvey, 
+.Col-UWCA1LArea5 .PortletSurvey {
+	background-color: #ffffff;
+    background-image: none;
+    margin-top: 0;
+    width: 100%;
+}
+
+.OpASearchTable input,
+.OpASearchTable select {
+	width: 100%;
+    box-sizing:border-box;
+}
+
+.Area-UWCA1PArea3,
+.Area-UWCA1LArea3,
+.Area-UWCA1NArea3 {
+    height: 38px;
+}
+
+ul.pureCssMenu ul .CSSCloseButton {
+	color: #ffffff;
+	display:block;
+	font-size:12px;
+	text-align:right;
+	text-transform:capitalize;
+	padding:4px;
+    cursor:pointer;
+}
+
+.Col-UWCA1PArea4 .Portlet {
+    padding:0;
+    box-sizing:border-box;
+    width:100%;
+}
+
+.VolCalendarTable th {
+	white-space:normal;
+}
+
+.VolCalendarTable {
+	border:1px solid #cccccc;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.VolCalendarTable tr, 
+.VolCalendarTable th, 
+.VolCalendarTable td { 
+	display: block; 
+}
+
+.VolCalendarTable th {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	z-index:10000;
+}
+
+.content .VolCalendarTable td {
+	border: none;
+	border-top: 1px solid #eee; 
+	position: relative;
+	padding: 6px 10px !important; 
+	font-size:12px;
+	min-height:22px;
+	vertical-align:middle;
+	box-sizing:border-box;
+}
+
+.content .VolCalendarTable td td {
+	border:0;
+}
+
+.VolCalendarTable td:after { 
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	padding-right: 10px; 
+	padding-left:24px;
+	white-space: nowrap;
+	font-size:14px;
+	text-align:left;
+	font-weight:bold;
+	content: attr(data-title);
+}
+
+.VolCalendarTable .Date {
+    font-size:14px;
+}
+
+.VolCalendarTable .Col-Image {
+    text-align: left;
+}
+
+.MainPage .Page-OpCalendar form .VolCalendarTable td {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.VolCalendarTable .OpsDayCell {
+	margin-left:10px;
+	margin-top:4px;
+}
+
+.Page-OpCalendar form #SearchResult {
+	margin:0;
+}
+
+.EventCalendarTable th {
+	white-space:normal;
+}
+
+.EventCalendarTable {
+	border:1px solid #cccccc;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.EventCalendarTable tr, 
+.EventCalendarTable th, 
+.EventCalendarTable td { 
+	display: block; 
+}
+
+.EventCalendarTable th {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	z-index:10000;
+}
+
+.content .EventCalendarTable td {
+	border: none;
+	border-top: 1px solid #eee; 
+	position: relative;
+	padding: 6px 10px !important; 
+	font-size:12px;
+	min-height:22px;
+	vertical-align:middle;
+	box-sizing:border-box;
+}
+
+.EventCalendarTable td:after { 
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	padding-right: 10px; 
+	padding-left:24px;
+	white-space: nowrap;
+	font-size:14px;
+	text-align:left;
+	font-weight:bold;
+	content: attr(data-title);
+}
+
+.EventCalendarTable .Col-Image {
+    text-align: left;
+}
+
+.EventCalendarTable .Date {
+	font-weight:bold;
+	font-size:14px;
+}
+
+.EventDayCell {
+	margin-left:10px;
+	margin-top:4px;
+}
+
+.Col-CalendarEmptyCell {
+	display:none !important;
+}
+
+.Dashboard .DashBox .Col-Button {
+    width:auto;
+}
+
+.AccountLink {
+    background-color: #f4f4f4;
+    padding: 4px;
+}
+
+.AccountLink:hover {
+    background-color: #f4f4f4;
+    padding: 4px;
+}
+
+.Navigation .BioTabTitle a {
+    border: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 6px 12px 6px 20px;
+}
+
+.Navigation .BioTabSelected {
+    background-color: #f1f1f1;
+    font-weight:normal;
+    color:#000000;
+    padding: 6px 12px 6px 20px !important;
+    border-radius:0;
+}
+
+#BioTabForm .Navigation table, .Page-Dashboard .Navigation table {
+    border: 1px solid #cccccc;
+    display:none;
+    z-index:10000;
+    background-color:#ffffff;
+    position:absolute;
+    top:20px;
+    min-width:160px;
+}
+
+.Page-Dashboard form {
+	position:relative;
+}
+
+.Page-Dashboard .Dashboard .DashHeader {
+	margin: 0 0 0 30px;
+}
+
+.Page-BioTab #BioTabForm .Navigation,
+.Page-Dashboard .Navigation  {
+	background-image:url("menu_icon_UWCA.png");
+	background-repeat:no-repeat;
+	background-position:left top;
+	cursor:pointer;
+	width:20px;
+	height:16px;
+	margin:0;
+	display:block;
+	position:relative;
+	top:18px;
+}
+
+.Page-Dashboard .DashboardAppDetail .Navigation  {
+	background-image:none;
+	width:auto;
+	height:auto;
+	position:static;
+} 
+
+.Page-BioTab .Dashboard .DashHeader {
+    margin: 0 0 8px 24px;
+}
+
+.Page-BioTab #BioTabForm .Navigation {
+	margin:20px 0 0 0;
+}
+
+.Page-BioTab #BioTabForm .Navigation {
+    padding-bottom: 0px !important;
+}
+
+.Navigation .BioTabTitle {
+    display: block;
+}
+
+.Page-BioTab .Navigation td {
+    padding: 0;
+}
+
+.Navigation .BioTabTitle {
+    margin: 0;
+}
+
+.Page-BioTab {
+	position:relative;
+}
+
+.Page-BioTab h1 {
+	margin:4px 0 0 26px;
+}
+
+.PanelField input, .PanelField select, .PanelRow input, .PanelRow select {
+	max-width: 100%;
+
+}
+
+.MainPage, .RightSide {
+/*
+	float:left;
+*/
+}
+
+.Portlet > .ShoppingCart {
+	margin:0 10px;
+}
+
+.Navigation .BioTabSelected.GlobalTab a {
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.ADetailsTable th {
+    display: none !important;
+}
+}
+
+@media screen and (max-width: 480px) {
+.UWCATopMenu {
+	margin: 10px 0px 4px 0px;
+}
+
+.Area-UWCA1PArea1 img, 
+.Area-UWCA1LArea1 img, 
+.Area-UWCA1NArea1 img {
+/*
+	width:100%;
+*/
+}
+
+.Area-UWCA1PArea8 img, 
+.Area-UWCA1LArea8 img, 
+.Area-UWCA1NArea8 img {
+/*
+	width:100%;
+*/
+}
+
+.Col-UWCA1PArea1, 
+.Col-UWCA1LArea1, 
+.Col-UWCA1NArea1 {
+/*
+	width:50%;
+*/
+}
+
+.Area-UWCA1PArea2 .change, 
+.Area-UWCA1LArea2 .change, 
+.Area-UWCA1NArea2 .change {
+    font-size: 14px;
+/*
+    margin: 24% 10px 6% 0;
+*/
+}
+
+.Col-UWCA1PArea3 .PortletMenu .PortletHeader,
+.Col-UWCA1LArea3 .PortletMenu .PortletHeader,
+.Col-UWCA1NArea3 .PortletMenu .PortletHeader {
+	background-image:url("menu.png");
+	background-repeat:no-repeat;
+	background-position: 7px 7px;
+	display:block;
+	margin:0px 0px 2px 32px;
+	height:30px;
+	width:40px;
+	cursor:pointer;
+}
+
+
+.Area-UWCA1PArea7 .bottomChange, 
+.Area-UWCA1LArea7 .bottomChange, 
+.Area-UWCA1NArea7 .bottomChange {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 4px 4px 6px;
+}
+
+.content {
+/*
+	margin:8px;
+*/
+}
+
+.UWCA1PFooter a, 
+.UWCA1LFooter a, 
+.UWCA1NFooter a, 
+.LMRegularText, 
+.copyright font {
+	font-size:9px;
+}
+
+.FooterMes {
+	margin-top:10px;
+	font-size:9px;
+}
+
+.Page-Survey .TableFormDetails {
+    width:100%;
+    box-sizing:border-box;
+}
+
+.NonTableLayout .LineIndent0 textarea, 
+.NonTableLayout .LineIndent1 textarea, 
+.NonTableLayout .LineIndent2 textarea, 
+.NonTableLayout .LineIndent3 textarea, 
+.NonTableLayout .LineIndent4 textarea, 
+.NonTableLayout .LineIndent5 textarea {
+    width:100%;
+    box-sizing:border-box;
+}
+
+.Col-AttendSurvey .NonTableLayout .LineIndent0 textarea, 
+.Col-AttendSurvey .NonTableLayout .LineIndent1 textarea, 
+.Col-AttendSurvey .NonTableLayout .LineIndent2 textarea, 
+.Col-AttendSurvey .NonTableLayout .LineIndent3 textarea, 
+.Col-AttendSurvey .NonTableLayout .LineIndent4 textarea, 
+.Col-AttendSurvey .NonTableLayout .LineIndent5 textarea {
+    width:100%;
+    box-sizing:border-box;
+}
+
+.MainPage .content .UWCA1LFooter {
+    width:100%;
+    box-sizing:border-box;
+}
+
+.Menu-Bottom .Menu {
+	border:0;
+}
+
+.Menu-Bottom .Menu td {
+	background-image:none;
+	border-top:0;
+}
+
+.Area-Pledge form {
+	margin-right:0;
+}
+
+.Page-AccountSearch .Section-Selection .AccountKeyword input {
+    width: 240px;
+}
+
+.EventCalendarDetails .EventCalendarTable td td {
+	border:0;
+}
+
+.Page-IProfile .Col-NameFirstName input,
+.Page-IProfile .Col-NameLastName input {
+	width:100px;
+}
+
+.Page-OProfile .OrgName1 input, 
+.Page-OProfile .OrgName2 input,
+.Page-OProfile .e-Mail input,
+.Page-OProfile .Row-Web input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.SearchParameters .KeywordSection input {
+	width:100px;
+}
+
+.ProgressStepCurrent img, .ProgressStep img {
+	margin-bottom:6px;
+}
+
+.PledgeProgress table {
+	width:100%;
+	height:auto;
+}
+
+.PledgeProgress td {
+	display:inline-block;
+}
+
+.PledgeProgress, .PledgeProgress table, .PledgeProgress td {
+	height:auto;
+}
+
+.Area-Customization .CustomizationTable textarea {
+	width:180px;
+	height:100px;
+}
+
+.Page-IPledgeAddInfo .Col-RosterName1 input, 
+.Col-RosterName2 input {
+	width:94px;
+}
+
+.Page-IPledgeAddInfo .Col-IndEMail input {
+	width:200px;
+}
+
+.Page-EventCalendar .EventCalendarTable th, 
+.Page-EventCalendar .EventCalendarTable td a {
+    font-size: 7px;
+}
+
+.Page-Survey .TableFormDetails .Row-LineDetail {
+    margin: 0;
+}
+
+.Page-OpMaint td, .Page-OpMaint th  {
+	font-size:10px;
+}
+
+.IRSearchOptions .Col-Text {
+    padding-left: 6px;
+}
+
+.NoResponseReport td {
+	font-size:10px;
+}
+
+.Area-ePledgeAdmin .CashReportMainTable td {
+	font-size:10px;
+	border:1px solid #cccccc;
+}
+
+.Area-ePledgeAdmin .CashReportMainTable td td {
+	border:0;
+}
+
+.QuickLinkTable td {
+	display:block;
+}
+
+.QSearchTable .Col-KeywordInput input {
+	width:100%;
+}
+
+.Page-IRAdvancedS .CheckboxTable td {
+	display:block;
+}
+
+.Page-IRAdvancedS .CheckboxTable .Col-CheckboxDes {
+    height: 0;
+    left: 22px;
+    position: relative;
+    top: -21px;
+}
+
+.Page-OpCalendar .CheckboxTable td {
+	display:block;
+}
+
+.Page-OpCalendar .CheckboxTable .Col-CheckboxDes {
+    height: 0;
+    left: 22px;
+    position: relative;
+    top: -21px;
+}
+
+.Page-OpMaint .CheckboxTable td {
+	display:block;
+}
+
+.Page-OpMaint .CheckboxTable .Col-CheckboxDes {
+    height: 0;
+    left: 22px;
+    position: relative;
+    top: -21px;
+}
+
+.Page-AdvancedSearch .CheckboxTable td {
+	display:block;
+}
+
+.Page-AdvancedSearch .CheckboxTable .Col-CheckboxDes {
+    height: 0;
+    left: 22px;
+    position: relative;
+    top: -21px;
+}
+
+.Page-IRQuickSearch .SearchResultSection .SearchParameters .Col-Input input {
+	width:100%;
+	box-sizing: border-box;
+}
+
+.Area-IRSearch .Classic td {
+    padding: 2px;
+}
+
+.Agencies .SearchEntry input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Page-OpCalendar .SelectDateTable img, 
+.Page-OpCalendar .SelectDateTable select {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Page-VolOpInfo .VolOpInfo {
+	margin-right:0;
+}
+
+.Page-OpMaint .Col-OpTitleInput input, 
+.Page-OpMaint textarea, 
+.Page-OpMaint select, 
+.Page-OpMaint select option {
+	width: 100%;
+	font-size:10px;
+	box-sizing:border-box;
+}
+
+.Page-OpMaint .OpGeneralTable td {
+    padding: 1px;
+}
+
+.Page-OpMaint .OpMaintTable td.Col-Input, 
+.Page-OpMaint .OpMaintTable td.Col-Table {
+    padding: 0 0 8px;
+}
+
+.Area-ePledgeAdmin form .Leftalign .col-Heading, 
+.Area-ePledgeAdmin form .Leftalign td, 
+.Area-ePledgeAdmin form .LeftAlign .col-Heading, 
+.Area-ePledgeAdmin form .LeftAlign td {
+    padding: 4px;
+    line-height: 12px;
+}
+
+.MainPage .MyOutputs td, 
+.MainPage .MyOutputs th {
+	padding:4px;
+}
+
+.Page-AgencyRegistration .Col-cityInput input, 
+.Page-AgencyRegistration .Col-stateList select, 
+.Page-AgencyRegistration .Col-zipInput input, 
+.Page-AgencyRegistration .Col-eMailInput input, 
+.Page-AgencyRegistration textarea, 
+.Page-AgencyRegistration .Col-address1Input input, 
+.Page-AgencyRegistration .Col-address2Input input, 
+.Page-AgencyRegistration .Col-address3Input input, 
+.Page-AgencyRegistration .Col-address4Input input, 
+.Page-AgencyRegistration .Col-OrgName input {
+	font-size:11px;
+}
+
+.Page-AgencyRegistration .AgRegisterTable td {
+	font-size:11px;
+}
+
+.OpMaintTable td {
+	display:block;
+}
+
+.OpMaintTable td td {
+	display:inline-block;
+}
+
+.SendEmailMessage .SubjectField input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Area-ePledgeAdmin .SendEmailMessage td {
+	display:block;
+	font-size:11px;
+	border:0;
+}
+
+.SendEmailMessage td td {
+	display:table-cell;
+	font-size:11px;
+}
+
+.Area-ePledgeAdmin .LeftAlign .Col-Heading {
+		font-size:11px;
+}
+
+.CampStatus th {
+    white-space: normal;
+    font-size:11px;
+}
+
+.Page-AHistory .Col-Heading {
+    font-size:11px;
+    white-space: normal;
+}
+
+.GiveVolunteerAct li {
+    display: block;
+    text-align: left;
+}
+
+.GiveVolunteerAct ul {
+    padding: 1em;
+}
+
+.Col-UWCA1PArea5 .give a, 
+.Col-UWCA1LArea5 .give a, 
+.Col-UWCA1NArea5 .give a, 
+.Col-UWCA1PArea5 .volunteer a, 
+.Col-UWCA1LArea5 .volunteer a, 
+.Col-UWCA1NArea5 .volunteer a, 
+.Col-UWCA1PArea5 .act a, 
+.Col-UWCA1LArea5 .act a, 
+.Col-UWCA1NArea5 .act a, 
+.Col-UWCA1PArea5 .give a:hover, 
+.Col-UWCA1LArea5 .give a:hover, 
+.Col-UWCA1NArea5 .give a:hover, 
+.Col-UWCA1PArea5 .volunteer a:hover, 
+.Col-UWCA1LArea5 .volunteer a:hover, 
+.Col-UWCA1NArea5 .volunteer a:hover, 
+.Col-UWCA1PArea5 .act a:hover, 
+.Col-UWCA1LArea5 .act a:hover, 
+.Col-UWCA1NArea5 .act a:hover {
+/*
+	padding:0 4px;
+	background-image:url("white-arrow.png");
+	background-position:center right;
+	height:auto;
+*/
+	line-height:26px;
+}
+
+.Menu-Bottom {
+	display:none;
+}
+
+.Page-Survey .TableFormDetails {
+    width:100%;
+}
+
+.Menu-Bottom .Menu {
+	border:0;
+}
+
+.Menu-Bottom .Menu td {
+	background-image:none;
+	border-top:0;
+}
+
+.Area-Pledge form {
+	margin-right:0;
+}
+
+.Page-AccountSearch .Section-Selection .AccountKeyword input {
+    width: 240px;
+}
+
+.EventCalendarDetails .EventCalendarTable td td {
+	border:0;
+}
+
+.SearchParameters .KeywordSection input {
+	width:100px;
+}
+
+.Area-Customization .CustomizationTable textarea {
+	width:180px;
+	height:100px;
+}
+
+.Page-IPledgeAddInfo .Col-RosterName1 input, 
+.Page-IPledgeAddInfo .Col-RosterName2 input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Page-IPledgeAddInfo .Col-IndEMail input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Page-IPledgeAddInfo .LeftAlign.IndProfileInclude td {
+	display:block;
+	margin-top:-1px;
+}
+
+.Page-IPledgeAddInfo .LeftAlign.IndProfileInclude td td {
+	display:table-cell;
+}
+
+.Page-IPledgeAddInfo .IndProfileInclude {
+	border:0;
+}
+
+.Page-EventCalendar .EventCalendarTable th, 
+.Page-EventCalendar .EventCalendarTable td a {
+    font-size: 7px;
+}
+
+.Page-Survey .TableFormDetails .Row-LineDetail {
+    margin: 0;
+}
+
+.Page-OpMaint td, 
+.Page-OpMaint th  {
+	font-size:10px;
+}
+
+.MyOutputs .Col-DateTimelabel, 
+.MyOutputs .Col-JobQueued, 
+.MyOutputs .Col-Desc, 
+.MyOutputs .Col-Desclabel, 
+.MyOutputs .Col-Typelabel, 
+.MyOutputs .Col-Type {
+	display:none;
+}
+
+.IRSearchOptions .Col-Text {
+    padding-left: 6px;
+}
+
+.NoResponseReport td {
+	font-size:10px;
+}
+
+.Area-ePledgeAdmin .CashReportMainTable td {
+	font-size:10px;
+	border:1px solid #cccccc;
+}
+
+.Area-ePledgeAdmin .CashReportMainTable td td {
+	border:0;
+}
+
+.QuickLinkTable td {
+	display:block;
+}
+
+.QSearchTable .Col-KeywordInput input {
+	width:100%;
+}
+
+.Page-IRAdvancedS .CheckboxTable td {
+	display:block;
+}
+
+.Page-IRAdvancedS .CheckboxTable .Col-CheckboxDes {
+    height: 0;
+    left: 22px;
+    position: relative;
+    top: -21px;
+}
+
+.Page-OpCalendar .CheckboxTable td {
+	display:block;
+}
+
+.Page-OpCalendar .CheckboxTable .Col-CheckboxDes {
+    height: 0;
+    left: 22px;
+    position: relative;
+    top: -21px;
+}
+
+.Page-OpMaint .CheckboxTable td {
+	display:block;
+}
+
+.Page-OpMaint .CheckboxTable .Col-CheckboxDes {
+    height: 0;
+    left: 22px;
+    position: relative;
+    top: -21px;
+}
+
+.Page-IRQuickSearch .SearchResultSection .SearchParameters .Col-Input input {
+	width:100%;
+	box-sizing: border-box;
+}
+
+.Area-IRSearch .Classic td {
+    padding: 2px;
+}
+
+.Page-OpCalendar .SelectDateTable img, 
+.Page-OpCalendar .SelectDateTable select {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Page-VolOpInfo .VolOpInfo {
+	margin-right:0;
+}
+
+.Page-OpMaint .Col-OpTitleInput input, 
+.Page-OpMaint textarea, 
+.Page-OpMaint select, 
+.Page-OpMaint select option {
+	width: 100%;
+	
+	font-size:10px;
+	box-sizing:border-box;
+}
+
+.Page-OpMaint .OpGeneralTable td {
+    padding: 1px;
+}
+
+.Page-OpMaint .OpMaintTable td.Col-Input, 
+.Page-OpMaint .OpMaintTable td.Col-Table {
+    padding: 0 0 8px;
+}
+
+.MainPage .MyOutputs td, .MainPage .MyOutputs th {
+	padding:4px 1px;
+}
+
+.Page-AgencyRegistration .Col-cityInput input, 
+.Page-AgencyRegistration .Col-stateList select, 
+.Page-AgencyRegistration .Col-zipInput input, 
+.Page-AgencyRegistration .Col-eMailInput input, 
+.Page-AgencyRegistration textarea, 
+.Page-AgencyRegistration .Col-address1Input input, 
+.Page-AgencyRegistration .Col-address2Input input, 
+.Page-AgencyRegistration .Col-address3Input input, 
+.Page-AgencyRegistration .Col-address4Input input, 
+.Page-AgencyRegistration .Col-OrgName input {
+	font-size:11px;
+}
+
+.Page-AgencyRegistration .AgRegisterTable td {
+	font-size:11px;
+}
+
+.OpMaintTable td {
+	display:block;
+}
+
+.OpMaintTable td td {
+	display:inline-block;
+}
+
+.SendEmailMessage .SubjectField input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Area-ePledgeAdmin .SendEmailMessage td {
+	display:block;
+	border:0;
+}
+
+.Area-ePledgeAdmin .SendEmailMessage .Col-Heading {
+	font-weight:bold;
+}
+
+.Area-ePledgeAdmin .SendEmailMessage input,
+.Area-ePledgeAdmin .SendEmailMessage select {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Area-ePledgeAdmin .SendEmailMessage input[type=checkbox], 
+.Area-ePledgeAdmin .SendEmailMessage input[type=radio] {
+	width:auto;
+}
+
+.SendEmailMessage td td {
+	display:inline;
+	font-size:11px;
+}
+
+.CampStatus th {
+    white-space: normal;
+    font-size:11px;
+}
+
+.Page-AHistory .Col-Heading {
+    font-size:11px;
+    white-space: normal;
+}
+
+.Area-Core .Page-AccountSearch .Section-Selection .AccountKeyword input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Page-BioTab .BioTabData h2, 
+.Page-BioTab .Dashboard h2{
+	font-size:14px;
+}
+
+.Page-BioTab .ANDARMaintenanceHTML {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.MainPage .Report-Header, 
+.MainPage .Report-Header th {
+    letter-spacing: normal;
+    font-size: 10px;
+}
+
+td.Col-CheckBox {
+	text-align:left;
+}
+
+.ReportPanelSelect, .ReportPanelTA, .SendEmail {
+	margin-top:-1px;
+}
+
+.Area-ePledgeAdmin .DonorChoiceDtlTable .col-Heading, 
+.Area-ePledgeAdmin .DonorChoiceDtlTable td, 
+.Area-ePledgeAdmin .DonorChoiceSryTable .col-Heading, 
+.Area-ePledgeAdmin .DonorChoiceSryTable td,
+.Area-ePledgeAdmin .CampLevelRptTable .col-Heading, 
+.Area-ePledgeAdmin .CampLevelRptTable td,
+.Area-ePledgeAdmin .CashReportMainTable .col-Heading, 
+.Area-ePledgeAdmin .CashReportMainTable td,
+.Area-ePledgeAdmin .DailyStatusRptTable .col-Heading, 
+.Area-ePledgeAdmin .DailyStatusRptTable td,
+.Area-ePledgeAdmin .EmployeeStatusRptTable .col-Heading, 
+.Area-ePledgeAdmin .EmployeeStatusRptTable td,
+.Area-ePledgeAdmin .NoResponseReport .col-Heading, 
+.Area-ePledgeAdmin .NoResponseReport td,
+.Area-ePledgeAdmin .PassthruReport .col-Heading, 
+.Area-ePledgeAdmin .PassthruReport td,
+.Area-ePledgeAdmin .SumRep1Table .col-Heading, 
+.Area-ePledgeAdmin .SumRep1Table td,
+.Area-ePledgeAdmin .SumRep2Table .col-Heading, 
+.Area-ePledgeAdmin .SumRep2Table td,
+.Area-ePledgeAdmin .SumRep3Table .col-Heading, 
+.Area-ePledgeAdmin .SumRep3Table td,
+.Area-ePledgeAdmin .TransactionPaymentRptTable .col-Heading, 
+.Area-ePledgeAdmin .TransactionPaymentRptTable td,
+.Area-ePledgeAdmin .TransactionRptTable .col-Heading, 
+.Area-ePledgeAdmin .TransactionRptTable td,
+.Area-ePledgeAdmin .ResponseReportMainTable .col-Heading, 
+.Area-ePledgeAdmin .ResponseReportMainTable td,
+.Area-ePledgeAdmin .SendEmail .col-Heading, 
+.Area-ePledgeAdmin .SendEmail td,
+.Area-ePledgeAdmin .ReportPanelTA .col-Heading, 
+.Area-ePledgeAdmin .ReportPanelTA td,
+.Area-ePledgeAdmin .ReportPanelSelect .col-Heading, 
+.Area-ePledgeAdmin .ReportPanelSelect td  {
+/*
+	padding: 4px 6px;
+    line-height: 12px;
+	font-size:12px;
+	border:0;
+*/
+}
+
+.Area-ePledgeAdmin .DonorChoiceDtlTable .col-Heading, 
+.Area-ePledgeAdmin .DonorChoiceSryTable .col-Heading,
+.Area-ePledgeAdmin .DonorChoiceDtlTable .Col-Heading, 
+.Area-ePledgeAdmin .DonorChoiceSryTable .Col-Heading,
+.Area-ePledgeAdmin .CampLevelRptTable .col-Heading, 
+.Area-ePledgeAdmin .CampLevelRptTable .Col-Heading,
+.Area-ePledgeAdmin .CashReportMainTable .col-Heading, 
+.Area-ePledgeAdmin .CashReportMainTable .Col-Heading,
+.Area-ePledgeAdmin .DailyStatusRptTable .col-Heading, 
+.Area-ePledgeAdmin .DailyStatusRptTable .Col-Heading,
+.Area-ePledgeAdmin .EmployeeStatusRptTable .col-Heading, 
+.Area-ePledgeAdmin .EmployeeStatusRptTable .Col-Heading,
+.Area-ePledgeAdmin .NoResponseReport .col-Heading, 
+.Area-ePledgeAdmin .NoResponseReport .Col-Heading,
+.Area-ePledgeAdmin .PassthruReport .col-Heading, 
+.Area-ePledgeAdmin .PassthruReport .Col-Heading,
+.Area-ePledgeAdmin .SumRep1Table .col-Heading, 
+.Area-ePledgeAdmin .SumRep1Table .Col-Heading,
+.Area-ePledgeAdmin .SumRep2Table .col-Heading, 
+.Area-ePledgeAdmin .SumRep2Table .Col-Heading,
+.Area-ePledgeAdmin .SumRep3Table .col-Heading, 
+.Area-ePledgeAdmin .SumRep3Table .Col-Heading,
+.Area-ePledgeAdmin .TransactionPaymentRptTable .col-Heading, 
+.Area-ePledgeAdmin .TransactionPaymentRptTable .Col-Heading,
+.Area-ePledgeAdmin .TransactionRptTable .col-Heading, 
+.Area-ePledgeAdmin .TransactionRptTable .Col-Heading,
+.Area-ePledgeAdmin .ResponseReportMainTable .col-Heading, 
+.Area-ePledgeAdmin .ResponseReportMainTable .Col-Heading,
+.Area-ePledgeAdmin .SendEmail .col-Heading, 
+.Area-ePledgeAdmin .SendEmail .Col-Heading,
+.Area-ePledgeAdmin .ReportPanelTA .col-Heading, 
+.Area-ePledgeAdmin .ReportPanelTA .Col-Heading,
+.Area-ePledgeAdmin .ReportPanelSelect .col-Heading, 
+.Area-ePledgeAdmin .ReportPanelSelect .Col-Heading   {
+/*
+	font-weight:bold;
+	border-top:1px solid #cccccc;
+*/
+}
+
+.Area-ePledgeAdmin .DonorChoiceDtlTable td .col-Heading, 
+.Area-ePledgeAdmin .DonorChoiceSryTable td .col-Heading,
+.Area-ePledgeAdmin .DonorChoiceDtlTable td .Col-Heading, 
+.Area-ePledgeAdmin .DonorChoiceSryTable td .Col-Heading,
+.Area-ePledgeAdmin .CampLevelRptTable td .col-Heading, 
+.Area-ePledgeAdmin .CampLevelRptTable td .Col-Heading,
+.Area-ePledgeAdmin .CashReportMainTable td .col-Heading, 
+.Area-ePledgeAdmin .CashReportMainTable td .Col-Heading,
+.Area-ePledgeAdmin .DailyStatusRptTable td .col-Heading, 
+.Area-ePledgeAdmin .DailyStatusRptTable td .Col-Heading,
+.Area-ePledgeAdmin .EmployeeStatusRptTable td .col-Heading, 
+.Area-ePledgeAdmin .EmployeeStatusRptTable td .Col-Heading,
+.Area-ePledgeAdmin .NoResponseReport td .col-Heading, 
+.Area-ePledgeAdmin .NoResponseReport td .Col-Heading,
+.Area-ePledgeAdmin .PassthruReport td .col-Heading, 
+.Area-ePledgeAdmin .PassthruReport td .Col-Heading,
+.Area-ePledgeAdmin .SumRep1Table td .col-Heading, 
+.Area-ePledgeAdmin .SumRep1Table td .Col-Heading,
+.Area-ePledgeAdmin .SumRep2Table td .col-Heading, 
+.Area-ePledgeAdmin .SumRep2Table td .Col-Heading,
+.Area-ePledgeAdmin .SumRep3Table td .col-Heading,
+.Area-ePledgeAdmin .SumRep3Table td .Col-Heading,
+.Area-ePledgeAdmin .TransactionPaymentRptTable td .col-Heading, 
+.Area-ePledgeAdmin .TransactionPaymentRptTable td .Col-Heading,
+.Area-ePledgeAdmin .TransactionRptTable td .col-Heading, 
+.Area-ePledgeAdmin .TransactionRptTable td .Col-Heading,
+.Area-ePledgeAdmin .ResponseReportMainTable td .col-Heading, 
+.Area-ePledgeAdmin .ResponseReportMainTable td .Col-Heading,
+.Area-ePledgeAdmin .SendEmail td .col-Heading, 
+.Area-ePledgeAdmin .SendEmail td .Col-Heading,
+.Area-ePledgeAdmin .ReportPanelTA td .col-Heading, 
+.Area-ePledgeAdmin .ReportPanelTA td .Col-Heading,
+.Area-ePledgeAdmin .ReportPanelSelect td .col-Heading, 
+.Area-ePledgeAdmin .ReportPanelSelect td .Col-Heading     {
+	font-weight:normal;
+	border:0;
+}
+
+.DonorChoiceDtlTable td, 
+.DonorChoiceSryTable td, 
+.CampLevelRptTable td, 
+.CashReportMainTable td, 
+.DailyStatusRptTable td, 
+.EmployeeStatusRptTable td, 
+.NoResponseReport td, 
+.PassthruReport td, 
+.SumRep1Table td, 
+.SumRep2Table td, 
+.SumRep3Table td, 
+.TransactionPaymentRptTable td, 
+.TransactionRptTable td, 
+.ResponseReportMainTable td, 
+.SendEmail td, 
+.ReportPanelTA td, 
+.ReportPanelSelect td    {
+	display:block;
+}
+
+.DonorChoiceDtlTable td td, 
+.DonorChoiceSryTable td td, 
+.CampLevelRptTable td td, 
+.CashReportMainTable td td, 
+.DailyStatusRptTable td td, 
+.EmployeeStatusRptTable td td, 
+.NoResponseReport td td, 
+.PassthruReport td td, 
+.SumRep1Table td td, 
+.SumRep2Table td td, 
+.SumRep3Table td td, 
+.TransactionPaymentRptTable td td, 
+.TransactionRptTable td td, 
+.ResponseReportMainTable td td, 
+.SendEmail td td, 
+.ReportPanelTA td td, 
+.ReportPanelSelect td td {
+	display:table-cell;
+}
+
+.Area-Profile .IndProfileInclude td {
+	padding: 4px 6px;
+    line-height: 12px;
+	font-size:12px;
+	border:0;
+	display:block;
+}
+
+.Area-Profile .IndProfileInclude td td {
+	padding:1px;
+	display:table-cell;
+}
+
+.Area-Profile .IndProfileInclude .col-Heading, 
+.Area-Profile .IndProfileInclude .Col-Heading   {
+	font-weight:bold;
+	border-top:1px solid #cccccc;
+}
+
+.Area-Profile .IndProfileInclude td .col-Heading, 
+.Area-Profile .IndProfileInclude td .Col-Heading  {
+	font-weight:normal;
+	border:0;
+}
+
+.Area-Profile .IndProfileInclude .Col-HeaderPrefixLabel, 
+.Area-Profile .IndProfileInclude .Col-HeaderMiddleNameLabel, 
+.Area-Profile .IndProfileInclude .Col-HeaderSuffixLabel, 
+.Area-Profile .IndProfileInclude .Col-NamePrefix, 
+.Area-Profile .IndProfileInclude .Col-NameMiddleName, 
+.Area-Profile .IndProfileInclude .Col-NameSuffix {
+	display:none;
+}
+
+.Col-ZipCode input, 
+.Col-City input, 
+.Col-State select {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Area-ePledgeAdmin form .Leftalign td td, 
+.Area-ePledgeAdmin form .LeftAlign td td {
+    padding: 1px;
+}
+
+.PanelField input, 
+.PanelRow input {
+	width:100%;
+	box-sizing:border-box;
+	margin-right:1px;
+}
+
+.PanelField select, 
+.PanelRow select  {
+	width:100%;
+	box-sizing:border-box;
+    margin-right:1px;
+}
+
+.PanelRow .AuditPanel input {
+	width:100%;
+}
+
+.AuditPanel {
+    display: block;
+    width: 100%;
+    box-sizing:border-box;
+}
+
+.PanelField, 
+.PanelRow {
+	display:block;
+}
+
+.AuditPanel .InputText.DISABLED {
+    display: block;
+    margin-bottom:8px;
+}
+
+.AddEmployeeTable td {
+	display:block;
+}
+
+.AddEmployeeTable td td {
+	display:table-cell;
+}
+
+.AddEmployeeTable .Col-Heading {
+	font-weight:bold;
+}
+
+.AddEmployeeTable td.Col-Prefix, 
+.AddEmployeeTable td.Col-MiddleName, 
+.AddEmployeeTable td.Col-Suffix {
+	display:none;
+}
+
+.Area-ePledgeAdmin .TLSearchPanel_SE td {
+	display:block;
+	width:100%;
+	border:0;
+	box-sizing: border-box;
+}
+
+.Page-TransactionList .TLSearchPanel_SE .Col-Heading {
+	font-weight:bold;
+	border-top:1px solid #cccccc;
+}
+
+.Page-EmployeeList .LeftAlign .Col-Heading, 
+.Page-EmployeeTree .LeftAlign .Col-Heading, 
+.Page-TransactionList .LeftAlign .Col-Heading {
+	 width:auto;
+	 box-sizing: border-box;
+}
+
+.Page-EmployeeList .LeftAlign, 
+.Page-EmployeeTree .LeftAlign, 
+.Page-TransactionList .LeftAlign {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.Page-ProfileChangeUserID .LeftAlign.BlockDetails td,
+.Page-ProfileChangePassword .Password-Details td {
+	display:block;
+}
+
+.Table-OrgProfile td {
+	display:block;
+}
+
+.Table-OrgProfile td td {
+	display:table-cell;
+}
+
+.ServiceCatTable .Col-Info, 
+.ServiceCatTable th,
+.TargetedAgenciesTable .Col-PartnerAgy, 
+.TargetedAgenciesTable th, 
+.TargetedAgenciesTable .Col-Image {
+	display:none;
+}
+
+html .Section-PledgeConfirm .PledgeNavigationTextNext, 
+html .Section-PledgeConfirm .PledgeNavigationTextPrevious, 
+html .Section-PledgeConfirm .PledgeNavigationTextCancel,
+html .Section-PledgeConfirm .PledgeNavigationTextNextCybs, 
+html .Section-PledgeConfirm .PledgeNavigationTextPreviousCybs, 
+html .Section-PledgeConfirm .PledgeNavigationTextCancelCybs,
+html .Section-PledgeConfirm .PledgeNavigationNextPP, 
+html .Section-PledgeConfirm .PledgeNavigationPreviousPP, 
+html .Section-PledgeConfirm .PledgeNavigationCancelPP,
+html .Section-PledgeConfirm .PledgeNavigationNext,
+html .Section-PledgeConfirm .PledgeNavigationPrevious,
+html .Section-PledgeConfirm .PledgeNavigationCancel,
+html .Section-PledgeConfirm .PledgeNavigationNextCybs,
+html .Section-PledgeConfirm .PledgeNavigationPreviousCybs,
+html .Section-PledgeConfirm .PledgeNavigationCancelCybs {
+	position:static;
+	padding:0;
+}
+
+.PledgeNavigation .PledgeNavigationNext,
+.PledgeNavigation .PledgeNavigationPrevious,
+.PledgeNavigation .PledgeNavigationCancel {
+	position:static;
+}
+
+html .Navigation1, 
+html .Navigation2, 
+html .Navigation3, 
+html .Navigation4, 
+html .Button1, 
+html .Button2, 
+html .Button3, 
+html .Button4, 
+html .PledgeNavigation1, 
+html .PledgeNavigation2, 
+html .PledgeNavigation3, 
+html .PledgeNavigation4, 
+html .NavigationButton1, 
+html .NavigationButton2, 
+html .NavigationButton3, 
+html .NavigationButton4 {
+    float:none;
+}
+
+.content .Section-PledgeConfirm .PledgeNavigation,
+.content .PledgeNavigation {
+	 height: 100%;
+}
+
+.Page-IPledgeDes1 .TargetedAgencies input, 
+.Page-IPledgeDes1 .ServiceCategories input {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.Page-IPledgeDesFedList .DesFedSearchList input {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.Page-IPledgeDes2 .SearchOptionTable td {
+	display:block;
+}
+
+.Page-IPledgeDes2 .SearchOptionTable td td {
+	display:table-cell;
+}
+
+.ELSearchPanel_SE td {
+	display:block;
+}
+
+.Page-EventRegistration #BMPayment .LeftAlign td {
+	display:block;
+}
+
+.Page-EventRegistration #BMPayment .LeftAlign td td {
+	display:table-cell;
+}
+
+.VolAttachFileTale td {
+	display:block;
+}
+
+.Classic th, 
+.Report th {
+	letter-spacing:0;
+}
+
+.Col-UWCA1PArea7, 
+.Col-UWCA1LArea7, 
+.Col-UWCA1NArea7 {
+/*
+	width: 60%;
+*/
+}
+
+.Leftalign.CustomizationTable {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Leftalign.CustomizationTable td {
+	display:block;
+	padding:2px 12px;
+}
+
+.Leftalign.CustomizationTable td td {
+	display:table-cell;
+	padding:0;
+}
+
+.Leftalign.CustomizationTable .Col-Label {
+	font-weight:bold;
+}
+
+.Leftalign.CustomizationTable textarea {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.Page-VolProfile .CheckboxTable .Col-CheckboxDes {
+    height: 0;
+    left: 22px;
+    position: relative;
+    top: -21px;
+}
+
+.Page-VolProfile .CheckboxTable td {
+	display:block;
+}
+
+.PledgeNavigationTextNextCybs, 
+.PledgeNavigationTextPreviousCybs, 
+.PledgeNavigationTextCancelCybs, 
+.PledgeNavigationTextNextPP, 
+.PledgeNavigationTextPreviousPP, 
+.PledgeNavigationTextCancelPP {
+    position: static;
+}
+
+.Page-IPledgeConfirm .Section-PledgeConfirm .PledgeNavigation {
+    height: auto;
+}
+
+ul {
+	margin:0;
+	padding:0;
+}
+
+.IRSearchOptions .Col-Text {
+	display:none;
+}
+
+.Page-IPledgeCreditCardPP .IPledgeTable .LeftAlign td,
+.Page-IPledgeSecurity .IPledgeTable .LeftAlign td {
+	display:block;
+}
+
+.Page-IPledgeNoGift .LeftAlign.IndProfileInclude td {
+	display:block;
+}
+
+.IPledgeTable .Col-Text {
+    white-space: normal;
+}
+
+.viewer ul li img, 
+.viewer ul li img, 
+.viewer ul li img {
+    border:0;
+    box-sizing:border-box;
+    width:94%;
+}
+}
+
+
+
+@media print {
+body {
+    margin:20px;
+    background-image:none;
+}
+
+.UWCAHeader,
+.Area-UWCA1PArea4,
+.Area-UWCA1LArea4,
+.Area-UWCA1NArea4,
+.RightSide,
+.UWCABottom,
+.UWCAFooterArea,
+.ShareIcons,
+.scorewrap,
+.Navigation,
+.ButtonPanel,
+.fb_iframe_widget,
+.PledgeNavigation {
+	display:none !important;
+}
+
+.LUTableLeftSide {
+	width:100%;
+	margin:0;
+}
+}
+
+.Col-UWCA1PArea5 .Area-UWCA1PArea5 .Menu-V .Menu{
+	display: block;
+}
+div.InfoInd.DataInd {
+	margin-left: 20px;
+}
+.InfoInd.DataInd label{
+	margin-left: 5px;
+}

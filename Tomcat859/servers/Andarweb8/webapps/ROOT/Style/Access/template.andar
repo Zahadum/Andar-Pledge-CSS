@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- /Style/Access/LoginOffTopLeft.jsp -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="format-detection" content="telephone=no" />
+    <TITLE>Template.andar.Access_International</TITLE>
+    <base href="<BaseURL>" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="<BaseURL>Common/DefaultStyle.css" rel="stylesheet">
+    <link href="<BaseURL>Style/pce.css" rel="stylesheet" />
+    <link href="<BaseURL>Style/Access/css/CustomStyle.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" />
+</head>
+<body class="role">
+
+	<header>
+		<div id="head">
+			<nav id="top-nav" class="container">
+				<div class="row">
+					<div class="col-sm-4">
+                        <looknFeelArea:looknFeelArea area="Access_International-P-header-logo" />
+                    </div>
+					<div class="col-sm-8">
+                        <nav>
+                            <looknFeelArea:looknFeelArea area="Access_International-P-header-topnav" />
+                        </nav>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+    <main>
+
+        <h1>Main Content</h1>
+
+    </main>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<nav>
+                        <looknFeelArea:looknFeelArea area="Access_International-P-footer-menu" />
+                    </nav>
+				</div>
+			</div>
+		</div>
+		<div id="footer-logo" class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+                    <looknFeelArea:looknFeelArea area="Access_International-P-footer-logo" />
+                </div>
+			</div>
+		</div>
+		<div id="legal">
+			<p>COPYRIGHT © 2017 ACCESS INTERNATIONAL</p>
+            <a class="backtotop" title="Back to top" style="display: none;"><i class="fa fa-angle-up fa-2x" alt="Back to top"></i></a>
+        </div>
+	</footer>
+	<script src="<BaseURL>Style/Access/js/functions.js"></script>
+</body>
+</html>

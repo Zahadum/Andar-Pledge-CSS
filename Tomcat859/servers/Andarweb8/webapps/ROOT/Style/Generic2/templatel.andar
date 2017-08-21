@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<!-- /Style/Generic2/PageTopLeft.jsp -->
+<title>Template.andar.Generic2</title>
+<link href="<BaseURL>Common/DefaultStyle.css" rel="stylesheet"></link>
+<link href="<BaseURL>Style/Generic2/CustomStyle.css" rel="stylesheet"></link>
+<link href="<BaseURL>UserPreferences/CustomStyle.css" rel="stylesheet"></link>
+<link href="<BaseURL>Style/pce.css" rel="stylesheet"></link>
+<link href="<BaseURL>Style/Generic2/templateStyle.css" rel="stylesheet"></link>
+</head>
+
+<body class="BodyClass2">
+
+<div class="GenericMainBody2">
+
+<!-- Main Table -->
+<table class="LUMainTable2" cellpadding="0" cellspacing="0"> <!-- Table 01 -->
+<tbody>
+<tr>
+<td class="Col-LUMainTable2" rowspan="1" colspan="1">
+
+<!--  Main Table with white border -->
+<table class="LUMainTable02-2" cellpadding="0" cellspacing="0"><!-- Table 02 -->
+<tbody>
+<tr>
+<td>
+
+<table class="LUTableTopLeftSide2" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="Col-Generic2LArea1"><looknFeelArea:looknFeelArea area="Generic2LArea1" /></td>
+<td class="Col-Generic2LArea2"><looknFeelArea:looknFeelArea area="Generic2LArea2" /></td>
+<td class="Col-Generic2LArea3"><looknFeelArea:looknFeelArea area="Generic2LArea3" /></td>
+</tr>
+</tbody>
+</table>
+	
+<div class="roleDiv">
+	
+<table class="LUTableLeftSide2" cellpadding="0" cellspacing="0"> <!-- Table 03 -->
+<tbody>
+<tr>
+<td class="LeftSide2 Col-Generic2LArea7">
+<looknFeelArea:looknFeelArea area="Generic2LArea7" />
+</td>
+				  
+<td class="MainPage2">
+<table class="LUMainPageTable2" cellpadding="0" cellspacing="0">  <!-- Table 04 -->
+<tbody>
+<tr>
+<td class="Col-Generic2LArea4"> <looknFeelArea:looknFeelArea area="Generic2LArea4" /> </td>
+<td class="Col-Generic2LArea5"> <looknFeelArea:looknFeelArea area="Generic2LArea5" /> </td>
+<td class="Col-Generic2LArea6"> <looknFeelArea:looknFeelArea area="Generic2LArea6" /> </td>
+</tr>
+<tr>
+		
+<td colspan="3">
+
+<div class="content">
+	<H1>Main Content</H1>
+</div>
+<!--  bottom right -->
+
+<!-- /Style/Generic2/LoginOffRightBottom.jsp -->
+</td>
+</tr>
+<tr>
+<td class="Col-Generic2LArea9"><looknFeelArea:looknFeelArea area="Generic2LArea9" /></td>
+<td class="Col-Generic2LArea10"><looknFeelArea:looknFeelArea area="Generic2LArea10" /></td>
+<td class="Col-Generic2LArea11"><looknFeelArea:looknFeelArea area="Generic2LArea11" /></td>
+</tr>
+</tbody>
+</table>  <!-- Table 04 end -->
+
+</td>
+<td class="RightSide2 Col-Generic2LArea8">
+<looknFeelArea:looknFeelArea area="Generic2LArea8" />
+</td>
+</tr>
+</tbody>
+</table> <!-- Table 03 end -->
+
+<table class="GenericFooterAreas2" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+  <td class="Col-Generic2LArea12"><looknFeelArea:looknFeelArea area="Generic2LArea12" /></td>
+  <td class="Col-Generic2LArea13"><looknFeelArea:looknFeelArea area="Generic2LArea13" /></td>
+  <td class="Col-Generic2LArea14"><looknFeelArea:looknFeelArea area="Generic2LArea14" /></td>
+</tr>
+</tbody>
+</table>
+
+<!-- /Style/Generic2/LoginOffRightBottom.jsp footer -->
+<table class="LUBottom2" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="LUFooter2">
+
+<DIV Class="FooterMes">Framework - Footer - Top</DIV><!FooterMes>
+
+<FONT SIZE=2>
+<div class=Footer >
+Powered by <A HREF="https://www.Andar360.com" TARGET="_BLANK" CLASS="Footer" ONMOUSEOVER="this.className=''" ONMOUSEOUT="this.className='Footer'">Andar/360 Fundraising Software from Helix</A> (e-Community Version #)<BR>
+<!-- Copyright &copy; 2014 Helix Data Processing Consultants Ltd. -->
+</div>
+</FONT>
+	
+<ilayer id="layerPage">
+<div id="divPage"><img src="<BaseURL>/Images/cm_fill.gif" width="0" height="0" alt="" border="0" ></div>
+</ilayer>
+		
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+    </tbody>
+    </table>  <!-- Table 02 end -->
+    </td>
+  </tr>
+</tbody>
+</table>  <!-- Table 01 end -->
+</div> <!-- div GenericMainBody -->
+
+</body>
+</html>
