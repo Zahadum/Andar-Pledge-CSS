@@ -3088,23 +3088,24 @@ mark,
 .button, .Login a,
 .Register a,
 .btn {
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-  background-color: #da291c;
-  color: #fff;
-  font-size: 16px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  font-weight: 800;
-  font-family: "proxima-nova", helvetica, arial, sans-serif;
-  border: 1px solid #da291c;
-  padding: 15px 25px;
-  text-align: center;
-  position: relative;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  *vertical-align: auto !important;
+  *zoom: 1 !important;
+  *display: inline !important;
+  background-color: #da291c !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  -moz-border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  border-radius: 10px !important;
+  font-weight: 800 !important;
+  font-family: "proxima-nova", helvetica, arial, sans-serif !important;
+  border: 1px solid #da291c !important;
+  padding: 15px 25px !important;
+  text-align: center !important;
+  position: relative !important;
+  outline-style: none !important;
 }
 .Navigation ol li a,.PledgeNavigation ol li a {
   /**DH Modifying for single pledge page**/
@@ -3140,8 +3141,9 @@ mark,
 .Register a:hover,
 .btn:hover {
   text-decoration: none;
-  background: transparent;
-  color: #000;
+  background: transparent !important;
+  box-shadow:none !important;
+  color: #000 !important;
 }
 @media (max-width: 480px) {
   /* line 184, ../scss/base/_base-typography.scss */
@@ -3372,6 +3374,7 @@ body {
 .UWCAHeader {
   background: #fff;
   width: 100%;
+  position:fixed;
 }
 
 /* line 10, ../scss/components/global/_global.scss */
@@ -3530,6 +3533,7 @@ body {
   position: relative;
   width: 100%;
   max-width: 1024px;
+  margin: 0 auto;
   /*
     &:before,
     &::before{
@@ -3622,18 +3626,18 @@ img {
 
 /* line 199, ../scss/components/global/_global.scss */
 .LoginButtonPanel {
-  max-width: 500px;
+  /*max-width: 500px;
   width: 100%;
   margin: 0 auto;
   position: relative;
   padding-bottom: 20px;
-  *zoom: 1;
+  *zoom: 1;*/
 }
 /* line 38, ../../../../../../../../../Users/devinedwards/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
 .LoginButtonPanel:after {
-  content: "";
+  /*content: "";
   display: table;
-  clear: both;
+  clear: both;*/
 }
 
 /* line 207, ../scss/components/global/_global.scss */
@@ -3644,9 +3648,9 @@ img {
 /* line 38, ../../../../../../../../../Users/devinedwards/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
 .Login:after,
 .Register:after {
-  content: "";
+  /*content: "";
   display: table;
-  clear: both;
+  clear: both;*/
 }
 /* line 210, ../scss/components/global/_global.scss */
 .Login > div,
@@ -3675,11 +3679,11 @@ img {
 
 /* line 231, ../scss/components/global/_global.scss */
 .Forgot {
-  position: absolute;
+  /*position: absolute;
   bottom: 0;
   left: 0;
   width: 50%;
-  text-align: center;
+  text-align: center;*/
 }
 /* line 237, ../scss/components/global/_global.scss */
 .Forgot a {
@@ -3704,12 +3708,12 @@ img {
 }
 /* line 253, ../scss/components/global/_global.scss */
 .Login a:before {
-  content: "Login";
+  /*content: "Login";*/
 }
 
 /* line 258, ../scss/components/global/_global.scss */
 .Forgot a:before {
-  content: "Forgot Password?";
+  /*content: "Forgot Password?";*/
 }
 
 /* line 264, ../scss/components/global/_global.scss */
@@ -3736,8 +3740,8 @@ input[type="text"],
 input[type="password"],
 input[type="email"],
 select {
-  height: 57px;
-  height: 3.5625rem;
+  /*height: 57px;
+  height: 3.5625rem;*/
   padding: 0px 20px;
   padding: 0rem 1.25rem;
   line-height: 57px;
@@ -3745,12 +3749,14 @@ select {
   font-size: 18px;
   font-size: 1.125rem;
   color: #000;
+  /*
   margin-bottom: 20px;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.25rem;*/
   border: 1px solid #d4d4d4;
 }
 
 /* line 292, ../scss/components/global/_global.scss */
+/*
 select {
   display: block;
   background: transparent;
@@ -3761,7 +3767,7 @@ select {
   padding: 15px 20px;
   padding: 0.9375rem 1.25rem;
   padding-right: 0;
-}
+}*/
 
 /* line 302, ../scss/components/global/_global.scss */
 .Page-preLoginJAAS {
@@ -4270,7 +4276,8 @@ h2 .DIV-SPRPSectionH {
 
 /* line 690, ../scss/components/global/_global.scss */
 .Col-IndEMail:before {
-  content: 'Your E-mail*';
+  content: '*Your E-mail';
+  font-size: 12px;
 }
 
 /* line 696, ../scss/components/global/_global.scss */
@@ -5146,6 +5153,22 @@ td.Col-Heading.Col-IndPhoneNumberLabel {
 }
 .Role-IndDonor .content {
 	border-bottom: none !important;
+}
+.col-sm-12.Col-Input.Col-AddressLine2 {
+	display:none;
+}
+.Col-UWCA1PArea3 {
+	display:none;	
+}
+.Col-UWCA1LArea3 {
+	display:none;
+}
+#Row24 input,#Row168 input,#Row25 input{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.LUMainTable{
+	margin-top: 100px;
 }
 /** 
 * DH End

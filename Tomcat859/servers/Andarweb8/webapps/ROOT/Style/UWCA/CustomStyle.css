@@ -44,9 +44,6 @@ select[multiple],
 	margin-left: 0;
 }
 
-img {
-    vertical-align:bottom;
-}
 
 h1 {
     color: #da291c;
@@ -4545,9 +4542,7 @@ ul.pureCssMenu ul ul {
 	width:auto;
 }
 
-.TableFormDetails .Row-LineDetail input {
-    margin: 0;
-}
+
 
 .Page-AgencySearc .SearchEntry input {
 	width:100%;
@@ -6240,4 +6235,36 @@ div.InfoInd.DataInd {
 }
 .InfoInd.DataInd label{
 	margin-left: 5px;
+}
+
+div.Col-UWCA1LArea3 {
+	display:none;
+}
+.TableFormDetails #Row367 .LineIndent5,
+.TableFormDetails #Row368 .LineIndent5,
+.TableFormDetails #Row369 .LineIndent5,
+.TableFormDetails #Row371 .LineIndent5,
+.TableFormDetails #Row372 .LineIndent5,
+.TableFormDetails #Row373 .LineIndent5 {
+	padding: 0 0 0 5%;
+	margin-top: 7px;
+}
+.TableFormDetails #Row376 .LineIndent1 {
+	margin-top: 7px;
+}
+
+.Area-UWCA1LArea1 #normalLogo {
+	margin-top:20px !important;
+}
+.Area-UWCA1LArea2 .return .change {
+	margin-top:25px !important;
+}
+.Area-UWCA1LArea2 .change.wpcampaign,
+.Area-UWCA1NArea2 .change.wpcampaign,
+.Area-UWCA1PArea2 .change.wpcampaign {
+	margin-top:82px !important;
+}
+.Col-UWCA1NArea3 {
+	border:none;
+	background:none;
 }
