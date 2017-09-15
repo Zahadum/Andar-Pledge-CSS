@@ -3980,8 +3980,8 @@ h2 .DIV-SPRPSectionH {
 .NonTableLayout .Col-Total {
   float: none;
   display: block;
-  padding: 10px 0px;
-  padding: 0.625rem 0rem;
+  /*padding: 10px 0px;
+  padding: 0.625rem 0rem;*/
 }
 /* line 483, ../scss/components/global/_global.scss */
 .NonTableLayout .Col-Percentage table,
@@ -4048,7 +4048,9 @@ h2 .DIV-SPRPSectionH {
 .NonTableLayout .Col-Table input[type="radio"]:first-child,
 .NonTableLayout .Col-RadioYNNA input[type="radio"]:first-child,
 .NonTableLayout .Col-Total input[type="radio"]:first-child {
-  margin-left: 2px;
+ /* margin-left: 2px;*/
+ margin-left: 30px;
+ margin-top:3px;
 }
 
 /* line 497, ../scss/components/global/_global.scss */
@@ -4231,12 +4233,12 @@ h2 .DIV-SPRPSectionH {
 }
 
 /* line 668, ../scss/components/global/_global.scss */
-.Col-NameLastName, .Col-Input.Col-State, .Col-Input.Col-ZipCode, .Col-Input.Col-PhoneNumber, .Col-Input.Col-PhoneExt, .Col-Heading.Col-ZipCodeLabel, .Col-Heading.Col-StateLabel, .Col-Heading.Col-PhoneNumberLabel, .Col-Heading.Col-PhoneExtLabel {
+.Col-Input.Col-State, .Col-Input.Col-ZipCode, .Col-Input.Col-PhoneNumber, .Col-Input.Col-PhoneExt, .Col-Heading.Col-ZipCodeLabel, .Col-Heading.Col-StateLabel, .Col-Heading.Col-PhoneNumberLabel, .Col-Heading.Col-PhoneExtLabel {
   padding-left: 20px !important;
 }
 @media (max-width: 767px) {
   /* line 668, ../scss/components/global/_global.scss */
-  .Col-NameLastName, .Col-Input.Col-State, .Col-Input.Col-ZipCode, .Col-Input.Col-PhoneNumber, .Col-Input.Col-PhoneExt, .Col-Heading.Col-ZipCodeLabel, .Col-Heading.Col-StateLabel, .Col-Heading.Col-PhoneNumberLabel, .Col-Heading.Col-PhoneExtLabel {
+.Col-Input.Col-State, .Col-Input.Col-ZipCode, .Col-Input.Col-PhoneNumber, .Col-Input.Col-PhoneExt, .Col-Heading.Col-ZipCodeLabel, .Col-Heading.Col-StateLabel, .Col-Heading.Col-PhoneNumberLabel, .Col-Heading.Col-PhoneExtLabel {
     padding-left: 10px !important;
   }
 }
@@ -4294,7 +4296,7 @@ h2 .DIV-SPRPSectionH {
 
 /* line 714, ../scss/components/global/_global.scss */
 .Col-Input.Col-City, .Col-Input.Col-State, .Col-Input.Col-ZipCode, .Col-Input.Col-PhoneArea, .Col-Input.Col-PhoneNumber, .Col-Input.Col-PhoneExt {
-  width: 33.33333333%;
+/*  width: 33.33333333%;*/
 }
 /* line 721, ../scss/components/global/_global.scss */
 .Col-Input.Col-City input[type='text'], .Col-Input.Col-State input[type='text'], .Col-Input.Col-ZipCode input[type='text'], .Col-Input.Col-PhoneArea input[type='text'], .Col-Input.Col-PhoneNumber input[type='text'], .Col-Input.Col-PhoneExt input[type='text'] {
@@ -5121,7 +5123,7 @@ font-weight:normal;
 td.Col-Heading.Col-IndPhoneNumberLabel {
     display: none;
 }.Col-Heading.Col-HeaderLastNameLabel {
-    left: 17px;
+    /*left: 17px;*/
     position: relative;
 }
 .TableFormDetails .Row-LineDetail .Col-YesNo input {
@@ -5164,11 +5166,29 @@ td.Col-Heading.Col-IndPhoneNumberLabel {
 	display:none;
 }
 #Row24 input,#Row168 input,#Row25 input{
-    margin-left: 30px;
+
     margin-top: 3px;
 }
 .LUMainTable{
 	margin-top: 100px;
+}
+.Area-UWCA1PArea2 .change .button {
+	margin-top:30px;
+}
+.Area-UWCA1PArea1 #normalLogo {
+	margin-top:25px;	
+}
+.UWCAHeaderContent {
+	margin-bottom:25px;	
+}
+.Role-IndDonor .ind201702Changes {
+	display:none;
+}
+.Role-IndDonor .Col-IndAddresseLabel .Head_Main{
+	display:none;
+}
+.TableFormDetails .LineIndent3 {
+	padding:0;
 }
 /** 
 * DH End
